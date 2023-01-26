@@ -7,6 +7,10 @@
     "export": "next export"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.6",
+    "clsx": "^1.2.1",
     "date-fns": "^2.29.3",
     "next": "latest",
     "react": "18.2.0",

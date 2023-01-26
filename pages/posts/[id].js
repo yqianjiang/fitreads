@@ -1,37 +1,34 @@
-import Layout from '../../components/layout'
-import { getAllPostIds, getPostData } from '../../lib/posts'
-import Date from '../../components/date'
-import utilStyles from '../../styles/utils.module.css'
+import { useRouter } from "next/router";
+import Layout from "../../components/layout";
+import { getPostData } from "../../lib/posts";
+import Date from "../../components/date";
+import utilStyles from "../../styles/utils.module.css";
+import { useEffect, useState } from "react";
 
-export default function Post({ postData }) {
+export default function Post() {
+  const router = useRouter();
+  const { id } = router.query;
+  const [postData, setPostData] = useState(null);
+
+  useEffect(() => {
+    async function fetchData() {
+      const res = await getPostData(id);
+      setPostData(res);
+    }
+    fetchData();
+  }, [id]);
+
   return (
-    <Layout pageName={postData.title}>
+    <Layout pageName={postData?.title || ""}>
       <article>
-        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+        <h1 className={utilStyles.headingXl}>{postData?.title || ""}</h1>
         <div className={utilStyles.lightText}>
-          <Date dateString={postData.date} />
+          {postData ? <Date dateString={postData.date} /> : ""}
         </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div
+          dangerouslySetInnerHTML={{ __html: postData?.contentHtml || "" }}
+        />
       </article>
     </Layout>
-  )
-}
-
-// 动态路由，获取path
-export async function getStaticPaths() {
-  const paths = await getAllPostIds()
-  return {
-    paths,
-    fallback: false  // If fallback is false, then any paths not returned by getStaticPaths will result in a 404 page.
-  }
-}
-
-// Static Generation
-export async function getStaticProps({ params }) {
-  const postData = await getPostData(params.id)
-  return {
-    props: {
-      postData
-    }
-  }
+  );
 }

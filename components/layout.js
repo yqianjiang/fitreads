@@ -1,8 +1,7 @@
 import Head from 'next/head'
-// import Image from 'next/image'
 import styles from './layout.module.scss'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
+import { NextLinkComposed } from './link'
+import Button from '@mui/material/Button';
 
 export const siteTitle = '您的定制词典'
 
@@ -12,6 +11,7 @@ export default function Layout({ children, pageName }) {
       <Head>
         <title>{pageName+' | '+siteTitle}</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
         <meta
           name="description"
           content="Learn how to build a personal website using Next.js"
@@ -27,9 +27,22 @@ export default function Layout({ children, pageName }) {
       </Head>
       <header className={styles.header}>
         <div className={styles.backToHome}>
-          <Link href="/">Home</Link>
-          <span> | </span>
-          <Link href="/posts">Posts</Link>
+          <Button
+            component={NextLinkComposed}
+            to={{
+              pathname: '/',
+            }}
+          >
+            Home
+          </Button>
+          <Button
+            component={NextLinkComposed}
+            to={{
+              pathname: '/posts',
+            }}
+          >
+            Posts
+          </Button>
         </div>
       </header>
       <main>{children}</main>
