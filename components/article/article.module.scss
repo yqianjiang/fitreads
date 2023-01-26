@@ -1,0 +1,26 @@
+.token--unknown {
+  // color: yellow;
+  color: blue;
+}
+
+.token--ignore {
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+.token--unseen {
+  text-decoration: underline;
+}
+
+.article {
+  white-space: pre-wrap;
+}
+
+.translate-sentence {
+  font-size: 0.8em;
+  margin-bottom: 30px;
+}
+
+.token {
+  cursor: pointer;
+}
