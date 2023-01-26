@@ -4,8 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
-    "deploy": "sh deploy.sh"
+    "export": "next export"
   },
   "dependencies": {
     "date-fns": "^2.29.3",
