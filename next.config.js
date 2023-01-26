@@ -5,7 +5,6 @@ module.exports = {
   reactStrictMode: true,
   basePath: isProd ? '/tridict-reading' : '',
   assetPrefix: isProd ? '/tridict-reading' : '',
-  // assetPrefix: './',
   images: {
     loader: 'akamai',
     path: '',
