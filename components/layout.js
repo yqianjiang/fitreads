@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from './layout.module.scss'
-import { NextLinkComposed } from './link'
+import { NextLinkComposed } from './Link'
 import Button from '@mui/material/Button';
 
 export const siteTitle = '您的定制词典'
@@ -35,14 +35,14 @@ export default function Layout({ children, pageName }) {
           >
             Home
           </Button>
-          <Button
+          {/* <Button
             component={NextLinkComposed}
             to={{
               pathname: '/posts',
             }}
           >
             Posts
-          </Button>
+          </Button> */}
         </div>
       </header>
       <main>{children}</main>

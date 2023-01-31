@@ -1,4 +1,4 @@
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import utilStyles from '../styles/utils.module.css'  // using module css with scoped
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
