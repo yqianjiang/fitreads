@@ -23,6 +23,7 @@ const ArticleControls = ({
   setHighlightList,
   highlightOptions,
   highlightOptionsLabels,
+  updateWordDict,
 }) => {
   const handleChangeHighlight = (event) => {
     const {
@@ -98,7 +99,7 @@ const ArticleControls = ({
         >
           {mode.markUnknownWord ? "停止标记" : "开始标记"}
         </Button>
-        <Button onClick={() => console.log("更新词表")}>更新词表</Button>
+        <Button onClick={updateWordDict()}>更新词表</Button>
       </Box>
     </Box>
   );

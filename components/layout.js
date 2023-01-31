@@ -35,15 +35,24 @@ export default function Layout({ children, pageName }) {
           >
             Home
           </Button>
-          {/* <Button
+          <Button
             component={NextLinkComposed}
             to={{
-              pathname: '/posts',
+              pathname: '/add-article',
             }}
           >
-            Posts
-          </Button> */}
+            Add Article
+          </Button>
+          <Button
+            component={NextLinkComposed}
+            to={{
+              pathname: '/word-list',
+            }}
+          >
+            Word List
+          </Button>
         </div>
+        <hr />
       </header>
       <main>{children}</main>
       {/* footer */}

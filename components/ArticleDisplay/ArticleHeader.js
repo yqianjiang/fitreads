@@ -3,12 +3,12 @@ import Date from "../Date";
 import utilStyles from "../../styles/utils.module.css";
 import Chip from "@mui/material/Chip";
 
-const ArticleHeader = ({ title, date, data, ...article }) => {
+const ArticleHeader = ({ title, data, ...article }) => {
   return (
     <section>
       <h1 className={utilStyles.headingXl}>{title}</h1>
       <div className={utilStyles.lightText}>
-        <Date dateString={date} />
+        <Date dateString={article.crateTime} />
       </div>
       {article&&data ? (
         <>
