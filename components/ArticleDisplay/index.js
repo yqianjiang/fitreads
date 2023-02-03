@@ -4,9 +4,8 @@ import ArticleControls from "./ArticleControls";
 import ArticleBody from "./ArticleBody";
 import { useDispatch } from "react-redux";
 import {
-  addWordToVocabulary,
-  deleteWordFromVocabulary,
-  readVocabulary,
+  addWordsToVocabulary,
+  deleteWordsFromVocabulary,
 } from "../../redux/slices/vocabularySlice";
 
 const useControl = () => {
@@ -15,9 +14,7 @@ const useControl = () => {
     showSentenceTrans: false,
     markUnknownWord: true,
   });
-  const [highlightList, setHighlightList] = useState([
-    "unknown",
-  ]);
+  const [highlightList, setHighlightList] = useState(["unknown"]);
   const highlightOptions = ["unknown", "unseen", "target"];
   const highlightOptionsLabels = {
     unknown: "生词",
@@ -57,7 +54,18 @@ const useDictData = (initialData) => {
       knownWord: [...data.knownWord, word],
       [type]: data[type].filter((x) => x !== word),
     });
-  
+
+    // 生词需要增加翻译
+    // _findWordTrans(word);
+  }
+
+  function markAllAsKnown(type, words) {
+    setData({
+      ...data,
+      knownWord: [...data.knownWord, ...words],
+      [type]: data[type].filter((x) => !words.includes(x)),
+    });
+
     // 生词需要增加翻译
     // _findWordTrans(word);
   }
@@ -90,22 +98,52 @@ const useDictData = (initialData) => {
     console.log("toggleTrans", token);
   }
 
-  return { data, toggleKnown, toggleTrans };
+  const dispatch = useDispatch();
+
+  function updateWordDict() {
+    // 自动把unseenWord当作knownWord
+    markAllAsKnown("unseenWord", data.unseenWord);
+
+    // 把data的更新同步到wordDict
+    saveVocabulary();
+
+    function saveVocabulary() {
+      dispatch(
+        addWordsToVocabulary({
+          words: data.unknownWord.map((newWord) => ({ word: newWord })),
+          vocabulary: "unknownWords",
+        })
+      );
+      dispatch(
+        addWordsToVocabulary({
+          words: [...data.knownWord, ...data.unseenWord].map((newWord) => ({
+            word: newWord,
+          })),
+          vocabulary: "knownWords",
+        })
+      );
+      dispatch(
+        deleteWordsFromVocabulary({
+          words: data.unknownWord.map((newWord) => ({ word: newWord })),
+          vocabulary: "knownWords",
+        })
+      );
+      dispatch(
+        deleteWordsFromVocabulary({
+          words: data.knownWord.map((newWord) => ({ word: newWord })),
+          vocabulary: "unknownWords",
+        })
+      );
+    }
+  }
+
+  return { data, toggleKnown, toggleTrans, updateWordDict };
 };
 
 const Article = ({ initialData, sentences, ...props }) => {
   const controlProps = useControl();
-  const { data, toggleKnown, toggleTrans } = useDictData(initialData);
-
-  function updateWordDict() {
-    console.log('updateWordDict')
-    // 把data的更新同步到wordDict
-    // 在上述步骤进行变化收集？哪些要增加到生词/熟词表，哪些要移除
-    // useDispatch(addWordToVocabulary({
-    //   word: { word: newWord },
-    //   vocabulary: "unknownWords",
-    // }))
-  }
+  const { data, toggleKnown, toggleTrans, updateWordDict } =
+    useDictData(initialData);
 
   return (
     <article>

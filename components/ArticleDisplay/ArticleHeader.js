@@ -3,7 +3,7 @@ import Date from "../Date";
 import utilStyles from "../../styles/utils.module.css";
 import Chip from "@mui/material/Chip";
 
-const ArticleHeader = ({ title, data, ...article }) => {
+const ArticleHeader = ({ title, data, tag, ...article }) => {
   return (
     <section>
       <h1 className={utilStyles.headingXl}>{title}</h1>
@@ -12,8 +12,8 @@ const ArticleHeader = ({ title, data, ...article }) => {
       </div>
       {article&&data ? (
         <>
-          <Chip color="primary" variant="outlined" label={article.tag} />
-          <div class="stats-info">
+          {tag ? <Chip color="primary" variant="outlined" label={tag} /> : ''}
+          <div className="stats-info">
             {`共${article.totalWords}词，生词率${(
               (data.unknownWord.length / article.wordsUnique.length) *
               100

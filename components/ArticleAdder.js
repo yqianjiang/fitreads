@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Box, Button, TextField } from "@mui/material";
-import { css } from "@emotion/react";
 
 const ArticleAdder = ({ handleAnalyzeClick }) => {
   const [textareaVal, setTextareaVal] = useState("");
@@ -13,9 +12,9 @@ const ArticleAdder = ({ handleAnalyzeClick }) => {
       display="flex"
       flexDirection="column"
       alignItems="stretch"
-      css={css`
-        margin-top: 1rem;
-      `}
+      sx={{
+        marginTop: "1rem",
+      }}
     >
       <TextField
         value={textareaVal}
@@ -28,11 +27,14 @@ const ArticleAdder = ({ handleAnalyzeClick }) => {
       <Box
         display="flex"
         justifyContent="space-between"
-        css={css`
-          margin-top: 1rem;
-        `}
+        sx={{
+          marginTop: "1rem",
+        }}
       >
-        <Button disabled={!textareaVal} onClick={()=>handleAnalyzeClick(textareaVal)}>
+        <Button
+          disabled={!textareaVal}
+          onClick={() => handleAnalyzeClick(textareaVal)}
+        >
           Analyze
         </Button>
         <Button

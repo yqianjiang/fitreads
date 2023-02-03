@@ -99,7 +99,7 @@ const ArticleControls = ({
         >
           {mode.markUnknownWord ? "停止标记" : "开始标记"}
         </Button>
-        <Button onClick={updateWordDict()}>更新词表</Button>
+        <Button onClick={updateWordDict}>更新词表</Button>
       </Box>
     </Box>
   );

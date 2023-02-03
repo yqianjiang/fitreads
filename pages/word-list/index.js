@@ -4,7 +4,6 @@ import {
   addWordToVocabulary,
   updateWordInVocabulary,
   deleteWordFromVocabulary,
-  readVocabulary,
 } from "../../redux/slices/vocabularySlice";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
@@ -19,9 +18,6 @@ const WordListPage = () => {
   const handleChange = (e) => {
     setNewWord(e.target.value);
   };
-  useEffect(() => {
-    dispatch(readVocabulary());
-  }, []);
 
   return (
     <Layout pageName="词表管理">
