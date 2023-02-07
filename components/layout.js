@@ -1,15 +1,95 @@
-import Head from 'next/head'
-import styles from './layout.module.scss'
-import { NextLinkComposed } from './Link'
-import Button from '@mui/material/Button';
+import { useState, useContext } from "react";
+import Head from "next/head";
+import styles from "./layout.module.scss";
+import { NextLinkComposed } from "./Link";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import MuiAppBar from "@mui/material/AppBar";
+import Toolbar from "@mui/material/Toolbar";
+import IconButton from "@mui/material/IconButton";
+import Drawer from "@mui/material/Drawer";
+import Divider from "@mui/material/Divider";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemText from "@mui/material/ListItemText";
+import MenuIcon from "@mui/icons-material/Menu";
+import DarkModeIcon from "@mui/icons-material/DarkMode";
+import LightModeIcon from "@mui/icons-material/LightMode";
+import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
+import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import { styled, useTheme } from "@mui/material/styles";
+import { ColorModeContext } from "../pages/_app";
 
-export const siteTitle = '您的定制词典'
+export const siteTitle = "FitReads";
+const drawerWidth = 240;
+
+const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })(
+  ({ theme, open }) => ({
+    flexGrow: 1,
+    padding: theme.spacing(3),
+    transition: theme.transitions.create("margin", {
+      easing: theme.transitions.easing.sharp,
+      duration: theme.transitions.duration.leavingScreen,
+    }),
+    marginLeft: `-${drawerWidth}px`,
+    ...(open && {
+      transition: theme.transitions.create("margin", {
+        easing: theme.transitions.easing.easeOut,
+        duration: theme.transitions.duration.enteringScreen,
+      }),
+      marginLeft: 0,
+    }),
+  })
+);
+
+const AppBar = styled(MuiAppBar, {
+  shouldForwardProp: (prop) => prop !== "open",
+})(({ theme, open }) => ({
+  transition: theme.transitions.create(["margin", "width"], {
+    easing: theme.transitions.easing.sharp,
+    duration: theme.transitions.duration.leavingScreen,
+  }),
+  ...(open && {
+    width: `calc(100% - ${drawerWidth}px)`,
+    marginLeft: `${drawerWidth}px`,
+    transition: theme.transitions.create(["margin", "width"], {
+      easing: theme.transitions.easing.easeOut,
+      duration: theme.transitions.duration.enteringScreen,
+    }),
+  }),
+}));
+
+const DrawerHeader = styled("div")(({ theme }) => ({
+  display: "flex",
+  alignItems: "center",
+  padding: theme.spacing(0, 1),
+  // necessary for content to be below app bar
+  ...theme.mixins.toolbar,
+  justifyContent: "flex-end",
+}));
 
 export default function Layout({ children, pageName }) {
+  const theme = useTheme();
+  const colorMode = useContext(ColorModeContext);
+  const [open, setOpen] = useState(true);
+
+  const handleDrawerOpen = () => {
+    setOpen(true);
+  };
+
+  const toggleDarkMode = () => {
+    colorMode.toggleColorMode();
+  };
+
+  const handleDrawerClose = () => {
+    setOpen(false);
+  };
+
   return (
     <div className={styles.container}>
       <Head>
-        <title>{pageName+' | '+siteTitle}</title>
+        <title>{pageName + " | " + siteTitle}</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <meta
@@ -25,37 +105,78 @@ export default function Layout({ children, pageName }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
-        <div className={styles.backToHome}>
-          <Button
-            component={NextLinkComposed}
-            to={{
-              pathname: '/',
-            }}
+      <AppBar position="fixed" open={open}>
+        <Toolbar>
+          <IconButton
+            color="inherit"
+            aria-label="open drawer"
+            onClick={handleDrawerOpen}
+            edge="start"
+            sx={{ mr: 2, ...(open && { display: "none" }) }}
           >
-            Home
-          </Button>
-          <Button
-            component={NextLinkComposed}
-            to={{
-              pathname: '/add-article',
-            }}
+            <MenuIcon />
+          </IconButton>
+          <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
+            FitReads
+          </Typography>
+          <IconButton
+            color="inherit"
+            aria-label="switch dark mode"
+            onClick={toggleDarkMode}
           >
-            Add Article
-          </Button>
-          <Button
-            component={NextLinkComposed}
-            to={{
-              pathname: '/word-list',
-            }}
-          >
-            Word List
-          </Button>
-        </div>
-        <hr />
-      </header>
-      <main>{children}</main>
+            {theme.palette.mode === "dark" ? (
+              <LightModeIcon />
+            ) : (
+              <DarkModeIcon />
+            )}
+          </IconButton>
+        </Toolbar>
+      </AppBar>
+      <Drawer
+        sx={{
+          width: drawerWidth,
+          flexShrink: 0,
+          "& .MuiDrawer-paper": {
+            width: drawerWidth,
+            boxSizing: "border-box",
+          },
+        }}
+        variant="persistent"
+        anchor="left"
+        open={open}
+      >
+        <DrawerHeader>
+          <IconButton onClick={handleDrawerClose}>
+            {theme.direction === "ltr" ? (
+              <ChevronLeftIcon />
+            ) : (
+              <ChevronRightIcon />
+            )}
+          </IconButton>
+        </DrawerHeader>
+        <Divider />
+        <List>
+          {[
+            { text: "Home", path: "/" },
+            { text: "Add Article", path: "/add-article" },
+            { text: "Word List", path: "/word-list" },
+          ].map((menu, index) => (
+            <ListItem key={menu.path} disablePadding>
+              <ListItemButton
+                component={NextLinkComposed}
+                to={{
+                  pathname: menu.path,
+                }}
+              >
+                <ListItemText primary={menu.text} />
+              </ListItemButton>
+            </ListItem>
+          ))}
+        </List>
+        {/* <Divider /> */}
+      </Drawer>
+      <Main open={open}>{children}</Main>
       {/* footer */}
     </div>
-  )
+  );
 }
