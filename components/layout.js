@@ -20,6 +20,7 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { styled, useTheme } from "@mui/material/styles";
 import { ColorModeContext } from "../pages/_app";
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 export const siteTitle = "FitReads";
 const drawerWidth = 240;
@@ -28,17 +29,18 @@ const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })(
   ({ theme, open }) => ({
     flexGrow: 1,
     padding: theme.spacing(3),
-    transition: theme.transitions.create("margin", {
+    transition: theme.transitions.create(["margin", "width"], {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
-    marginLeft: `-${drawerWidth}px`,
+    marginLeft: 0,
     ...(open && {
-      transition: theme.transitions.create("margin", {
+      transition: theme.transitions.create(["margin", "width"], {
         easing: theme.transitions.easing.easeOut,
         duration: theme.transitions.duration.enteringScreen,
       }),
-      marginLeft: 0,
+      marginLeft: `${drawerWidth}px`,
+      width: `calc(100% - ${drawerWidth}px)`,
     }),
   })
 );
@@ -69,10 +71,16 @@ const DrawerHeader = styled("div")(({ theme }) => ({
   justifyContent: "flex-end",
 }));
 
-export default function Layout({ children, pageName }) {
+export default function Layout({ children, pageName, window }) {
   const theme = useTheme();
   const colorMode = useContext(ColorModeContext);
+  const matchMd = useMediaQuery(theme.breakpoints.up('md'));
   const [open, setOpen] = useState(true);
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  const handleDrawerToggle = () => {
+    setMobileOpen(!mobileOpen);
+  };
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -85,6 +93,33 @@ export default function Layout({ children, pageName }) {
   const handleDrawerClose = () => {
     setOpen(false);
   };
+
+  const drawer = (
+    <>
+      <Divider />
+      <List>
+        {[
+          { text: "Home", path: "/" },
+          { text: "Add Article", path: "/add-article" },
+          { text: "Word List", path: "/word-list" },
+        ].map((menu, index) => (
+          <ListItem key={menu.path} disablePadding>
+            <ListItemButton
+              component={NextLinkComposed}
+              to={{
+                pathname: menu.path,
+              }}
+            >
+              <ListItemText primary={menu.text} />
+            </ListItemButton>
+          </ListItem>
+        ))}
+      </List>
+      {/* <Divider /> */}
+    </>
+  );
+  const container =
+    typeof window !== "undefined" ? () => window().document.body : undefined;
 
   return (
     <div className={styles.container}>
@@ -105,14 +140,23 @@ export default function Layout({ children, pageName }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <AppBar position="fixed" open={open}>
+      <AppBar position="fixed" open={matchMd && open}>
         <Toolbar>
           <IconButton
             color="inherit"
             aria-label="open drawer"
             onClick={handleDrawerOpen}
             edge="start"
-            sx={{ mr: 2, ...(open && { display: "none" }) }}
+            sx={{ mr: 2, display: { xs: "none", md: open ? "none" : "block" } }}
+          >
+            <MenuIcon />
+          </IconButton>
+          <IconButton
+            color="inherit"
+            aria-label="open drawer"
+            edge="start"
+            onClick={handleDrawerToggle}
+            sx={{ mr: 2, display: { md: "none" } }}
           >
             <MenuIcon />
           </IconButton>
@@ -132,8 +176,34 @@ export default function Layout({ children, pageName }) {
           </IconButton>
         </Toolbar>
       </AppBar>
+      {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
+      <Drawer
+        container={container}
+        variant="temporary"
+        open={mobileOpen}
+        onClose={handleDrawerToggle}
+        ModalProps={{
+          keepMounted: true, // Better open performance on mobile.
+        }}
+        sx={{
+          display: { xs: "block", md: "none" },
+          "& .MuiDrawer-paper": { boxSizing: "border-box", width: drawerWidth },
+        }}
+      >
+        <DrawerHeader>
+          <IconButton onClick={handleDrawerToggle}>
+            {theme.direction === "ltr" ? (
+              <ChevronLeftIcon />
+            ) : (
+              <ChevronRightIcon />
+            )}
+          </IconButton>
+        </DrawerHeader>
+        {drawer}
+      </Drawer>
       <Drawer
         sx={{
+          display: { md: "block", xs: "none" },
           width: drawerWidth,
           flexShrink: 0,
           "& .MuiDrawer-paper": {
@@ -154,28 +224,9 @@ export default function Layout({ children, pageName }) {
             )}
           </IconButton>
         </DrawerHeader>
-        <Divider />
-        <List>
-          {[
-            { text: "Home", path: "/" },
-            { text: "Add Article", path: "/add-article" },
-            { text: "Word List", path: "/word-list" },
-          ].map((menu, index) => (
-            <ListItem key={menu.path} disablePadding>
-              <ListItemButton
-                component={NextLinkComposed}
-                to={{
-                  pathname: menu.path,
-                }}
-              >
-                <ListItemText primary={menu.text} />
-              </ListItemButton>
-            </ListItem>
-          ))}
-        </List>
-        {/* <Divider /> */}
+        {drawer}
       </Drawer>
-      <Main open={open}>{children}</Main>
+      <Main open={matchMd && open}>{children}</Main>
       {/* footer */}
     </div>
   );
