@@ -89,8 +89,8 @@ export default function Layout({ children, pageName }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>{pageName + " | " + siteTitle}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>{pageName ? pageName + " - " + siteTitle : siteTitle}</title>
+        <link rel="icon" href="/favicon.svg" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <meta
           name="description"

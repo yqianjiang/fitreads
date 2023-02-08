@@ -30,6 +30,12 @@ export default function App({ Component, pageProps }) {
       createTheme({
         palette: {
           mode: mode,
+          primary: {
+            main: '#fba332',
+          },
+          secondary: {
+            main: '#3289fb',
+          },
         },
       }),
     [mode]
