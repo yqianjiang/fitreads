@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import Head from "next/head";
 import styles from "./layout.module.scss";
-import { NextLinkComposed } from "./Link";
+import Link, { NextLinkComposed } from "./Link";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import MuiAppBar from "@mui/material/AppBar";
@@ -20,7 +20,7 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { styled, useTheme } from "@mui/material/styles";
 import { ColorModeContext } from "../pages/_app";
-import useMediaQuery from '@mui/material/useMediaQuery';
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 export const siteTitle = "FitReads";
 const drawerWidth = 240;
@@ -72,9 +72,14 @@ const DrawerHeader = styled("div")(({ theme }) => ({
 }));
 
 export default function Layout({ children, pageName, window }) {
+  const menuList = [
+    { text: "新增文章", path: "/add-article" },
+    { text: "文章列表", path: "/articles" },
+    { text: "Word List", path: "/word-list" },
+  ];
   const theme = useTheme();
   const colorMode = useContext(ColorModeContext);
-  const matchMd = useMediaQuery(theme.breakpoints.up('md'));
+  const matchMd = useMediaQuery(theme.breakpoints.up("md"));
   const [open, setOpen] = useState(true);
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -98,11 +103,7 @@ export default function Layout({ children, pageName, window }) {
     <>
       <Divider />
       <List>
-        {[
-          { text: "Home", path: "/" },
-          { text: "Add Article", path: "/add-article" },
-          { text: "Word List", path: "/word-list" },
-        ].map((menu, index) => (
+        {menuList.map((menu, index) => (
           <ListItem key={menu.path} disablePadding>
             <ListItemButton
               component={NextLinkComposed}
@@ -145,24 +146,21 @@ export default function Layout({ children, pageName, window }) {
           <IconButton
             color="inherit"
             aria-label="open drawer"
-            onClick={handleDrawerOpen}
+            onClick={matchMd ? handleDrawerOpen : handleDrawerToggle}
             edge="start"
-            sx={{ mr: 2, display: { xs: "none", md: open ? "none" : "block" } }}
+            sx={{ mr: 2, display: { md: open ? "none" : "block" } }}
           >
             <MenuIcon />
           </IconButton>
-          <IconButton
+          <Link
+            href="/"
             color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { md: "none" } }}
+            underline="none"
+            variant="h6"
+            sx={{ flexGrow: 1 }}
           >
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
             FitReads
-          </Typography>
+          </Link>
           <IconButton
             color="inherit"
             aria-label="switch dark mode"

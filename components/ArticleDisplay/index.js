@@ -12,7 +12,7 @@ const useControl = () => {
   const [mode, setMode] = useState({
     showTrans: true,
     showSentenceTrans: false,
-    markUnknownWord: true,
+    markUnknownWord: false,
   });
   const [highlightList, setHighlightList] = useState(["unknown"]);
   const highlightOptions = ["unknown", "unseen", "target"];

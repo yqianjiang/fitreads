@@ -31,10 +31,10 @@ export default function App({ Component, pageProps }) {
         palette: {
           mode: mode,
           primary: {
-            main: '#fba332',
+            main: "#FCCE78",
           },
           secondary: {
-            main: '#3289fb',
+            main: "#3289fb",
           },
         },
       }),

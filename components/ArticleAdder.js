@@ -32,16 +32,17 @@ const ArticleAdder = ({ handleAnalyzeClick }) => {
         }}
       >
         <Button
+          display={textareaVal ? "block" : "none"}
+          disabled={!textareaVal}
+          onClick={handleClearClick}
+        >
+          清空
+        </Button>
+        <Button
           disabled={!textareaVal}
           onClick={() => handleAnalyzeClick(textareaVal)}
         >
-          Analyze
-        </Button>
-        <Button
-          display={textareaVal ? "block" : "none"}
-          onClick={handleClearClick}
-        >
-          Clear
+          分析
         </Button>
       </Box>
     </Box>

@@ -8,7 +8,7 @@ const ArticleHeader = ({ title, data, tag, ...article }) => {
     <section>
       <h1 className={utilStyles.headingXl}>{title}</h1>
       <div className={utilStyles.lightText}>
-        <Date dateString={article.crateTime} />
+        <Date dateString={article.lastModified} />
       </div>
       {article&&data ? (
         <>
