@@ -3,10 +3,9 @@ const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
   reactStrictMode: true,
-  basePath: isProd ? '/tridict-reading' : '',
-  assetPrefix: isProd ? '/tridict-reading' : '',
+  basePath: isProd ? '/fitreads' : '',
+  assetPrefix: isProd ? '/fitreads' : '',
   images: {
     loader: 'akamai',
-    path: '',
   },
 }
