@@ -1,35 +1,50 @@
-import Layout from '../components/layout'
-import utilStyles from '../styles/utils.module.css'  // using module css with scoped
-import { getSortedPostsData } from '../lib/posts'
-import Link from 'next/link'
-import Date from '../components/date'
-import { useEffect, useState } from 'react'
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import Layout from "../components/Layout";
+import utilStyles from "../styles/utils.module.css"; // using module css with scoped
+import { NextLinkComposed } from "../components/Link";
 
 export default function Home() {
-  const [allPostsData, setAllPostsData] = useState([])
-  useEffect(() => {
-    async function fetchData() {
-      const res = await getSortedPostsData()
-      setAllPostsData(res)
-    }
-    fetchData()
-  }, [])
   return (
-    <Layout pageName={'首页'}>
+    <Layout>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>{title}</Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
+        <Typography variant="h2" component="h1" gutterBottom>
+          FitReads 给您量身定制的阅读体验
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          FitReads: Customized Reading Experience Tailored Just for You
+        </Typography>
+        <br />
+        <Typography variant="body1" gutterBottom>
+          欢迎使用FitReads！您想通过阅读自己感兴趣的材料提高英语水平，却因为难度太高而无从下手？
+          FitReads可以通过记录您的个人词汇量和学习目标，帮助您判断阅读材料的适宜程度，并在阅读过程中将重要的生词高亮显示，帮助您更有效地学习！
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          Welcome! Are you tired of struggling to improve your English through
+          reading materials that are too challenging? FitReads can help! We keep
+          track of your personal vocabulary and learning goals, so you can
+          determine if the material is appropriate for you, and even highlight
+          important new words for you as you read.
+        </Typography>
+        <br />
+        <Typography variant="body1" gutterBottom>
+          马上选择一篇您感兴趣的文章，体验一下吧！
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          Find a topic that interests you and start using FitReads today!
+          Enhance your reading experience and improve your English skills
+          effortlessly.
+        </Typography>
+        <Button
+          variant="contained"
+          component={NextLinkComposed}
+          to={{
+            pathname: "add-article/",
+          }}
+        >
+          开始分析！
+        </Button>
       </section>
     </Layout>
-  )
+  );
 }
