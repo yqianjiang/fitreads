@@ -5,7 +5,4 @@ module.exports = {
   reactStrictMode: true,
   basePath: isProd ? '/fitreads' : '',
   assetPrefix: isProd ? '/fitreads' : '',
-  images: {
-    loader: 'akamai',
-  },
 }
