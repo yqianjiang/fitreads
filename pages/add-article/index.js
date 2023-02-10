@@ -10,7 +10,7 @@ import ArticleAdder from "../../components/ArticleAdder";
 import ArticleDisplay from "../../components/ArticleDisplay";
 import { preprocessing } from "../../lib/article/preprocessing";
 import { realtimeAnalyzer } from "../../lib/article/realtimeAnalyzer";
-import { savePostData } from "../../lib/api/posts";
+import { savePostData } from "../../lib/api/articles";
 
 // 用于保存的数据，不需要向用户展示
 let processedArticle;

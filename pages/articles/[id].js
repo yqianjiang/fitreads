@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import Layout from "../../components/Layout";
 import ArticleDisplay from "../../components/ArticleDisplay";
 import { realtimeAnalyzer } from "../../lib/article/realtimeAnalyzer";
-import { getPostData } from "../../lib/api/posts";
+import { getPostData } from "../../lib/api/articles";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
