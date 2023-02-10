@@ -2,7 +2,7 @@ import Layout from "../../components/Layout";
 import utilStyles from "../../styles/utils.module.css"; // using module css with scoped
 import { getSortedPostsData } from "../../lib/api/articles";
 import Link from "next/link";
-import Date from "../../components/date";
+import Date from "../../components/Date";
 import { useEffect, useState } from "react";
 
 export default function Articles() {
