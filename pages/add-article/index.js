@@ -3,14 +3,13 @@ import { useSelector } from "react-redux";
 import Divider from "@mui/material/Divider";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import Snackbar from "@mui/material/Snackbar";
-import Alert from "@mui/material/Alert";
+import Alert from "../../components/Alert";
 import Layout from "../../components/Layout";
 import ArticleAdder from "../../components/ArticleAdder";
 import ArticleDisplay from "../../components/ArticleDisplay";
 import { preprocessing } from "../../lib/article/preprocessing";
 import { realtimeAnalyzer } from "../../lib/article/realtimeAnalyzer";
-import { savePostData } from "../../lib/api/articles";
+import { saveArticleData } from "../../lib/api/articles";
 
 // 用于保存的数据，不需要向用户展示
 let processedArticle;
@@ -27,41 +26,30 @@ export default function AddArticle() {
     setData(data);
   };
 
+  const [message, setMessage] = useState({ duration: 6000 });
+
   const handleSaveClick = async () => {
-    await savePostData(processedArticle);
-    // 保存成功后，给用户反馈：保存成功，可在本地文章列表查看
-    setOpen(true);
+    await saveArticleData(processedArticle);
     setMessage({
       ...message,
       content: "保存成功，可在本地文章列表查看",
       type: "success",
-      duration: 6000,
     });
+  };
+
+  const onEditArticle = ({ title, category }) => {
+    processedArticle.title = title;
+    processedArticle.category = category;
+    setArticleProps({ ...articleProps, title, category });
   };
 
   const handleBackClick = () => {
     setArticleProps(null);
   };
 
-  const [open, setOpen] = useState(false);
-  const [message, setMessage] = useState({
-    content: "",
-    type: "success",
-    duration: 6000,
-  });
-
-  const handleCloseSnackbar = (event, reason) => {
-    if (reason === "clickaway") {
-      return;
-    }
-    setOpen(false);
-  };
-
   return (
     <Layout pageName={"新增文章"}>
-      <ArticleAdder
-        handleAnalyzeClick={handleAnalyzeClick}
-      />
+      <ArticleAdder handleAnalyzeClick={handleAnalyzeClick} />
       {articleProps && (
         <>
           <Divider />
@@ -73,16 +61,16 @@ export default function AddArticle() {
             }}
           >
             {/* <Button onClick={handleBackClick}>返回</Button> */}
-            <Button variant="contained" onClick={handleSaveClick}>保存</Button>
+            <Button variant="contained" onClick={handleSaveClick}>
+              保存
+            </Button>
+            <Alert message={message} />
           </Box>
-          <Snackbar
-            open={open}
-            autoHideDuration={message.duration}
-            onClose={handleCloseSnackbar}
-          >
-            <Alert severity={message.type}>{message.content}</Alert>
-          </Snackbar>
-          <ArticleDisplay initialData={data} {...articleProps} />
+          <ArticleDisplay
+            initialData={data}
+            onEditArticle={onEditArticle}
+            {...articleProps}
+          />
         </>
       )}
     </Layout>

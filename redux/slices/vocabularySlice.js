@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import stores from "../../lib/stores";
+import { format } from "date-fns";
 
 // Saving to local storage
 const saveToLocalStorage = (wordLists) => {
@@ -8,16 +9,16 @@ const saveToLocalStorage = (wordLists) => {
 
 // Load from local storage
 const initialState = {
-  unknownWords: {},
-  knownWords: {},
+  newWords: {},
+  familiarWords: {},
   targetWords: {},
-}
-if (typeof localStorage !== 'undefined') {
+};
+if (typeof localStorage !== "undefined") {
   const newState = stores.getLocal("userVocabulary");
   if (newState) {
-    initialState.knownWords = newState.knownWords;
+    initialState.familiarWords = newState.familiarWords;
     initialState.targetWords = newState.targetWords;
-    initialState.unknownWords = newState.unknownWords;
+    initialState.newWords = newState.newWords;
   }
 }
 
@@ -26,13 +27,12 @@ export const vocabularySlice = createSlice({
   initialState,
   reducers: {
     addWordToVocabulary: (state, action) => {
-      // Redux Toolkit allows us to write "mutating" logic in reducers. It
-      // doesn't actually mutate the state because it uses the Immer library,
-      // which detects changes to a "draft state" and produces a brand new
-      // immutable state based off those changes
       const { word, vocabulary } = action.payload;
       if (word?.word) {
-        state[vocabulary][word.word] = word;
+        state[vocabulary][word.word] = {
+          createdAt: format(new Date(), "yyyy-MM-dd HH:mm:ss"),
+          ...word,
+        };
       }
       saveToLocalStorage(state);
     },
@@ -57,7 +57,10 @@ export const vocabularySlice = createSlice({
       const { words, vocabulary } = action.payload;
       for (const word of words) {
         if (word?.word) {
-          state[vocabulary][word.word] = word;
+          state[vocabulary][word.word] = {
+            createdAt: format(new Date(), "yyyy-MM-dd HH:mm:ss"),
+            ...word,
+          };
         }
       }
       saveToLocalStorage(state);

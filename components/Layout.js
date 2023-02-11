@@ -75,7 +75,8 @@ export default function Layout({ children, pageName, window }) {
   const menuList = [
     { text: "新增文章", path: "/add-article" },
     { text: "文章列表", path: "/articles" },
-    { text: "Word List", path: "/word-list" },
+    { text: "词汇管理", path: "/word-list" },
+    { text: "词汇", path: "/words" },
   ];
   const theme = useTheme();
   const colorMode = useContext(ColorModeContext);
