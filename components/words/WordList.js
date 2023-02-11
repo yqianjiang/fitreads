@@ -16,6 +16,7 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import InputLabel from "@mui/material/InputLabel";
 import Switch from "@mui/material/Switch";
 import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
 
 const sortWordsOptions = [
   {
@@ -103,6 +104,16 @@ export default function WordList({ wordsDict, actions }) {
   const [selectedWords, setSelectedWords] = React.useState([]);
   const [selectedOrder, setSelectedOrder] = React.useState("alphabet");
   const [isDescending, setIsDescending] = React.useState(false);
+  const [checkAll, setCheckAll] = React.useState(false);
+
+  const handleCheckAll = () => {
+    if (checkAll) {
+      setSelectedWords([]);
+    } else {
+      setSelectedWords(words.map(({ word }) => word));
+    }
+    setCheckAll(!checkAll);
+  };
 
   const handleClickWord = (word) => () => {
     if (editMode) {
@@ -123,6 +134,13 @@ export default function WordList({ wordsDict, actions }) {
     }
 
     setSelectedWords(newChecked);
+
+    if (newChecked.length === words.length) {
+      setCheckAll(true);
+    }
+    if (!newChecked.length) {
+      setCheckAll(false);
+    }
   };
 
   const handleChangeOrder = (e) => {
@@ -144,7 +162,7 @@ export default function WordList({ wordsDict, actions }) {
 
   return (
     <>
-      <Stack direction="row" spacing={2}>
+      <Stack direction="row" spacing={2} alignItems="center">
         <FormControl sx={{ m: 1, minWidth: 120 }}>
           <InputLabel htmlFor="sort-method-selection">排序</InputLabel>
           <Select
@@ -170,7 +188,15 @@ export default function WordList({ wordsDict, actions }) {
           label="倒序"
           labelPlacement="start"
         />
+        <Typography>共{words.length}词</Typography>
       </Stack>
+      {editMode && (
+        <Checkbox
+          checked={checkAll}
+          onChange={handleCheckAll}
+          inputProps={{ "aria-label": "checkAll" }}
+        />
+      )}
       <Button onClick={() => setEditMode(!editMode)}>
         {editMode ? "退出编辑" : "编辑"}
       </Button>
