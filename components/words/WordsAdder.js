@@ -31,7 +31,7 @@ export default function WordsAdder({}) {
             dispatch(
               addWordToVocabulary({
                 word: { word: newWord },
-                vocabulary: "unknownWords",
+                vocabulary: "newWords",
               })
             )
           }
@@ -43,7 +43,7 @@ export default function WordsAdder({}) {
             dispatch(
               addWordToVocabulary({
                 word: { word: newWord },
-                vocabulary: "knownWords",
+                vocabulary: "familiarWords",
               })
             )
           }

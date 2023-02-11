@@ -94,10 +94,10 @@ const ArticleControls = ({
       <Box display="flex" alignItems="center">
         <Button
           onClick={() =>
-            setMode({ ...mode, markUnknownWord: !mode.markUnknownWord })
+            setMode({ ...mode, markNewWord: !mode.markNewWord })
           }
         >
-          {mode.markUnknownWord ? "停止标记" : "开始标记"}
+          {mode.markNewWord ? "停止标记" : "开始标记"}
         </Button>
         <Button onClick={updateWordDict}>更新词表</Button>
       </Box>

@@ -6,35 +6,35 @@ import React, { useMemo } from "react";
 import { useSelector } from "react-redux";
 
 export default function WordStats() {
-  const unknownWords = useSelector((state) => state.vocabulary.unknownWords);
-  const knownWords = useSelector((state) => state.vocabulary.knownWords);
+  const newWords = useSelector((state) => state.vocabulary.newWords);
+  const familiarWords = useSelector((state) => state.vocabulary.familiarWords);
   const targetWords = useSelector((state) => state.vocabulary.targetWords);
 
-  const unknownWordsLength = useMemo(
-    () => Object.keys(unknownWords).length,
-    [unknownWords]
+  const newWordsLength = useMemo(
+    () => Object.keys(newWords).length,
+    [newWords]
   );
 
-  const knownWordsLength = useMemo(
-    () => Object.keys(knownWords).length,
-    [knownWords]
+  const familiarWordsLength = useMemo(
+    () => Object.keys(familiarWords).length,
+    [familiarWords]
   );
 
   const knowTargetRatio = useMemo(() => {
-    let knownTargetWordsNum = 0;
+    let familiarTargetWordsNum = 0;
     let targetWordsNum = 0;
     for (const word in targetWords) {
-      if (word in knownWords) {
-        knownTargetWordsNum++;
+      if (word in familiarWords) {
+        familiarTargetWordsNum++;
       }
       targetWordsNum++;
     }
     if (targetWordsNum) {
-      return knownTargetWordsNum / targetWordsNum;
+      return familiarTargetWordsNum / targetWordsNum;
     } else {
       return 0;
     }
-  }, [knownWords, targetWords]);
+  }, [familiarWords, targetWords]);
 
   return (
     <Box>
@@ -43,8 +43,8 @@ export default function WordStats() {
           {knowTargetRatio > 0 && (
             <Typography>目标词已掌握{knowTargetRatio}%</Typography>
           )}
-          <Typography>已记录生词{unknownWordsLength}个</Typography>
-          <Typography>已记录熟词{knownWordsLength}个</Typography>
+          <Typography>已记录生词{newWordsLength}个</Typography>
+          <Typography>已记录熟词{familiarWordsLength}个</Typography>
         </Paper>
       </Grid>
       {/* <Grid>

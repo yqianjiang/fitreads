@@ -9,7 +9,7 @@ const ArticleBody = ({
 
   // 辅助高亮的数据
   unseenWord,
-  unknownWord,
+  newWord,
   targetWord,
   translations,
 
@@ -19,7 +19,7 @@ const ArticleBody = ({
 
   // handle点击单词的交互
   toggleTrans,
-  toggleKnown,
+  toggleFamiliar,
 }) => {
   const computeTranslation = (token) => {
     // function to compute translation of token
@@ -36,8 +36,8 @@ const ArticleBody = ({
     if (!token) return;
     token = findLemma(token);
 
-    if (mode.markUnknownWord) {
-      toggleKnown(token);
+    if (mode.markNewWord) {
+      toggleFamiliar(token);
     } else if (mode.showTrans) {
       toggleTrans(token);
     }
@@ -83,9 +83,9 @@ const ArticleBody = ({
                               unseenWord.includes(findLemma(token))
                                 ? styles['token--unseen']
                                 : null,
-                              highlightList.includes("unknown") &&
-                              unknownWord.includes(findLemma(token))
-                                ? styles['token--unknown']
+                              highlightList.includes("newWord") &&
+                              newWord.includes(findLemma(token))
+                                ? styles['token--new-word']
                                 : null,
                               highlightList.includes("target") &&
                               !targetWord.includes(findLemma(token))

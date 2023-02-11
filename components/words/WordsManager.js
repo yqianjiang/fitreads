@@ -6,6 +6,7 @@ import {
   deleteWordsFromVocabulary,
 } from "../../redux/slices/vocabularySlice";
 
+import Alert from "../Alert";
 import Box from "@mui/material/Box";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
@@ -22,16 +23,18 @@ function TabPanel(props) {
       aria-labelledby={`simple-tab-${index}`}
       {...other}
     >
-      {value === index && <Box sx={{ p: 3 }}>{children}</Box>}
+      {value === index && <Box sx={{ py: 3 }}>{children}</Box>}
     </div>
   );
 }
 
 export default function WordsManager() {
-  const unknownWords = useSelector((state) => state.vocabulary.unknownWords);
-  const knownWords = useSelector((state) => state.vocabulary.knownWords);
+  const newWords = useSelector((state) => state.vocabulary.newWords);
+  const familiarWords = useSelector((state) => state.vocabulary.familiarWords);
   const targetWords = useSelector((state) => state.vocabulary.targetWords);
   const dispatch = useDispatch();
+
+  const [message, setMessage] = React.useState({ duration: 6000 });
 
   const addWordsTo = (vocabulary, words) => {
     dispatch(
@@ -52,24 +55,48 @@ export default function WordsManager() {
   };
 
   const actions = {
-    addToUnknown: (words) => {
-      console.log("addToUnknown");
-      removeWords("knownWords", words);
-      addWordsTo("unknownWords", words);
+    addToNew: (words) => {
+      console.log("addToNew");
+      removeWords("familiarWords", words);
+      addWordsTo("newWords", words);
+      setMessage({
+        ...message,
+        content: "操作成功",
+        type: "success",
+      });
     },
-    addToKnown: (words) => {
-      console.log("addToKnown");
-      removeWords("unknownWords", words);
-      addWordsTo("knownWords", words);
+    addToFamiliar: (words) => {
+      console.log("addToFamiliar");
+      removeWords("newWords", words);
+      addWordsTo("familiarWords", words);
+      setMessage({
+        ...message,
+        content: "操作成功",
+        type: "success",
+      });
     },
-    addToTarget: (words) => addWordsTo("targetWords", words),
-    removeFromTarget: (words) => removeWords("targetWords", words),
+    addToTarget: (words) => {
+      addWordsTo("targetWords", words);
+      setMessage({
+        ...message,
+        content: "操作成功",
+        type: "success",
+      });
+    },
+    removeFromTarget: (words) => {
+      removeWords("targetWords", words);
+      setMessage({
+        ...message,
+        content: "操作成功",
+        type: "success",
+      });
+    },
   };
 
-  const unknownActions = [
+  const newWordActions = [
     {
       label: "移到熟词",
-      callback: actions.addToKnown,
+      callback: actions.addToFamiliar,
     },
     {
       label: "设为目标词",
@@ -77,10 +104,10 @@ export default function WordsManager() {
     },
   ];
 
-  const knownActions = [
+  const familiarWordActions = [
     {
       label: "移到生词",
-      callback: actions.addToUnknown,
+      callback: actions.addToNew,
     },
     {
       label: "设为目标词",
@@ -95,11 +122,11 @@ export default function WordsManager() {
     },
     {
       label: "设为生词",
-      callback: actions.addToUnknown,
+      callback: actions.addToNew,
     },
     {
       label: "设为熟词",
-      callback: actions.addToKnown,
+      callback: actions.addToFamiliar,
     },
   ];
 
@@ -118,6 +145,7 @@ export default function WordsManager() {
 
   return (
     <>
+      <Alert message={message} />
       <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
         <Tabs
           value={activeTab}
@@ -130,10 +158,10 @@ export default function WordsManager() {
         </Tabs>
       </Box>
       <TabPanel value={activeTab} index={0}>
-        <WordList wordsDict={unknownWords} actions={unknownActions} />
+        <WordList wordsDict={newWords} actions={newWordActions} />
       </TabPanel>
       <TabPanel value={activeTab} index={1}>
-        <WordList wordsDict={knownWords} actions={knownActions} />
+        <WordList wordsDict={familiarWords} actions={familiarWordActions} />
       </TabPanel>
       <TabPanel value={activeTab} index={2}>
         <WordList wordsDict={targetWords} actions={targetActions} />

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ArticleHeader from "./ArticleHeader";
+import ArticleEditor from "./ArticleEditor";
 import ArticleControls from "./ArticleControls";
 import ArticleBody from "./ArticleBody";
 import { useDispatch } from "react-redux";
@@ -12,12 +13,12 @@ const useControl = () => {
   const [mode, setMode] = useState({
     showTrans: true,
     showSentenceTrans: false,
-    markUnknownWord: false,
+    markNewWord: false,
   });
-  const [highlightList, setHighlightList] = useState(["unknown"]);
-  const highlightOptions = ["unknown", "unseen", "target"];
+  const [highlightList, setHighlightList] = useState(["newWord"]);
+  const highlightOptions = ["newWord", "unseen", "target"];
   const highlightOptionsLabels = {
-    unknown: "生词",
+    newWord: "生词",
     unseen: "未标记词",
     target: "目标词",
   };
@@ -37,10 +38,10 @@ const useDictData = (initialData) => {
     translations: {},
   });
 
-  function markAsUnknown(type, word) {
+  function markAsNew(type, word) {
     setData({
       ...data,
-      unknownWord: [...data.unknownWord, word],
+      newWord: [...data.newWord, word],
       [type]: data[type].filter((x) => x !== word),
     });
 
@@ -48,10 +49,10 @@ const useDictData = (initialData) => {
     // delete data.translations[word];
   }
 
-  function markAsKnown(type, word) {
+  function markAsFamiliar(type, word) {
     setData({
       ...data,
-      knownWord: [...data.knownWord, word],
+      familiarWord: [...data.familiarWord, word],
       [type]: data[type].filter((x) => x !== word),
     });
 
@@ -59,10 +60,10 @@ const useDictData = (initialData) => {
     // _findWordTrans(word);
   }
 
-  function markAllAsKnown(type, words) {
+  function markAllAsFamiliar(type, words) {
     setData({
       ...data,
-      knownWord: [...data.knownWord, ...words],
+      familiarWord: [...data.familiarWord, ...words],
       [type]: data[type].filter((x) => !words.includes(x)),
     });
 
@@ -71,25 +72,25 @@ const useDictData = (initialData) => {
   }
 
   function onRemove(type, token) {
-    if (type === "unknownWord") {
-      markAsKnown(type, token);
+    if (type === "newWord") {
+      markAsFamiliar(type, token);
     } else {
-      markAsUnknown(type, token);
+      markAsNew(type, token);
     }
   }
 
-  function toggleKnown(token) {
-    if (data.unknownWord.includes(token)) {
+  function toggleFamiliar(token) {
+    if (data.newWord.includes(token)) {
       // 点击生词变熟词
-      markAsKnown("unknownWord", token);
+      markAsFamiliar("newWord", token);
       // 用户词表变化收集
-    } else if (data.knownWord.includes(token)) {
+    } else if (data.familiarWord.includes(token)) {
       // 点击熟词变生词
-      markAsUnknown("knownWord", token);
+      markAsNew("familiarWord", token);
       // 用户词表变化收集
     } else {
       // 点击unseen变生词
-      markAsUnknown("unseenWord", token);
+      markAsNew("unseenWord", token);
       // 用户词表变化收集
     }
   }
@@ -101,8 +102,8 @@ const useDictData = (initialData) => {
   const dispatch = useDispatch();
 
   function updateWordDict() {
-    // 自动把unseenWord当作knownWord
-    markAllAsKnown("unseenWord", data.unseenWord);
+    // 自动把unseenWord当作familiarWord
+    markAllAsFamiliar("unseenWord", data.unseenWord);
 
     // 把data的更新同步到wordDict
     saveVocabulary();
@@ -110,49 +111,50 @@ const useDictData = (initialData) => {
     function saveVocabulary() {
       dispatch(
         addWordsToVocabulary({
-          words: data.unknownWord.map((newWord) => ({ word: newWord })),
-          vocabulary: "unknownWords",
+          words: data.newWord.map((newWord) => ({ word: newWord })),
+          vocabulary: "newWords",
         })
       );
       dispatch(
         addWordsToVocabulary({
-          words: [...data.knownWord, ...data.unseenWord].map((newWord) => ({
+          words: [...data.familiarWord, ...data.unseenWord].map((newWord) => ({
             word: newWord,
           })),
-          vocabulary: "knownWords",
+          vocabulary: "familiarWords",
         })
       );
       dispatch(
         deleteWordsFromVocabulary({
-          words: data.unknownWord.map((newWord) => ({ word: newWord })),
-          vocabulary: "knownWords",
+          words: data.newWord.map((newWord) => ({ word: newWord })),
+          vocabulary: "familiarWords",
         })
       );
       dispatch(
         deleteWordsFromVocabulary({
-          words: data.knownWord.map((newWord) => ({ word: newWord })),
-          vocabulary: "unknownWords",
+          words: data.familiarWord.map((newWord) => ({ word: newWord })),
+          vocabulary: "newWords",
         })
       );
     }
   }
 
-  return { data, toggleKnown, toggleTrans, updateWordDict };
+  return { data, toggleFamiliar, toggleTrans, updateWordDict };
 };
 
 const Article = ({ initialData, sentences, ...props }) => {
   const controlProps = useControl();
-  const { data, toggleKnown, toggleTrans, updateWordDict } =
+  const { data, toggleFamiliar, toggleTrans, updateWordDict } =
     useDictData(initialData);
 
   return (
     <article>
+      <ArticleEditor {...props} data={data} />
       <ArticleHeader {...props} data={data} />
       <ArticleControls updateWordDict={updateWordDict} {...controlProps} />
       <ArticleBody
         mode={controlProps.mode}
         highlightList={controlProps.highlightList}
-        {...{ paragraphs: sentences, toggleKnown, toggleTrans }}
+        {...{ paragraphs: sentences, toggleFamiliar, toggleTrans }}
         {...props}
         {...data}
       />

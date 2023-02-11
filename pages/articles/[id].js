@@ -2,11 +2,11 @@ import { useRouter } from "next/router";
 import Layout from "../../components/Layout";
 import ArticleDisplay from "../../components/ArticleDisplay";
 import { realtimeAnalyzer } from "../../lib/article/realtimeAnalyzer";
-import { getPostData } from "../../lib/api/articles";
+import { getArticleData, updateArticle } from "../../lib/api/articles";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
-export default function Post() {
+export default function Article() {
   const router = useRouter();
   const { id } = router.query;
 
@@ -14,21 +14,39 @@ export default function Post() {
   const [articleProps, setArticleProps] = useState(null);
   const vocabulary = useSelector((state) => state.vocabulary);
 
+  const onEditArticle = (changes) => {
+    updateArticle(id, changes);
+    setArticleProps({ ...articleProps, ...changes });
+  };
+
   useEffect(() => {
     async function fetchData() {
-      const post = await getPostData(id);
+      const post = await getArticleData(id);
       if (post) {
-        const { data, articleInfo } = realtimeAnalyzer(post.content, vocabulary);
-        setArticleProps({...post, ...articleInfo});
+        const { data, articleInfo } = realtimeAnalyzer(
+          post.content,
+          vocabulary
+        );
+        setArticleProps({ ...post, ...articleInfo });
         setData(data);
       }
     }
-    fetchData();
+    if (id) {
+      fetchData();
+    }
   }, [id]);
 
   return (
     <Layout pageName={articleProps?.title || ""}>
-      {articleProps ? <ArticleDisplay initialData={data} {...articleProps} /> : ""}
+      {articleProps ? (
+        <ArticleDisplay
+          initialData={data}
+          onEditArticle={onEditArticle}
+          {...articleProps}
+        />
+      ) : (
+        <p>找不到文章信息...</p>
+      )}
     </Layout>
   );
 }

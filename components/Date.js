@@ -1,8 +1,8 @@
 import { parseISO, format } from 'date-fns'
 
 const formats = {
-  'en': 'LLLL d, yyyy',
-  'zh': 'yyyy-LL-dd',
+  'en': 'LLLL d, yyyy HH:mm:ss',
+  'zh': 'yyyy-LL-dd HH:mm:ss',
 }
 
 export default function Date({ dateString }) {
