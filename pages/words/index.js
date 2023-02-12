@@ -1,10 +1,12 @@
 import React from "react";
+import NoSsr from "@mui/material/NoSsr";
+import { Button } from "@mui/material";
+
 import Layout from "../../components/Layout";
 import WordStats from "../../components/words/WordStats";
-import NoSsr from "@mui/material/NoSsr";
 import { NextLinkComposed } from "../../components/Link";
+
 import { downloadDictionary } from "../../lib/api/dict";
-import { Button } from "@mui/material";
 import { getLocal, setLocal } from "../../lib/stores";
 import { dictionaryNameMap } from "../../lib/constants";
 

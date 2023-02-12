@@ -1,10 +1,14 @@
 import { useRouter } from "next/router";
-import Layout from "../../components/Layout";
-import ArticleDisplay from "../../components/ArticleDisplay";
-import { realtimeAnalyzer } from "../../lib/article/realtimeAnalyzer";
-import { getArticleData, updateArticle } from "../../lib/api/articles";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
+
+import Layout from "../../components/Layout";
+import ArticleDisplay from "../../components/ArticleDisplay";
+import Link from "../../components/Link";
+
+import { realtimeAnalyzer } from "../../lib/article/realtimeAnalyzer";
+import { getArticleData, updateArticle } from "../../lib/api/articles";
+
 
 export default function Article() {
   const router = useRouter();
@@ -38,6 +42,7 @@ export default function Article() {
 
   return (
     <Layout pageName={articleProps?.title || ""}>
+      <Link sx={{mb: 1, display: 'block'}} underline="hover" href={`/articles/`}>返回文章列表</Link>
       {articleProps ? (
         <ArticleDisplay
           initialData={data}

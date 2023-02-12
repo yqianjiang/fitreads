@@ -9,15 +9,16 @@ import {
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import Uploader from "../Uploader";
+import Stack from "@mui/material/Stack";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
 import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
+
+import Uploader from "../Uploader";
 import Alert from "../Alert";
-import Stack from "@mui/material/Stack";
 
 export default function WordsAdder({}) {
   const [inputValue, setInputValue] = useState("");

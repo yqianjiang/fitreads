@@ -1,9 +1,15 @@
+import { useState } from "react";
+
 import { Box, Checkbox, Select, Button, FormControlLabel } from "@mui/material";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Chip from "@mui/material/Chip";
+import Drawer from "@mui/material/Drawer";
+import Paper from "@mui/material/Paper";
+
+import WordsManager from "../words/WordsManager";
 
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
@@ -24,6 +30,7 @@ const ArticleControls = ({
   highlightOptions,
   highlightOptionsLabels,
   updateWordDict,
+  wordsUnique,
 }) => {
   const handleChangeHighlight = (event) => {
     const {
@@ -33,6 +40,19 @@ const ArticleControls = ({
       // On autofill we get a stringified value.
       typeof value === "string" ? value.split(",") : value
     );
+  };
+
+  const [drawerState, setDrawerState] = useState(false);
+
+  const toggleDrawer = (open) => (event) => {
+    if (
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return;
+    }
+
+    setDrawerState(open);
   };
 
   return (
@@ -93,13 +113,23 @@ const ArticleControls = ({
       </Box>
       <Box display="flex" alignItems="center">
         <Button
-          onClick={() =>
-            setMode({ ...mode, markNewWord: !mode.markNewWord })
-          }
+          onClick={() => setMode({ ...mode, markNewWord: !mode.markNewWord })}
         >
           {mode.markNewWord ? "停止标记" : "开始标记"}
         </Button>
         <Button onClick={updateWordDict}>更新词表</Button>
+        <Button onClick={toggleDrawer(true)} sx={{ ml: 1 }}>
+          查看词表
+        </Button>
+        <Drawer
+          anchor={"bottom"}
+          open={drawerState}
+          onClose={toggleDrawer(false)}
+        >
+          <Paper sx={{ height: 400 }}>
+            <WordsManager wordsFilter={wordsUnique} fixed={true} />
+          </Paper>
+        </Drawer>
       </Box>
     </Box>
   );

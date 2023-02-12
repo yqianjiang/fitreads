@@ -57,7 +57,8 @@ export default function AddArticle() {
             display="flex"
             justifyContent="space-between"
             sx={{
-              marginTop: "1rem",
+              mb: 1,
+              mt: 2,
             }}
           >
             {/* <Button onClick={handleBackClick}>返回</Button> */}

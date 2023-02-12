@@ -150,7 +150,7 @@ const Article = ({ initialData, sentences, ...props }) => {
     <article>
       <ArticleEditor {...props} data={data} />
       <ArticleHeader {...props} data={data} />
-      <ArticleControls updateWordDict={updateWordDict} {...controlProps} />
+      <ArticleControls updateWordDict={updateWordDict} wordsUnique={props.wordsUnique} {...controlProps} />
       <ArticleBody
         mode={controlProps.mode}
         highlightList={controlProps.highlightList}
