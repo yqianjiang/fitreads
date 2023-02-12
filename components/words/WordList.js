@@ -105,7 +105,7 @@ export default function WordList({ wordsDict, actions }) {
 
   return (
     <>
-      <Stack direction="row" spacing={2} alignItems="center">
+      <Stack direction="row" spacing={2} alignItems="center" flexWrap={"wrap"}>
         <SortSelection
           {...{
             selectedOrder,

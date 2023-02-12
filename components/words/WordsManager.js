@@ -13,7 +13,7 @@ import Tab from "@mui/material/Tab";
 import WordList from "./WordList";
 
 function TabPanel(props) {
-  const { children, value, index, ...other } = props;
+  const { children, value, index, mt, ...other } = props;
 
   return (
     <div
@@ -23,7 +23,7 @@ function TabPanel(props) {
       aria-labelledby={`simple-tab-${index}`}
       {...other}
     >
-      {value === index && <Box sx={{ mt: '48px', pt: 2 }}>{children}</Box>}
+      {value === index && <Box sx={{ mt, pt: 2 }}>{children}</Box>}
     </div>
   );
 }
@@ -201,7 +201,18 @@ export default function WordsManager({ wordsFilter, fixed }) {
   return (
     <>
       <Alert message={message} />
-      <Box sx={{ width: '100%', borderBottom: 1, borderTop: 1, borderColor: "divider", position: fixed ? "fixed" : "static", height: 48, bgcolor: "background.paper", zIndex: 2 }}>
+      <Box
+        sx={{
+          width: "100%",
+          borderBottom: 1,
+          borderTop: 1,
+          borderColor: "divider",
+          position: fixed ? "fixed" : "static",
+          height: 48,
+          bgcolor: "background.paper",
+          zIndex: 2,
+        }}
+      >
         <Tabs
           value={activeTab}
           onChange={handleChange}
@@ -213,13 +224,13 @@ export default function WordsManager({ wordsFilter, fixed }) {
           {wordsFilter && <Tab label="未标记词" {...a11yProps(3)} />}
         </Tabs>
       </Box>
-      <TabPanel value={activeTab} index={0}>
+      <TabPanel value={activeTab} index={0} mt={fixed ? "48px" : 1}>
         <WordList
           wordsDict={wordsFilter ? allWordDict.newWords : newWordsDict}
           actions={newWordActions}
         />
       </TabPanel>
-      <TabPanel value={activeTab} index={1}>
+      <TabPanel value={activeTab} index={1} mt={fixed ? "48px" : 1}>
         <WordList
           wordsDict={
             wordsFilter ? allWordDict.familiarWords : familiarWordsDict
@@ -235,7 +246,7 @@ export default function WordsManager({ wordsFilter, fixed }) {
           />
         </TabPanel>
       )}
-      <TabPanel value={activeTab} index={2}>
+      <TabPanel value={activeTab} index={2} mt={fixed ? "48px" : 1}>
         <WordList
           wordsDict={wordsFilter ? allWordDict.targetWords : targetWordsDict}
           actions={targetActions}

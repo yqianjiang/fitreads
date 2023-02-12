@@ -236,7 +236,7 @@ export default function WordsAdder({}) {
           </Box>
           <Alert message={message} />
         </DialogContent>
-        <DialogActions>
+        <DialogActions sx={{flexWrap: 'wrap'}}>
           {inputType === "txt" && (
             <>
               <Button onClick={handleAddToNew}>添加到生词</Button>

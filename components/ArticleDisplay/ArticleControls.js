@@ -1,6 +1,7 @@
 import { useState } from "react";
 
-import { Box, Checkbox, Select, Button, FormControlLabel } from "@mui/material";
+import { Box, Switch, Select, Button, FormControlLabel } from "@mui/material";
+import FormGroup from "@mui/material/FormGroup";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -31,6 +32,7 @@ const ArticleControls = ({
   highlightOptionsLabels,
   updateWordDict,
   wordsUnique,
+  hasSentenceTrans,
 }) => {
   const handleChangeHighlight = (event) => {
     const {
@@ -58,27 +60,36 @@ const ArticleControls = ({
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
       <Box display="flex" alignItems="center">
-        <Box mr={1}>显示设置：</Box>
-        <FormControlLabel
-          control={
-            <Checkbox
-              checked={mode.showTrans}
-              onChange={() => setMode({ ...mode, showTrans: !mode.showTrans })}
-            />
-          }
-          label="单词翻译"
-        />
-        <FormControlLabel
-          control={
-            <Checkbox
-              checked={mode.showSentenceTrans}
-              onChange={() =>
-                setMode({ ...mode, showSentenceTrans: !mode.showSentenceTrans })
+        <Box mr={1}>显示：</Box>
+        <FormGroup>
+          <FormControlLabel
+            control={
+              <Switch
+                checked={mode.showTrans}
+                onChange={() =>
+                  setMode({ ...mode, showTrans: !mode.showTrans })
+                }
+              />
+            }
+            label="单词翻译"
+          />
+          {hasSentenceTrans && (
+            <FormControlLabel
+              control={
+                <Switch
+                  checked={mode.showSentenceTrans}
+                  onChange={() =>
+                    setMode({
+                      ...mode,
+                      showSentenceTrans: !mode.showSentenceTrans,
+                    })
+                  }
+                />
               }
+              label="整句翻译"
             />
-          }
-          label="整句翻译"
-        />
+          )}
+        </FormGroup>
       </Box>
       <Box display="flex" alignItems="center">
         <FormControl sx={{ m: 1, width: 300 }}>
@@ -111,16 +122,19 @@ const ArticleControls = ({
           </Select>
         </FormControl>
       </Box>
-      <Box display="flex" alignItems="center">
+      <Box
+        display="flex"
+        alignItems="center"
+        justifyContent={"flex-end"}
+        flexWrap={"wrap"}
+      >
         <Button
           onClick={() => setMode({ ...mode, markNewWord: !mode.markNewWord })}
         >
           {mode.markNewWord ? "停止标记" : "开始标记"}
         </Button>
         <Button onClick={updateWordDict}>更新词表</Button>
-        <Button onClick={toggleDrawer(true)} sx={{ ml: 1 }}>
-          查看词表
-        </Button>
+        <Button onClick={toggleDrawer(true)}>查看词表</Button>
         <Drawer
           anchor={"bottom"}
           open={drawerState}
