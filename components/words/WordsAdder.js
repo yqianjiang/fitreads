@@ -16,12 +16,13 @@ import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
 import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
-import { Typography } from "@mui/material";
 import Alert from "../Alert";
+import Stack from "@mui/material/Stack";
 
 export default function WordsAdder({}) {
-  const [newWord, setNewWord] = useState("");
+  const [inputValue, setInputValue] = useState("");
   const dispatch = useDispatch();
+  const [inputType, setInputType] = useState("txt");
   const [error, setError] = useState(false);
   const [helperText, setHelperText] =
     useState("每行一个单词，请勿输入任何其他符号");
@@ -29,13 +30,13 @@ export default function WordsAdder({}) {
   const handleChange = (e) => {
     setError(false);
     setHelperText("每行一个单词，请勿输入任何其他符号");
-    setNewWord(e.target.value);
+    setInputValue(e.target.value);
   };
-  const checkInputWords = () => {
+  const checkInputTxt = () => {
     try {
-      const arr = newWord.split("\n");
+      const arr = inputValue.split("\n");
       for (const word of arr) {
-        if (word && !/^[\w-\s]+$/.test(word)) {
+        if (word && !/^[\w-\s]+$/.test(word.trim())) {
           setHelperText(
             `"${word}"不是合法的单词，请勿输入任何其他符号，每行一个单词`
           );
@@ -51,15 +52,7 @@ export default function WordsAdder({}) {
 
   const [message, setMessage] = useState({ duration: 6000 });
 
-  const addWords = (vocabulary) => {
-    if (!checkInputWords()) {
-      setError(true);
-      return;
-    }
-    const wordsToAdd = newWord
-      .split("\n")
-      .filter((x) => x)
-      .map((x) => ({ word: x }));
+  const addWords = (vocabulary, wordsToAdd) => {
     dispatch(
       addWordsToVocabulary({
         words: wordsToAdd,
@@ -76,6 +69,19 @@ export default function WordsAdder({}) {
         })
       );
     }
+  };
+
+  const addWordsFromTxt = (vocabulary) => {
+    if (!checkInputTxt()) {
+      setError(true);
+      return;
+    }
+    const wordsToAdd = inputValue
+      .split("\n")
+      .filter((x) => x)
+      .map((x) => ({ word: x.trim().toLowerCase() }));
+
+    addWords(vocabulary, wordsToAdd);
 
     setMessage({
       ...message,
@@ -84,12 +90,74 @@ export default function WordsAdder({}) {
     });
   };
 
-  const handleAddToNew = () => addWords("newWords");
-  const handleAddToFamiliar = () => addWords("familiarWords");
-  const handleAddToTarget = () => addWords("targetWords");
+  function addWordsFromJson(jsonData) {
+    try {
+      const data = JSON.parse(decodeURIComponent(jsonData));
+
+      if (
+        !data.known &&
+        !data.unknown &&
+        !data.target &&
+        !data.newWords &&
+        !data.familiarWords &&
+        !data.targetWords
+      ) {
+        setError(true);
+        return;
+      }
+
+      const format = (x) => {
+        if (typeof x === "string") {
+          return { word: x };
+        }
+        if (x.word) {
+          return x;
+        }
+      };
+
+      console.log(data);
+
+      // 兼容旧版
+      if (data.known && data.unknown) {
+        addWords("newWords", data.unknown.map(format));
+        addWords("familiarWords", data.known.map(format));
+      } else if (data.newWords && data.familiarWords) {
+        if (Array.isArray(data.newWords)) {
+          addWords("newWords", data.newWords.map(format));
+          addWords("familiarWords", data.familiarWords.map(format));
+        } else {
+          setError(true);
+          return;
+        }
+      }
+      if (data.target) {
+        addWords("targetWords", data.target.map(format));
+      }
+      if (data.targetWords) {
+        addWords("targetWords", data.targetWords.map(format));
+      }
+
+      setMessage({
+        ...message,
+        content: `操作成功`,
+        type: "success",
+      });
+      setInputValue("");
+    } catch (error) {
+      setMessage({
+        ...message,
+        content: error,
+        type: "error",
+      });
+    }
+  }
+
+  const handleAddToNew = () => addWordsFromTxt("newWords");
+  const handleAddToFamiliar = () => addWordsFromTxt("familiarWords");
+  const handleAddToTarget = () => addWordsFromTxt("targetWords");
 
   const onUpload = (payload) => {
-    setNewWord(payload);
+    setInputValue(payload);
   };
 
   const [open, setOpen] = React.useState(false);
@@ -105,8 +173,8 @@ export default function WordsAdder({}) {
   };
 
   return (
-    <div>
-      <Button variant="outlined" sx={{ mb: 1 }} onClick={handleClickOpen}>
+    <>
+      <Button variant="outlined" onClick={handleClickOpen}>
         添加单词
       </Button>
       <Dialog disableEscapeKeyDown open={open} onClose={handleClose}>
@@ -125,12 +193,28 @@ export default function WordsAdder({}) {
           </IconButton>
         </DialogTitle>
         <DialogContent>
-          <Box sx={{ mb: 2 }}>
-            <Uploader onUpload={onUpload}>从文件导入</Uploader>
-            <Typography component="span" sx={{ ml: 1, fontSize: 14 }}>
-              支持格式：txt，md
-            </Typography>
-          </Box>
+          <Stack sx={{ mb: 2 }} direction="row" spacing={1}>
+            <span
+              onClick={() => {
+                setError(false);
+                setInputType("json");
+                setHelperText(
+                  '格式示例：{"newWord":["apple", "the"], "familiarWord": ["big", "a"], "targetWord": ["apple", "big"]'
+                );
+              }}
+            >
+              <Uploader onUpload={onUpload}>从json导入</Uploader>
+            </span>
+            <Uploader
+              onClick={() => {
+                setInputType("txt");
+                setHelperText("每行一个单词，请勿输入任何其他符号");
+              }}
+              onUpload={onUpload}
+            >
+              从txt导入
+            </Uploader>
+          </Stack>
           <Box>
             <div>
               <TextField
@@ -141,22 +225,31 @@ export default function WordsAdder({}) {
                 helperText={helperText}
                 multiline
                 error={error}
-                value={newWord}
+                value={inputValue}
                 onChange={handleChange}
                 rows={5}
                 sx={{ mr: 1, maxWidth: 266 }}
               />
-              <Button onClick={() => setNewWord("")}>清空</Button>
+              <Button onClick={() => setInputValue("")}>清空</Button>
             </div>
           </Box>
           <Alert message={message} />
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleAddToNew}>添加到生词</Button>
-          <Button onClick={handleAddToFamiliar}>添加到熟词</Button>
-          <Button onClick={handleAddToTarget}>添加到目标词</Button>
+          {inputType === "txt" && (
+            <>
+              <Button onClick={handleAddToNew}>添加到生词</Button>
+              <Button onClick={handleAddToFamiliar}>添加到熟词</Button>
+              <Button onClick={handleAddToTarget}>添加到目标词</Button>
+            </>
+          )}
+          {inputType === "json" && (
+            <Button onClick={() => addWordsFromJson(inputValue)}>
+              导入词库数据
+            </Button>
+          )}
         </DialogActions>
       </Dialog>
-    </div>
+    </>
   );
 }

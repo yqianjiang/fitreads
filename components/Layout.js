@@ -2,8 +2,6 @@ import { useState, useContext } from "react";
 import Head from "next/head";
 import styles from "./layout.module.scss";
 import Link, { NextLinkComposed } from "./Link";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
 import MuiAppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
@@ -24,6 +22,8 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 
 export const siteTitle = "FitReads";
 const drawerWidth = 240;
+
+const BASE_URL = process.env.NODE_ENV === "production" ? "/fitreads" : "";
 
 const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })(
   ({ theme, open }) => ({
@@ -75,8 +75,7 @@ export default function Layout({ children, pageName, window }) {
   const menuList = [
     { text: "新增文章", path: "/add-article" },
     { text: "文章列表", path: "/articles" },
-    { text: "词汇管理", path: "/word-list" },
-    { text: "词汇", path: "/words" },
+    { text: "我的词汇", path: "/words" },
   ];
   const theme = useTheme();
   const colorMode = useContext(ColorModeContext);
@@ -127,7 +126,7 @@ export default function Layout({ children, pageName, window }) {
     <div className={styles.container}>
       <Head>
         <title>{pageName ? pageName + " - " + siteTitle : siteTitle}</title>
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href={`${BASE_URL}/favicon.svg`} />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <meta
           name="description"
