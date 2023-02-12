@@ -2,49 +2,53 @@ import React from "react";
 import Layout from "../../components/Layout";
 import WordStats from "../../components/words/WordStats";
 import NoSsr from "@mui/material/NoSsr";
-import Link from "../../components/Link";
+import { NextLinkComposed } from "../../components/Link";
 import { downloadDictionary } from "../../lib/api/dict";
 import { Button } from "@mui/material";
+import { getLocal, setLocal } from "../../lib/stores";
+import { dictionaryNameMap } from "../../lib/constants";
 
 const WordsPage = () => {
+  const [localDicts, setLocalDicts] = React.useState([]);
+
+  const handleDownloadDictionary = async (dictionary) => {
+    const words = await downloadDictionary({ dictionary });
+    // 把words保存到本地
+    setLocal(dictionary, words);
+    const newLocalDicts = [...localDicts, dictionary];
+    setLocalDicts(newLocalDicts);
+    setLocal("localDicts", newLocalDicts);
+  };
+
+  React.useEffect(() => {
+    setLocalDicts(getLocal("localDicts"));
+  }, []);
+
   return (
     <Layout pageName="词汇">
       <NoSsr>
-        <WordStats></WordStats>
+        <WordStats localDicts={localDicts}></WordStats>
       </NoSsr>
-      {/* <Button onClick={() => downloadDictionary({ dictionary: "xx" })}>
-        下载小学单词书
-      </Button>
-      <Button onClick={() => downloadDictionary({ dictionary: "zk" })}>
-        下载初中单词书
-      </Button> */}
-      <Button onClick={() => downloadDictionary({ dictionary: "gk" })}>
-        下载高中单词书
-      </Button>
-      <Button onClick={() => downloadDictionary({ dictionary: "cet4" })}>
-        下载四级单词书
-      </Button>
-      <Button onClick={() => downloadDictionary({ dictionary: "cet6" })}>
-        下载六级单词书
-      </Button>
-      <Button onClick={() => downloadDictionary({ dictionary: "ky" })}>
-        下载考研单词书
-      </Button>
-      <Button onClick={() => downloadDictionary({ dictionary: "ielts" })}>
-        下载雅思单词书
-      </Button>
-      <Button onClick={() => downloadDictionary({ dictionary: "toefl" })}>
-        下载托福单词书
-      </Button>
-      <Button onClick={() => downloadDictionary({ dictionary: "cet8" })}>
-        下载专八单词书
-      </Button>
-      <Button onClick={() => downloadDictionary({ dictionary: "GRE" })}>
-        下载GRE单词书
-      </Button>
-      {/* 词汇管理入口 */}
+      {Object.keys(dictionaryNameMap).map((x) => {
+        if (!localDicts.includes(x)) {
+          return (
+            <Button key={x} onClick={() => handleDownloadDictionary(x)}>
+              下载{dictionaryNameMap[x]}单词书
+            </Button>
+          );
+        }
+      })}
       <div>
-        <Link href="/word-list">词汇管理</Link>
+        <Button
+          variant="contained"
+          component={NextLinkComposed}
+          sx={{ mt: 2 }}
+          to={{
+            pathname: "/word-list/",
+          }}
+        >
+          词汇管理
+        </Button>
       </div>
     </Layout>
   );

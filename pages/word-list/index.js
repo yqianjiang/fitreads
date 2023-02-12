@@ -50,7 +50,16 @@ const WordListPage = () => {
 
   return (
     <Layout pageName="词表管理">
-      <Stack sx={{ mb: 3 }} direction={{ sm: "row", xs: "column" }} spacing={1}>
+      <Stack
+        sx={{
+          pb: 3,
+        }}
+        direction={{
+          sm: "row",
+          xs: "column",
+        }}
+        spacing={1}
+      >
         <WordsAdder />
         <a download="myVocabulary.json" href={exportLinkSimple}>
           <Button variant="outlined" sx={{ width: "100%" }}>

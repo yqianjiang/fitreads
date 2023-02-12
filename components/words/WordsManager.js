@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import { useSelector, useDispatch } from "react-redux";
 import {
@@ -23,15 +23,55 @@ function TabPanel(props) {
       aria-labelledby={`simple-tab-${index}`}
       {...other}
     >
-      {value === index && <Box sx={{ py: 3 }}>{children}</Box>}
+      {value === index && <Box sx={{ mt: '48px', pt: 2 }}>{children}</Box>}
     </div>
   );
 }
 
-export default function WordsManager() {
-  const newWords = useSelector((state) => state.vocabulary.newWords);
-  const familiarWords = useSelector((state) => state.vocabulary.familiarWords);
-  const targetWords = useSelector((state) => state.vocabulary.targetWords);
+/**
+ * wordsFilter: word[], 要展示的单词列表，作为filter，仅展示这些单词
+ */
+export default function WordsManager({ wordsFilter, fixed }) {
+  const newWordsDict = useSelector((state) => state.vocabulary.newWords);
+  const familiarWordsDict = useSelector(
+    (state) => state.vocabulary.familiarWords
+  );
+  const targetWordsDict = useSelector((state) => state.vocabulary.targetWords);
+
+  const [allWordDict, setAllWordDict] = useState({
+    newWords: {},
+    familiarWords: {},
+    unseenWords: {},
+    targetWords: {},
+  });
+
+  useEffect(() => {
+    if (!wordsFilter) return;
+    const newWords = {};
+    const familiarWords = {};
+    const unseenWords = {};
+    const targetWords = {};
+    for (const word of wordsFilter) {
+      if (word in newWordsDict) {
+        newWords[word] = newWordsDict[word];
+      } else if (word in familiarWordsDict) {
+        familiarWords[word] = familiarWordsDict[word];
+      } else {
+        unseenWords[word] = { word };
+      }
+
+      if (word in targetWordsDict) {
+        targetWords[word] = targetWordsDict[word];
+      }
+    }
+    setAllWordDict({
+      newWords,
+      familiarWords,
+      unseenWords,
+      targetWords,
+    });
+  }, [newWordsDict, wordsFilter]);
+
   const dispatch = useDispatch();
 
   const [message, setMessage] = React.useState({ duration: 6000 });
@@ -99,7 +139,7 @@ export default function WordsManager() {
       callback: actions.addToFamiliar,
     },
     {
-      label: "设为目标词",
+      label: "标为目标词",
       callback: actions.addToTarget,
     },
   ];
@@ -110,22 +150,37 @@ export default function WordsManager() {
       callback: actions.addToNew,
     },
     {
-      label: "设为目标词",
+      label: "标为目标词",
+      callback: actions.addToTarget,
+    },
+  ];
+
+  const unseenWordActions = [
+    {
+      label: "标为生词",
+      callback: actions.addToNew,
+    },
+    {
+      label: "标为熟词",
+      callback: actions.addToFamiliar,
+    },
+    {
+      label: "标为目标词",
       callback: actions.addToTarget,
     },
   ];
 
   const targetActions = [
     {
-      label: "移除",
+      label: "移出目标词表",
       callback: actions.removeFromTarget,
     },
     {
-      label: "设为生词",
+      label: "标为生词",
       callback: actions.addToNew,
     },
     {
-      label: "设为熟词",
+      label: "标为熟词",
       callback: actions.addToFamiliar,
     },
   ];
@@ -146,7 +201,7 @@ export default function WordsManager() {
   return (
     <>
       <Alert message={message} />
-      <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+      <Box sx={{ width: '100%', borderBottom: 1, borderTop: 1, borderColor: "divider", position: fixed ? "fixed" : "static", height: 48, bgcolor: "background.paper", zIndex: 2 }}>
         <Tabs
           value={activeTab}
           onChange={handleChange}
@@ -155,16 +210,36 @@ export default function WordsManager() {
           <Tab label="生词" {...a11yProps(0)} />
           <Tab label="熟词" {...a11yProps(1)} />
           <Tab label="目标词" {...a11yProps(2)} />
+          {wordsFilter && <Tab label="未标记词" {...a11yProps(3)} />}
         </Tabs>
       </Box>
       <TabPanel value={activeTab} index={0}>
-        <WordList wordsDict={newWords} actions={newWordActions} />
+        <WordList
+          wordsDict={wordsFilter ? allWordDict.newWords : newWordsDict}
+          actions={newWordActions}
+        />
       </TabPanel>
       <TabPanel value={activeTab} index={1}>
-        <WordList wordsDict={familiarWords} actions={familiarWordActions} />
+        <WordList
+          wordsDict={
+            wordsFilter ? allWordDict.familiarWords : familiarWordsDict
+          }
+          actions={familiarWordActions}
+        />
       </TabPanel>
+      {wordsFilter && (
+        <TabPanel value={activeTab} index={3}>
+          <WordList
+            wordsDict={allWordDict.unseenWords}
+            actions={unseenWordActions}
+          />
+        </TabPanel>
+      )}
       <TabPanel value={activeTab} index={2}>
-        <WordList wordsDict={targetWords} actions={targetActions} />
+        <WordList
+          wordsDict={wordsFilter ? allWordDict.targetWords : targetWordsDict}
+          actions={targetActions}
+        />
       </TabPanel>
     </>
   );
