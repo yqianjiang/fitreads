@@ -98,7 +98,7 @@ const ArticleBody = ({
                             }}
                           >
                             {computeTranslation(token) ? (
-                              <ruby>
+                              <ruby data-token={token}>
                                 {token}
                                 <rt>{computeTranslation(token)}</rt>
                               </ruby>

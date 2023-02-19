@@ -6,20 +6,34 @@ import Layout from "../../components/Layout";
 import WordStats from "../../components/words/WordStats";
 import { NextLinkComposed } from "../../components/Link";
 
-import { downloadDictionary } from "../../lib/api/dict";
+import {
+  downloadDictionary,
+  downloadCommonDictionary,
+} from "../../lib/api/dict";
 import { getLocal, setLocal } from "../../lib/stores";
 import { dictionaryNameMap } from "../../lib/constants";
 
 const WordsPage = () => {
   const [localDicts, setLocalDicts] = React.useState([]);
+  const [loading, setLoading] = React.useState(false);
 
   const handleDownloadDictionary = async (dictionary) => {
+    setLoading(true);
+
     const words = await downloadDictionary({ dictionary });
     // 把words保存到本地
     setLocal(dictionary, words);
     const newLocalDicts = [...localDicts, dictionary];
     setLocalDicts(newLocalDicts);
     setLocal("localDicts", newLocalDicts);
+
+    setLoading(false);
+  };
+
+  const handleDownloadCommonDictionary = async () => {
+    setLoading(true);
+    await downloadCommonDictionary();
+    setLoading(false);
   };
 
   React.useEffect(() => {
@@ -31,6 +45,7 @@ const WordsPage = () => {
       <NoSsr>
         <WordStats localDicts={localDicts}></WordStats>
       </NoSsr>
+      <Button onClick={handleDownloadCommonDictionary}>下载离线词典</Button>
       {Object.keys(dictionaryNameMap).map((x) => {
         if (!localDicts.includes(x)) {
           return (

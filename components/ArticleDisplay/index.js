@@ -8,6 +8,7 @@ import {
   addWordsToVocabulary,
   deleteWordsFromVocabulary,
 } from "../../redux/slices/vocabularySlice";
+import { fetchTranslation, fetchTranslationBatch } from "../../lib/api/dict";
 
 const useControl = () => {
   const [mode, setMode] = useState({
@@ -38,15 +39,37 @@ const useDictData = (initialData) => {
     translations: {},
   });
 
-  function markAsNew(type, word) {
+  const _findWordTrans = async (words) => {
+    if (typeof words === "string") {
+      const trans = await fetchTranslation(words);
+      // setData({...data, translations: })
+      return { ...data.translations, [words]: trans };
+    } else {
+      const trans = await fetchTranslationBatch({ words });
+      // setData({...data, translations: })
+      console.log(trans);
+      return { ...data.translations, ...trans };
+    }
+  };
+
+  const _removeTranslations = (word) => {
+    if (typeof word === "string") {
+      const { [word]: a, ...res } = data.translations;
+      // setData({ ...data, translations: res });
+      return res;
+    } else {
+      console.log(words, "待实现");
+    }
+  };
+
+  async function markAsNew(type, word) {
     setData({
       ...data,
       newWord: [...data.newWord, word],
       [type]: data[type].filter((x) => x !== word),
+      // 生词需要增加翻译
+      translations: await _findWordTrans(word),
     });
-
-    // 熟词不用显示翻译了
-    // delete data.translations[word];
   }
 
   function markAsFamiliar(type, word) {
@@ -54,10 +77,9 @@ const useDictData = (initialData) => {
       ...data,
       familiarWord: [...data.familiarWord, word],
       [type]: data[type].filter((x) => x !== word),
+      // 熟词不用显示翻译了
+      translations: _removeTranslations(word),
     });
-
-    // 生词需要增加翻译
-    // _findWordTrans(word);
   }
 
   function markAllAsFamiliar(type, words) {
@@ -65,10 +87,9 @@ const useDictData = (initialData) => {
       ...data,
       familiarWord: [...data.familiarWord, ...words],
       [type]: data[type].filter((x) => !words.includes(x)),
+      // 熟词不用显示翻译了
+      translations: _removeTranslations(words),
     });
-
-    // 生词需要增加翻译
-    // _findWordTrans(word);
   }
 
   function onRemove(type, token) {
@@ -95,8 +116,14 @@ const useDictData = (initialData) => {
     }
   }
 
-  function toggleTrans(token) {
-    console.log("toggleTrans", token);
+  async function toggleTrans(token) {
+    let translations;
+    if (token in data.translations) {
+      translations = _removeTranslations(token);
+    } else {
+      translations = await _findWordTrans(token);
+    }
+    setData({ ...data, translations });
   }
 
   const dispatch = useDispatch();
@@ -150,7 +177,11 @@ const Article = ({ initialData, sentences, ...props }) => {
     <article>
       <ArticleEditor {...props} data={data} />
       <ArticleHeader {...props} data={data} />
-      <ArticleControls updateWordDict={updateWordDict} wordsUnique={props.wordsUnique} {...controlProps} />
+      <ArticleControls
+        updateWordDict={updateWordDict}
+        wordsUnique={props.wordsUnique}
+        {...controlProps}
+      />
       <ArticleBody
         mode={controlProps.mode}
         highlightList={controlProps.highlightList}
