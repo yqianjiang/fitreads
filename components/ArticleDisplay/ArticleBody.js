@@ -2,6 +2,7 @@ import * as React from "react";
 import { findLemma } from "../../lib/lemmatize";
 import styles from "./article.module.scss";
 import clsx from "clsx";
+import Typography from "@mui/material/Typography";
 
 const ArticleBody = ({
   // 要展示的文章内容
@@ -75,7 +76,8 @@ const ArticleBody = ({
                     {sentence.tokens.map((token, idx) => {
                       return (
                         <React.Fragment key={idx}>
-                          <span
+                          <Typography
+                            component="span"
                             data-token={token}
                             className={clsx([
                               styles.token,
@@ -83,15 +85,17 @@ const ArticleBody = ({
                               unseenWord.includes(findLemma(token))
                                 ? styles['token--unseen']
                                 : null,
-                              highlightList.includes("newWord") &&
-                              newWord.includes(findLemma(token))
-                                ? styles['token--new-word']
-                                : null,
                               highlightList.includes("target") &&
                               !targetWord.includes(findLemma(token))
                                 ? styles['token--ignore']
                                 : null,
                             ])}
+                            sx={{
+                              color: highlightList.includes("newWord") &&
+                              newWord.includes(findLemma(token))
+                                ? "primary.main"
+                                : null,
+                            }}
                           >
                             {computeTranslation(token) ? (
                               <ruby>
@@ -101,7 +105,7 @@ const ArticleBody = ({
                             ) : (
                               token
                             )}
-                          </span>
+                          </Typography>
                           {/* 若下一个词是标点符号，则不必了显示空格了。 */}
                           {checkPadding(sentence, idx) ? <span> </span> : ""}
                         </React.Fragment>

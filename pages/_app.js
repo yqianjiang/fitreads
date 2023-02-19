@@ -30,12 +30,21 @@ export default function App({ Component, pageProps }) {
       createTheme({
         palette: {
           mode: mode,
-          primary: {
-            main: "#FCCE78",
-          },
-          secondary: {
-            main: "#3289fb",
-          },
+          ...(mode === 'light' ? {
+            primary: {
+              main: "#FF7A00",
+            },
+            secondary: {
+              main: "#3289fb",
+            },
+          } : {
+            primary: {
+              main: "#FCCE78",
+            },
+            secondary: {
+              main: "#3289fb",
+            },
+          }),
         },
       }),
     [mode]
