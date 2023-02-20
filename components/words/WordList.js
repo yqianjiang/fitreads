@@ -1,7 +1,8 @@
 import * as React from "react";
 
 import Box from "@mui/material/Box";
-import List from "@mui/material/List";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Switch from "@mui/material/Switch";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
@@ -14,9 +15,19 @@ import Typography from "@mui/material/Typography";
 import SortSelection from "../SortSelection";
 import LazyList from "../LazyList";
 import { sortWords, sortWordsOptions } from "./lib/sortWords";
+import { fetchTranslation } from "../../lib/api/dict";
 
-function renderRow({ item, index, handleClickWord, editMode, selectedWords, ...props }) {
-  const { word, translation } = item;
+function renderRow({
+  item,
+  index,
+  handleClickWord,
+  editMode,
+  selectedWords,
+  hideTranslation,
+  referenceDict,
+  ...props
+}) {
+  const { word } = item;
   const labelId = `${word}`;
 
   return (
@@ -37,7 +48,14 @@ function renderRow({ item, index, handleClickWord, editMode, selectedWords, ...p
           <ListItemText
             id={labelId}
             primary={word}
-            secondary={translation ?? ""}
+            secondary={
+              !hideTranslation
+                ? item.translation || referenceDict[word]?.translation || ""
+                : ""
+            }
+            sx={{
+              whiteSpace: "pre-wrap",
+            }}
           />
         </ListItemButton>
       </ListItem>
@@ -52,6 +70,11 @@ export default function WordList({ wordsDict, actions }) {
   const [selectedOrder, setSelectedOrder] = React.useState("alphabet");
   const [isDescending, setIsDescending] = React.useState(false);
   const [checkAll, setCheckAll] = React.useState(false);
+  const [hideTranslation, setHideTranslation] = React.useState(false);
+
+  const handleChangeHideTranslation = () => {
+    setHideTranslation(!hideTranslation);
+  };
 
   const handleCheckAll = () => {
     if (checkAll) {
@@ -98,10 +121,27 @@ export default function WordList({ wordsDict, actions }) {
     callback(payload);
   };
 
+  const [referenceDict, setReferenceDict] = React.useState({});
+  const extendWordsDict = async () => {
+    const newDict = { ...referenceDict };
+    for (const word in wordsDict) {
+      if (!("translation" in wordsDict[word] && "frq" in wordsDict[word])) {
+        // 查单词
+        const meaning = await fetchTranslation(word, false);
+        newDict[word] = { ...meaning, ...wordsDict[word] };
+      }
+    }
+    setReferenceDict(newDict);
+  };
+
   const words = React.useMemo(
     () => sortWords(wordsDict, selectedOrder, isDescending),
     [wordsDict, selectedOrder, isDescending]
   );
+
+  React.useEffect(() => {
+    extendWordsDict();
+  }, []);
 
   return (
     <>
@@ -114,6 +154,17 @@ export default function WordList({ wordsDict, actions }) {
             setIsDescending,
             options: sortWordsOptions,
           }}
+        />
+        <FormControlLabel
+          control={
+            <Switch
+              checked={hideTranslation}
+              onChange={handleChangeHideTranslation}
+              inputProps={{ "aria-label": "switch-hide-translation" }}
+            />
+          }
+          label="遮挡释义"
+          labelPlacement="start"
         />
         <Typography>共{words.length}词</Typography>
       </Stack>
@@ -143,7 +194,14 @@ export default function WordList({ wordsDict, actions }) {
         <LazyList
           data={words}
           renderRow={(props) =>
-            renderRow({ handleClickWord, editMode, selectedWords, ...props })
+            renderRow({
+              handleClickWord,
+              editMode,
+              selectedWords,
+              hideTranslation,
+              referenceDict,
+              ...props,
+            })
           }
         ></LazyList>
       </Box>
