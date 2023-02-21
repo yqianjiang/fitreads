@@ -1,6 +1,5 @@
 import React from "react";
 import Date from "../Date";
-import utilStyles from "../../styles/utils.module.css";
 import Chip from "@mui/material/Chip";
 import Typography from "@mui/material/Typography";
 
@@ -8,7 +7,7 @@ const ArticleHeader = ({ title, data, category, ...article }) => {
   return (
     <section>
       <Typography variant="h4" component="h1">{title}</Typography>
-      <div className={utilStyles.lightText}>
+      <div>
         <Date dateString={article.lastModified} />
       </div>
       {article && data ? (

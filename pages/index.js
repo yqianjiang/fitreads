@@ -1,14 +1,13 @@
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Layout from "../components/Layout";
-import utilStyles from "../styles/utils.module.css"; // using module css with scoped
 import { NextLinkComposed } from "../components/Link";
 
 export default function Home() {
   return (
     <Layout>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <Typography variant="h2" component="h1" gutterBottom>
+      <section>
+        <Typography variant="h3" component="h1" gutterBottom>
           FitReads 给您量身定制的阅读体验
         </Typography>
         <Typography variant="body1" gutterBottom>
