@@ -1,9 +1,22 @@
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Layout from "../components/Layout";
-import { NextLinkComposed } from "../components/Link";
+import StartGuide from "../components/StartGuide";
+import { useState } from "react";
+
 
 export default function Home() {
+  const [open, setOpen] = useState(false);
+
+  const handleStart = () => {
+    setOpen(true);
+  };
+
+  const onClose = (event, reason) => {
+    if (reason !== "backdropClick") {
+      setOpen(false);
+    }
+  };
   return (
     <Layout>
       <section>
@@ -36,13 +49,11 @@ export default function Home() {
         </Typography>
         <Button
           variant="contained"
-          component={NextLinkComposed}
-          to={{
-            pathname: "add-article/",
-          }}
+          onClick={handleStart}
         >
-          开始分析！
+          开始体验！
         </Button>
+        <StartGuide open={open} onClose={onClose} />
       </section>
     </Layout>
   );

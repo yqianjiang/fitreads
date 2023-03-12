@@ -58,7 +58,7 @@ const useDictData = (initialData) => {
       // setData({ ...data, translations: res });
       return res;
     } else {
-      console.log(words, "待实现");
+      console.log(word, "待实现");
     }
   };
 
