@@ -30,46 +30,9 @@ export function getNextWord(wordList, curr, isCorrect) {
   }
 }
 
-export function saveAnswer(answer, history, level) {
-  const score = answer.isCorrect ? 1 : 0;
-  const correctAnswers = history.filter((answer) => answer.isCorrect).length;
-  const totalAnswers = history.length;
-
-  // Save score and correct answer rate for current level to localStorage
-  const levelScore = Number(localStorage.getItem(`level${level}Score`)) || 0;
-  const levelCorrectAnswers =
-    Number(localStorage.getItem(`level${level}CorrectAnswers`)) || 0;
-  const levelTotalAnswers =
-    Number(localStorage.getItem(`level${level}TotalAnswers`)) || 0;
-  localStorage.setItem(`level${level}Score`, levelScore + score);
-  localStorage.setItem(
-    `level${level}CorrectAnswers`,
-    levelCorrectAnswers + correctAnswers
-  );
-  localStorage.setItem(
-    `level${level}TotalAnswers`,
-    levelTotalAnswers + totalAnswers
-  );
-
-  // Save answer history to localStorage
-  const savedHistory = JSON.parse(localStorage.getItem("answerHistory")) || {};
-  const wordHistory = savedHistory[answer.word] || {
-    frequency: answer.word.frequency,
-    answers: [],
-  };
-  wordHistory.answers.push({
-    selectedOption: answer.selectedOption,
-    correctOption: answer.correctOption,
-    isCorrect: answer.isCorrect,
-  });
-  savedHistory[answer.word] = wordHistory;
-  localStorage.setItem("answerHistory", JSON.stringify(savedHistory));
-}
-
 export function getStatistics(history) {
   const stats = {};
   const levels = {};
-  let totalScore = 0;
   let totalQuestions = 0;
   let totalCorrect = 0;
   let estimatedVocabulary = 0;
@@ -78,26 +41,21 @@ export function getStatistics(history) {
 
   history.forEach((answer) => {
     const level = answer.level;
-    const score = answer.isCorrect ? 1 : 0;
-    totalScore += score;
     totalQuestions += 1;
     totalCorrect += answer.isCorrect ? 1 : 0;
-    levels[level] = levels[level] || { score: 0, questions: 0, correct: 0, totalFrq: 0 };
-    levels[level].score += score;
+    levels[level] = levels[level] || { questions: 0, correct: 0, totalFrq: 0 };
     levels[level].questions += 1;
     levels[level].correct += answer.isCorrect ? 1 : 0;
     levels[level].totalFrq += answer.word.frequency;
     totalFrq += answer.word.frequency;
   });
 
-  stats.totalScore = totalScore;
   stats.totalQuestions = totalQuestions;
   stats.totalCorrect = totalCorrect;
   stats.levels = Object.keys(levels).map((level) => {
-    const { score, questions, correct, totalFrq } = levels[level];
+    const { questions, correct, totalFrq } = levels[level];
     return {
       level: parseInt(level),
-      score,
       questions,
       correct,
       frq: totalFrq / questions,

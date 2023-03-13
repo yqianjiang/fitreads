@@ -1,10 +1,10 @@
 import { Stack } from '@mui/material';
 import React from 'react';
 
-function TestResult({ statistics, showDetail }) {
+function TestResult({ statistics, showDetail, level }) {
   return (
     <div>
-      {showDetail && <h2>测试结果</h2>}
+      {showDetail && <h2>测试结果: 等级 {level}</h2>}
       <Stack direction={'row'} gap={2}>
         <p>预估词汇量: {statistics.estimatedVocabulary ?? '-'}</p>
         <p>预估误差: {statistics.estimatedError ?? '-'}</p>

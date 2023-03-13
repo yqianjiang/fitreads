@@ -1,8 +1,12 @@
 import { Container, Box, Typography } from "@mui/material";
+import { Button, Stack } from "@mui/material";
+import { VolumeUp } from "@mui/icons-material";
 import AnswerForm from "./AnswerForm";
 import ProgressBar from "./ProgressBar";
 import TestResult from "./TestResult";
 import useLevelHook from "./useLevelHook";
+
+const MIN_TEST_NUM = 17;
 
 function WordTest() {
   const {
@@ -13,6 +17,7 @@ function WordTest() {
     statistic,
     isLoading,
     isTestComplete,
+    speakCurrentWord,
     onFinish,
   } = useLevelHook();
 
@@ -20,8 +25,7 @@ function WordTest() {
     onSubmitAnswer(selectedOption);
   };
 
-  const handleFinish = (selectedOption) => {
-    onSubmitAnswer(selectedOption);
+  const handleFinish = () => {
     onFinish();
   };
 
@@ -36,15 +40,32 @@ function WordTest() {
   return (
     <Container maxWidth="sm">
       <Box my={4}>
-        <ProgressBar minTestCount={15} history={history} />
-        <TestResult statistics={statistic} showDetail={false} />
+        <ProgressBar minTestCount={MIN_TEST_NUM} history={history} />
+        <TestResult statistics={statistic} showDetail={false} level={level} />
         {currentWord && (
-          <Typography variant="h6" component="h2" gutterBottom>
-            {`Please translate: ${currentWord.word}`}
-          </Typography>
+          <Stack direction={"row"} alignItems={"center"}>
+            <Typography variant="h3" component="h2" gutterBottom>
+              {`${currentWord.word}`}
+            </Typography>
+            <Stack direction={"row"} sx={{ height: "20px", ml: 1 }}>
+              <Button onClick={speakCurrentWord}>
+                英音
+                <VolumeUp />
+              </Button>
+              <Button onClick={() => speakCurrentWord(144)}>
+                美音
+                <VolumeUp />
+              </Button>
+            </Stack>
+          </Stack>
         )}
         {currentWord && (
-          <AnswerForm options={currentWord.options} onSubmit={handleSubmit} showFinish={false} onFinish={handleFinish} />
+          <AnswerForm
+            options={currentWord.options}
+            onSubmit={handleSubmit}
+            showFinish={history.length >= MIN_TEST_NUM}
+            onFinish={handleFinish}
+          />
         )}
       </Box>
     </Container>

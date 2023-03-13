@@ -47,8 +47,9 @@ function AnswerForm(props) {
             label={"不认识"}
           />
       </RadioGroup>
-      <Box sx={{ display: 'flex', justifyContent: 'center', mt: 2 }}>
-        <Button variant="contained" onClick={handleSubmit}>提交</Button>
+      <Box sx={{ display: 'flex', justifyContent: 'center', mt: 2, gap: 1 }}>
+        <Button variant="contained" onClick={handleSubmit}>下一题</Button>
+        <Button disabled={!props.showFinish} variant="contained" onClick={props.onFinish}>完成</Button>
       </Box>
     </FormControl>
   );
