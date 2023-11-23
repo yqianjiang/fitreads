@@ -9,9 +9,11 @@ import CloseIcon from "@mui/icons-material/Close";
 import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
 import Button from "@mui/material/Button";
+import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import React from "react";
 import { NextLinkComposed } from "./Link";
+import WordsAdder from "./words/WordsAdder";
 
 export default function StartGuide({ open, onClose }) {
   const [level, setLevel] = React.useState("");
@@ -20,6 +22,11 @@ export default function StartGuide({ open, onClose }) {
   const handleChange = (event) => {
     setLevel(event.target.value);
   };
+
+  // TODO：选择已有词表
+  function onSaveLevel () {
+    // 把词表中的单词全部添加到生词表，更低level的添加到熟词表
+  }
 
   return (
     <Dialog disableEscapeKeyDown open={open} onClose={onClose}>
@@ -37,27 +44,40 @@ export default function StartGuide({ open, onClose }) {
           <CloseIcon />
         </IconButton>
       </DialogTitle>
-      <DialogContent sx={{ minWidth: "300px" }}>
+      <DialogContent sx={{ minWidth: "300px", py: 0 }}>
         <Typography>
           在开始分析阅读文章之前，我们需要知道您的英语水平。您可以选择任意一种方式开始。
         </Typography>
         <ul>
-          <li>
+          {/* <li>
             <Button onClick={() => setMode("level")}>选择已有词表</Button>
             比较粗糙的方式，但可以先从这里开始（所选择的词表全部会当作生词表），在后续阅读过程中再通过标注来让您的词汇表越来越个性化。
+          </li> */}
+          <li>
+            <Stack m={1} spacing={1} direction={"row"}>
+              <Typography sx={{flexShrink: 0}}>
+                <WordsAdder />
+              </Typography>
+              <Typography>
+                如果您在别的App有收藏并导出生词表，可以一键导入。如果你有使用背单词等App，也可以导入已掌握单词列表。
+              </Typography>
+            </Stack>
           </li>
           <li>
-            <Button>导入词表</Button>
-            如果您在别的App有收藏并导出生词表，可以一键导入。如果你有使用背单词等App，也可以导入已掌握单词列表。
-          </li>
-          <li>
-            <Button
-              component={NextLinkComposed}
-              to={{ pathname: "word-test/" }}
-            >
-              词汇测试
-            </Button>
-            开发中...
+            <Stack m={1} spacing={1} direction={"row"}>
+              <Button
+                variant="outlined"
+                disabled={true}
+                component={NextLinkComposed}
+                to={{ pathname: "word-test/" }}
+                sx={{flexShrink: 0}}
+              >
+                词汇测试
+              </Button>
+              <Typography>
+                开发中...
+              </Typography>
+            </Stack>
           </li>
         </ul>
 
@@ -83,7 +103,7 @@ export default function StartGuide({ open, onClose }) {
           </FormControl>
         )}
       </DialogContent>
-      <DialogActions sx={{ flexWrap: "wrap" }}>
+      <DialogActions sx={{ flexWrap: "wrap", pt: 1, pb: 2, px: 3 }}>
         <Button
           variant="contained"
           component={NextLinkComposed}
@@ -91,7 +111,7 @@ export default function StartGuide({ open, onClose }) {
             pathname: "add-article/",
           }}
         >
-          保存，开始分析
+          开始分析
         </Button>
       </DialogActions>
     </Dialog>

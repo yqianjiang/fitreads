@@ -3,6 +3,7 @@ import ArticleHeader from "./ArticleHeader";
 import ArticleEditor from "./ArticleEditor";
 import ArticleControls from "./ArticleControls";
 import ArticleBody from "./ArticleBody";
+import AudioPlayer from "../AudioPlayer";
 import { useDispatch } from "react-redux";
 import {
   addWordsToVocabulary,
@@ -47,6 +48,7 @@ const useDictData = (initialData) => {
     } else {
       const trans = await fetchTranslationBatch({ words });
       // setData({...data, translations: })
+      console.log("翻译：");
       console.log(trans);
       return { ...data.translations, ...trans };
     }
@@ -138,7 +140,7 @@ const useDictData = (initialData) => {
     function saveVocabulary() {
       dispatch(
         addWordsToVocabulary({
-          words: data.newWord.map((newWord) => ({ word: newWord })),
+          words: data.newWord.map((newWord) => ({ word: newWord, source: 'reading' })),
           vocabulary: "newWords",
         })
       );
@@ -146,13 +148,14 @@ const useDictData = (initialData) => {
         addWordsToVocabulary({
           words: [...data.familiarWord, ...data.unseenWord].map((newWord) => ({
             word: newWord,
+            source: 'reading'
           })),
           vocabulary: "familiarWords",
         })
       );
       dispatch(
         deleteWordsFromVocabulary({
-          words: data.newWord.map((newWord) => ({ word: newWord })),
+          words: data.newWord.map((newWord) => ({ word: newWord, source: 'reading' })),
           vocabulary: "familiarWords",
         })
       );
@@ -177,6 +180,7 @@ const Article = ({ initialData, sentences, ...props }) => {
     <article>
       <ArticleEditor {...props} data={data} />
       <ArticleHeader {...props} data={data} />
+      {/* <AudioPlayer content={'Why Reading is the Key to Mastering English'} /> */}
       <ArticleControls
         updateWordDict={updateWordDict}
         wordsUnique={props.wordsUnique}
