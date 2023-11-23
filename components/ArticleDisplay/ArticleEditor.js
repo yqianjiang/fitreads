@@ -62,7 +62,7 @@ export default function ArticleEditor({ title, category, onEditArticle }) {
         <DialogTitle>编辑文章信息</DialogTitle>
         <DialogContent>
           <Stack component="form">
-            <FormControl sx={{ m: 1, minWidth: 200 }}>
+            <FormControl sx={{ m: 1, minWidth: 240 }}>
               <TextField
                 value={newTitle}
                 onChange={(e) => setNewTitle(e.target.value)}
