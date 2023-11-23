@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useSelector } from "react-redux";
 import Divider from "@mui/material/Divider";
 import Box from "@mui/material/Box";
+import LoadingButton from '@mui/lab/LoadingButton';
 import Button from "@mui/material/Button";
 import Alert from "../../components/Alert";
 import Layout from "../../components/Layout";
@@ -9,7 +10,7 @@ import ArticleAdder from "../../components/ArticleAdder";
 import ArticleDisplay from "../../components/ArticleDisplay";
 import { preprocessing } from "../../lib/article/preprocessing";
 import { realtimeAnalyzer } from "../../lib/article/realtimeAnalyzer";
-import { saveArticleData } from "../../lib/api/articles";
+import { saveArticleData, fetchExampleArticle } from "../../lib/api/articles";
 
 // 用于保存的数据，不需要向用户展示
 let processedArticle;
@@ -17,15 +18,25 @@ let processedArticle;
 export default function AddArticle() {
   const [data, setData] = useState(null);
   const [articleProps, setArticleProps] = useState(null);
+  const [loading, setLoading] = useState(false);
   const vocabulary = useSelector((state) => state.vocabulary);
 
-  const handleAnalyzeClick = (content) => {
-    processedArticle = preprocessing(content);
+  const analyzeContent = (content, meta) => {
+    processedArticle = preprocessing(content, meta);
     const { data, articleInfo } = realtimeAnalyzer(content, vocabulary);
     setArticleProps({ ...processedArticle, ...articleInfo });
     setData(data);
   };
 
+  const handleImportExample = async () => {
+    setLoading(true);
+    const article = await fetchExampleArticle();
+    if (article) {
+      analyzeContent(article.content, {title: article.title, category: article.tag})
+    }
+    setLoading(false);
+  }
+  
   const [message, setMessage] = useState({ duration: 6000 });
 
   const handleSaveClick = async () => {
@@ -49,7 +60,8 @@ export default function AddArticle() {
 
   return (
     <Layout pageName={"新增文章"}>
-      <ArticleAdder handleAnalyzeClick={handleAnalyzeClick} />
+      <LoadingButton variant="contained" onClick={handleImportExample} loading={loading}>导入示例文章</LoadingButton>
+      <ArticleAdder handleAnalyzeClick={analyzeContent} />
       {articleProps && (
         <>
           <Divider />

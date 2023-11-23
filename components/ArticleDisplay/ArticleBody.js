@@ -25,7 +25,7 @@ const ArticleBody = ({
   const computeTranslation = (token) => {
     // function to compute translation of token
     token = findLemma(token);
-    const trans = translations[token]?.translation
+    const trans = translations?.[token]?.translation
       ?.split(".")[1]
       ?.split(",")[0]
       ?.split("\\")[0];

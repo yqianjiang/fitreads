@@ -1,0 +1,7562 @@
+[
+    {
+        "word": "a",
+        "translation": "第一个字母 A; 一个; 第一的\\r",
+        "collins": 5,
+        "frequency": 5,
+        "options": [
+            "第一个字母 A; 一个; 第一的\\r",
+            "num. 十六, 十六个",
+            "n. 拜访, 访问, 游览, 视察",
+            "n. 季节, 时节, 当令期, 时期"
+        ]
+    },
+    {
+        "word": "able",
+        "translation": "a. 能干的, 能够的",
+        "collins": 5,
+        "frequency": 385,
+        "options": [
+            "a. 能干的, 能够的",
+            "n. 苍蝇, 两翼昆虫, 飞行",
+            "num. 三十, 三十个",
+            "美国微软公司"
+        ]
+    },
+    {
+        "word": "about",
+        "translation": "prep. 在...周围, 大约, 有关, 关于",
+        "collins": 5,
+        "frequency": 46,
+        "options": [
+            "prep. 在...周围, 大约, 有关, 关于",
+            "n. 点, 小数点, 标点, 地点, 要点, 特点, 尖端, 分数, 得分, 穴位",
+            "n. 主要部分, 干线, 体力, 力量, 主群组",
+            "vi. 说, 说话, 演说, 发言"
+        ]
+    },
+    {
+        "word": "accept",
+        "translation": "vt. 接受, 承认, 同意, 相信, 赞成, 承担, 承兑, 采纳, 接纳, 容忍",
+        "collins": 5,
+        "frequency": 766,
+        "options": [
+            "vt. 接受, 承认, 同意, 相信, 赞成, 承担, 承兑, 采纳, 接纳, 容忍",
+            "abbr. you are 你（你们）是",
+            "num. 十八, 十八个",
+            "abbr. 我是（缩写）"
+        ]
+    },
+    {
+        "word": "accord",
+        "translation": "n. 一致, 调和, 协定",
+        "collins": 5,
+        "frequency": 6075,
+        "options": [
+            "n. 一致, 调和, 协定",
+            "num. 四, 四个",
+            "num. 七十, 七十个",
+            "vt. 记得, 回忆起, 记住, 铭记, 纪念"
+        ]
+    },
+    {
+        "word": "according to",
+        "translation": "根据, 按照；取决于；据…所说",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "根据, 按照；取决于；据…所说",
+            "n. 音乐, 乐曲",
+            "n. 尝试, 企图",
+            "n. 公开, 户外, 空旷"
+        ]
+    },
+    {
+        "word": "account",
+        "translation": "n. 报告, 解释, 估价, 理由, 利润, 算账, 帐目",
+        "collins": 5,
+        "frequency": 1071,
+        "options": [
+            "n. 报告, 解释, 估价, 理由, 利润, 算账, 帐目",
+            "a. 另外的, 再一的, 不同的",
+            "prep. 在...之后, 由于",
+            "n. 攻击, 抨击"
+        ]
+    },
+    {
+        "word": "across",
+        "translation": "prep. 越过, 穿过, 与...相交叉, 在...的对面",
+        "collins": 5,
+        "frequency": 377,
+        "options": [
+            "prep. 越过, 穿过, 与...相交叉, 在...的对面",
+            "n. 页, 记录, 事件, 专栏, 男侍",
+            "vt. 宣布, 声称, 显示, 预告",
+            "prep. 和...在一起, 以, 由于"
+        ]
+    },
+    {
+        "word": "act",
+        "translation": "n. 行动, 行为, 幕, 法案",
+        "collins": 5,
+        "frequency": 837,
+        "options": [
+            "n. 行动, 行为, 幕, 法案",
+            "n. 眼睛, 视力, 看",
+            "a. 早的, 早熟的",
+            "a. 新的, 陌生的, 最近的, 不熟悉的"
+        ]
+    },
+    {
+        "word": "action",
+        "translation": "n. 行动, 活动, 动作, 作用, 战斗, 行为, 诉讼",
+        "collins": 5,
+        "frequency": 502,
+        "options": [
+            "n. 行动, 活动, 动作, 作用, 战斗, 行为, 诉讼",
+            "a. 强壮的, 坚固的, 坚强的, 强烈的, 有力的, 优良的",
+            "(=could not)不能",
+            "n. 系统, 体系, 制度, 方式, 秩序, 分类原则"
+        ]
+    },
+    {
+        "word": "actually",
+        "translation": "adv. 事实上, 竟然, 如今, 现在",
+        "collins": 5,
+        "frequency": 396,
+        "options": [
+            "adv. 事实上, 竟然, 如今, 现在",
+            "a. 几个的, 一些的, 各自的",
+            "a. 很少的, 不多的, 少数的",
+            "aux. 可以, 能"
+        ]
+    },
+    {
+        "word": "add",
+        "translation": "vt. 增加, 添加, 附带说明, 计算...总和",
+        "collins": 5,
+        "frequency": 340,
+        "options": [
+            "vt. 增加, 添加, 附带说明, 计算...总和",
+            "n. 投票, 选举, 选票, 表决, 选举权, 得票数",
+            "a. 单身的, 单程的, 单一的, 个别的, 孤独的, 专一的",
+            "a. 确信, 必然的, 必定的"
+        ]
+    },
+    {
+        "word": "after",
+        "translation": "prep. 在...之后, 由于",
+        "collins": 5,
+        "frequency": 120,
+        "options": [
+            "prep. 在...之后, 由于",
+            "（等于I have）",
+            "a. 经济上的, 实用的, 节省的",
+            "n. 压, 榨, 按, 强制, 压力, 压迫, 压强"
+        ]
+    },
+    {
+        "word": "again",
+        "translation": "adv. 再一次, 又, 到原处",
+        "collins": 5,
+        "frequency": 184,
+        "options": [
+            "adv. 再一次, 又, 到原处",
+            "n. 灰色",
+            "a. 全体的, 总的, 全然的",
+            "n. 事件, 结果, 事情的进程, 竞赛项目"
+        ]
+    },
+    {
+        "word": "against",
+        "translation": "prep. 反对, 对着, 倚靠",
+        "collins": 5,
+        "frequency": 180,
+        "options": [
+            "prep. 反对, 对着, 倚靠",
+            "n. 弹性, 适应性",
+            "adv. 在哪里",
+            "n. 比赛, 玩耍, 比分, 得胜, 比赛规则, 策略, 游戏, 野味"
+        ]
+    },
+    {
+        "word": "age",
+        "translation": "n. 年龄, 老年, 成年, 寿命, 时代, 时期",
+        "collins": 5,
+        "frequency": 386,
+        "options": [
+            "n. 年龄, 老年, 成年, 寿命, 时代, 时期",
+            "a. 很少的, 不多的, 少数的",
+            "pron. 它",
+            "n. 水平, 水准, 平地"
+        ]
+    },
+    {
+        "word": "ago",
+        "translation": "adv. 以前",
+        "collins": 5,
+        "frequency": 316,
+        "options": [
+            "adv. 以前",
+            "n. 街道, 马路, 街区",
+            "n. 路, 道路, 公路, 途径, 方法",
+            "vt. 描述, 描绘, 画"
+        ]
+    },
+    {
+        "word": "agree",
+        "translation": "vi. 同意, 赞成, 应允, 适合",
+        "collins": 5,
+        "frequency": 514,
+        "options": [
+            "vi. 同意, 赞成, 应允, 适合",
+            "n. 原因, 目标",
+            "vt. 寻求, 寻找, 探索, 追求, 搜索, 请求",
+            "conj. 或, 或者"
+        ]
+    },
+    {
+        "word": "aid",
+        "translation": "n. 帮助, 外援, 助手",
+        "collins": 5,
+        "frequency": 1640,
+        "options": [
+            "n. 帮助, 外援, 助手",
+            "vt. 发现, 感到, 找到, 认为, 得到",
+            "n. 相片, 照片, 逼真的描绘",
+            "prep. 在...周围, 大约, 有关, 关于"
+        ]
+    },
+    {
+        "word": "air",
+        "translation": "n. 空气, 旋律, 态度",
+        "collins": 5,
+        "frequency": 370,
+        "options": [
+            "n. 空气, 旋律, 态度",
+            "n. 全体人员, 工作班子, 棍棒, 杆, 拐杖, 支柱, 权杖",
+            "n. 兄弟",
+            "n. 打架, 争吵, 斗志"
+        ]
+    },
+    {
+        "word": "all",
+        "translation": "a. 所有的, 全部的, 一切的",
+        "collins": 5,
+        "frequency": 43,
+        "options": [
+            "a. 所有的, 全部的, 一切的",
+            "n. 符号, 招牌, 征兆, 正负号, 手势",
+            "n. 记录, 履历, 档案, 审判记录, 最高纪录, 唱片",
+            "pron. 我"
+        ]
+    },
+    {
+        "word": "allow",
+        "translation": "vt. 允许, 同意给予, 承认",
+        "collins": 5,
+        "frequency": 339,
+        "options": [
+            "vt. 允许, 同意给予, 承认",
+            "pron. 那些",
+            "n. 全部, 全体, 整体, 完全之体系",
+            "n. 基金, 资金, 存款, 财源, 贮藏"
+        ]
+    },
+    {
+        "word": "almost",
+        "translation": "adv. 几乎, 差不多",
+        "collins": 5,
+        "frequency": 291,
+        "options": [
+            "adv. 几乎, 差不多",
+            "n. 一看, 神色, 样子, 面容",
+            "n. 走, 散步, 步行, 行走的路程, 竞走, 散步场所",
+            "a. 年轻的, 无经验的, 朝气蓬勃的"
+        ]
+    },
+    {
+        "word": "along",
+        "translation": "adv. 平行地, 向前",
+        "collins": 5,
+        "frequency": 447,
+        "options": [
+            "adv. 平行地, 向前",
+            "n. 生产品, 物产, 后代",
+            "art. 那",
+            "n. 军官, 主管, 官员, 公务员"
+        ]
+    },
+    {
+        "word": "already",
+        "translation": "adv. 已经, 早已",
+        "collins": 5,
+        "frequency": 334,
+        "options": [
+            "adv. 已经, 早已",
+            "a. 全体的, 总的, 全然的",
+            "n. 更多",
+            "a. 不同的"
+        ]
+    },
+    {
+        "word": "also",
+        "translation": "adv. 也, 并且, 同样地",
+        "collins": 5,
+        "frequency": 87,
+        "options": [
+            "adv. 也, 并且, 同样地",
+            "n. 上升, 高地, 增高",
+            "n. 低点, 低价, 低, 牛叫声",
+            "adv. 曾经, 究竟, 永远"
+        ]
+    },
+    {
+        "word": "although",
+        "translation": "conj. 虽然, 尽管",
+        "collins": 5,
+        "frequency": 378,
+        "options": [
+            "conj. 虽然, 尽管",
+            "n. 救球",
+            "prep. 在...之上",
+            "pron. 我"
+        ]
+    },
+    {
+        "word": "always",
+        "translation": "adv. 总是, 始终",
+        "collins": 5,
+        "frequency": 206,
+        "options": [
+            "adv. 总是, 始终",
+            "n. 社区, 公众, 共有, 共同体",
+            "adv. 宁可, 稍微, 相当",
+            "num. 八, 八个"
+        ]
+    },
+    {
+        "word": "among",
+        "translation": "prep. 在...之中",
+        "collins": 5,
+        "frequency": 279,
+        "options": [
+            "prep. 在...之中",
+            "adv. 相当, 完全, 十分",
+            "pron. 那些",
+            "n. 切口, 割伤, 降低, 切, 割, 砍, 削, 伤口, 削减, 缩短, 删节, 通路"
+        ]
+    },
+    {
+        "word": "and",
+        "translation": "conj. 和, 与",
+        "collins": 5,
+        "frequency": 3,
+        "options": [
+            "conj. 和, 与",
+            "a. 新的, 陌生的, 最近的, 不熟悉的",
+            "a. 快的, 迅速的, 敏捷的, 灵敏的, 急速的",
+            "n. 事实, 真实性, 真相, 细节, 论据"
+        ]
+    },
+    {
+        "word": "announce",
+        "translation": "vt. 宣布, 声称, 显示, 预告",
+        "collins": 5,
+        "frequency": 1163,
+        "options": [
+            "vt. 宣布, 声称, 显示, 预告",
+            "n. 经济, 理财, 节约",
+            "vi. 发生, 发生, 恰巧",
+            "n. 家庭, 家人, 族"
+        ]
+    },
+    {
+        "word": "another",
+        "translation": "a. 另外的, 再一的, 不同的",
+        "collins": 5,
+        "frequency": 145,
+        "options": [
+            "a. 另外的, 再一的, 不同的",
+            "n. 姐妹, 姐, 妹, 护士, 修女",
+            "n. 休息, 中断, 破裂处, 绝交, 破晓, 突变",
+            "num. 十, 十个"
+        ]
+    },
+    {
+        "word": "answer",
+        "translation": "n. 答案, 回答, 回报, 答辩",
+        "collins": 5,
+        "frequency": 767,
+        "options": [
+            "n. 答案, 回答, 回报, 答辩",
+            "n. 较少, 较小",
+            "a. 清楚的, 明确的, 澄清的",
+            "n. 书, 书籍, 帐簿, 名册, 工作簿"
+        ]
+    },
+    {
+        "word": "any",
+        "translation": "a. 任何的",
+        "collins": 5,
+        "frequency": 109,
+        "options": [
+            "a. 任何的",
+            "n. 工人, 劳动者",
+            "n. 呼叫, 访问, 打电话, 号召, 召集, 要求",
+            "vt. 允许, 同意给予, 承认"
+        ]
+    },
+    {
+        "word": "anything",
+        "translation": "pron. 任何事",
+        "collins": 5,
+        "frequency": 331,
+        "options": [
+            "pron. 任何事",
+            "aux. 应该, 将要",
+            "n. 世纪, 百年",
+            "vt. 书写, 著述, 写, 写满, 写信给"
+        ]
+    },
+    {
+        "word": "appear",
+        "translation": "vi. 出现, 显得, 来到",
+        "collins": 5,
+        "frequency": 395,
+        "options": [
+            "vi. 出现, 显得, 来到",
+            "n. 会, 集会",
+            "abbr. 我愿意（等于I would）",
+            "n. 脸, 面容, 正面, 外观"
+        ]
+    },
+    {
+        "word": "area",
+        "translation": "n. 区域, 面积, 范围, 空地",
+        "collins": 5,
+        "frequency": 230,
+        "options": [
+            "n. 区域, 面积, 范围, 空地",
+            "n. 转弯, 转动, 旋转, 翻转, 一圈, 顺次, 改动, 变化, 性格, 特色, 形状, 转折",
+            "vt. 理解, 了解, 领会, 听说, 懂",
+            "pron. 每件事物, 所有事物"
+        ]
+    },
+    {
+        "word": "arm",
+        "translation": "n. 手臂, 袖子, 狭长港湾, 武器",
+        "collins": 5,
+        "frequency": 491,
+        "options": [
+            "n. 手臂, 袖子, 狭长港湾, 武器",
+            "n. 工作, 劳动, 职业, 行为, 功, 作品, 成果, 产品, 工程",
+            "n. 服务, 贡献, 雇佣, 公职, 服役, 功劳, 仪式, 送达, 行政部门",
+            "n. 设计, 图样, 方案, 企图"
+        ]
+    },
+    {
+        "word": "army",
+        "translation": "n. 军队, 陆军",
+        "collins": 5,
+        "frequency": 1539,
+        "options": [
+            "n. 军队, 陆军",
+            "n. 首都, 大写字母, 资本",
+            "prep. 不是",
+            "n. 不, 拒绝, 否决票"
+        ]
+    },
+    {
+        "word": "around",
+        "translation": "prep. 包围, 在...周围, 四处",
+        "collins": 5,
+        "frequency": 264,
+        "options": [
+            "prep. 包围, 在...周围, 四处",
+            "a. 有可能的, 合适的, 前途有望的",
+            "pron. 我们",
+            "n. 生产品, 物产, 后代"
+        ]
+    },
+    {
+        "word": "art",
+        "translation": "n. 艺术, 人文科学, 技术, 巧妙, 诡计, 美术",
+        "collins": 5,
+        "frequency": 346,
+        "options": [
+            "n. 艺术, 人文科学, 技术, 巧妙, 诡计, 美术",
+            "a. 真正的, 恰好的, 十足的, 特有的",
+            "n. 小时, 钟头, 时间, ...点钟, 课时",
+            "a. 小的, 少的, 小型的, 低微的, 小气的, 细微的"
+        ]
+    },
+    {
+        "word": "as",
+        "translation": "adv. 同样地, 例如",
+        "collins": 5,
+        "frequency": 33,
+        "options": [
+            "adv. 同样地, 例如",
+            "n. 事实, 真实性, 真相, 细节, 论据",
+            "a. 迟的, 晚的, 已故的",
+            "pron. 哪一个, 那一个"
+        ]
+    },
+    {
+        "word": "ask",
+        "translation": "vi. 问, 要求",
+        "collins": 5,
+        "frequency": 131,
+        "options": [
+            "vi. 问, 要求",
+            "n. 一(个)",
+            "vi. 继续, 延续, 延长",
+            "n. 片刻, 瞬间, 重要, 阶段, 力矩"
+        ]
+    },
+    {
+        "word": "at",
+        "translation": "prep. 在, 向, 对",
+        "collins": 5,
+        "frequency": 22,
+        "options": [
+            "prep. 在, 向, 对",
+            "n. 数字, 价格, 图形, 形状",
+            "n. 问题, 询问",
+            "a. 清楚的, 明确的, 澄清的"
+        ]
+    },
+    {
+        "word": "attack",
+        "translation": "n. 攻击, 抨击",
+        "collins": 5,
+        "frequency": 791,
+        "options": [
+            "n. 攻击, 抨击",
+            "n. 小时, 钟头, 时间, ...点钟, 课时",
+            "n. 等待, 等候",
+            "n. 事件, 物质, 原因, 素材, 实体, 重要"
+        ]
+    },
+    {
+        "word": "attempt",
+        "translation": "n. 尝试, 企图",
+        "collins": 5,
+        "frequency": 1227,
+        "options": [
+            "n. 尝试, 企图",
+            "n. 理由, 原因, 理智, 道理, 前提, 理性",
+            "n. 主修课, 成年人, 陆军少校",
+            "n. 谢意, 感谢"
+        ]
+    },
+    {
+        "word": "authority",
+        "translation": "n. 权力, 当权者, 当局, 权威, 专家",
+        "collins": 5,
+        "frequency": 832,
+        "options": [
+            "n. 权力, 当权者, 当局, 权威, 专家",
+            "pron. 我",
+            "pron. 谁的",
+            "n. 成员, 会员"
+        ]
+    },
+    {
+        "word": "available",
+        "translation": "a. 可利用的, 可获得的, 有效的",
+        "collins": 5,
+        "frequency": 622,
+        "options": [
+            "a. 可利用的, 可获得的, 有效的",
+            "n. 恐怖, 害怕, 担心",
+            "n. 水平, 水准, 平地",
+            "n. 压, 榨, 按, 强制, 压力, 压迫, 压强"
+        ]
+    },
+    {
+        "word": "away",
+        "translation": "adv. 离去",
+        "collins": 5,
+        "frequency": 269,
+        "options": [
+            "adv. 离去",
+            "adv. 已经, 早已",
+            "vt. 买, 获得",
+            "n. 小时, 钟头, 时间, ...点钟, 课时"
+        ]
+    },
+    {
+        "word": "back",
+        "translation": "a. 后面的",
+        "collins": 5,
+        "frequency": 108,
+        "options": [
+            "a. 后面的",
+            "n. 过去, 昔时, 往事, 早年经历, 过去时",
+            "num. 八, 八个",
+            "n. 需要, 必须, 缺乏"
+        ]
+    },
+    {
+        "word": "bad",
+        "translation": "a. 坏的",
+        "collins": 5,
+        "frequency": 282,
+        "options": [
+            "a. 坏的",
+            "vt. 学习；认识到；得知",
+            "n. 区域, 面积, 范围, 空地",
+            "n. 年龄, 老年, 成年, 寿命, 时代, 时期"
+        ]
+    },
+    {
+        "word": "base",
+        "translation": "n. 底部, 垒, 基础, 基地",
+        "collins": 5,
+        "frequency": 536,
+        "options": [
+            "n. 底部, 垒, 基础, 基地",
+            "n. 一看, 神色, 样子, 面容",
+            "n. 市场, 交易, 集市, 推销地区, 行情, 市面, 销路",
+            "n. 自己的"
+        ]
+    },
+    {
+        "word": "based",
+        "translation": "v. 立基于, 以…为基础（base的过去式和过去分词）",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "v. 立基于, 以…为基础（base的过去式和过去分词）",
+            "n. 尝试, 试验, 审理, 审判",
+            "prep. 在...之中",
+            "n. 主人, 旅馆老板, 节目主持人"
+        ]
+    },
+    {
+        "word": "be",
+        "translation": "v. 是, 表示, 在",
+        "collins": 5,
+        "frequency": 2,
+        "options": [
+            "v. 是, 表示, 在",
+            "n. 公司, 友伴, 交往, 连队, 朋友, 一群",
+            "vt. 收到, 接到, 得到, 接待, 迎接, 承受",
+            "num. 六, 六个"
+        ]
+    },
+    {
+        "word": "beat",
+        "translation": "n. 心跳(声), 打, 敲打声, 拍子",
+        "collins": 5,
+        "frequency": 1036,
+        "options": [
+            "n. 心跳(声), 打, 敲打声, 拍子",
+            "n. 蒸馏室, 寂静, 剧照",
+            "a. 从前的, 前者的",
+            "n. 谢意, 感谢"
+        ]
+    },
+    {
+        "word": "because",
+        "translation": "conj. 因为",
+        "collins": 5,
+        "frequency": 89,
+        "options": [
+            "conj. 因为",
+            "n. 汽车, 客车",
+            "n. 停留, 逗留, 制止, 延缓, 停止, 支柱, 支撑物, 支索",
+            "adv. 也, 并且, 同样地"
+        ]
+    },
+    {
+        "word": "become",
+        "translation": "vi. 变成, 变得",
+        "collins": 5,
+        "frequency": 139,
+        "options": [
+            "vi. 变成, 变得",
+            "n. 咬, 一口",
+            "num. 四十, 四十个",
+            "n. 汽车, 客车"
+        ]
+    },
+    {
+        "word": "before",
+        "translation": "prep. 在...之前",
+        "collins": 5,
+        "frequency": 219,
+        "options": [
+            "prep. 在...之前",
+            "num. 十三, 十三个",
+            "n. 大量, 许多, 重要的事",
+            "pron. 哪一个, 那一个"
+        ]
+    },
+    {
+        "word": "begin",
+        "translation": "v. 开始",
+        "collins": 5,
+        "frequency": 164,
+        "options": [
+            "v. 开始",
+            "a. 关着的, 不再生效的, 处于...境况的, 休假的, 空闲的",
+            "n. 脸, 面容, 正面, 外观",
+            "a. 远的, 久远的, 遥远的"
+        ]
+    },
+    {
+        "word": "behind",
+        "translation": "adv. 在后地",
+        "collins": 5,
+        "frequency": 421,
+        "options": [
+            "adv. 在后地",
+            "num. 三十, 三十个",
+            "a. 年轻的, 无经验的, 朝气蓬勃的",
+            "n. 需要的东西, 缺乏, 贫困, 需要"
+        ]
+    },
+    {
+        "word": "believe",
+        "translation": "v. 相信",
+        "collins": 5,
+        "frequency": 212,
+        "options": [
+            "v. 相信",
+            "n. 软片, 薄膜, 胶卷, 电影",
+            "vi. 去, 走, 达到, 运转, 查阅, 消失, 结束, 放弃, 花费, 流传, 趋于, 打算, 剩下",
+            "n. 休息, 中断, 破裂处, 绝交, 破晓, 突变"
+        ]
+    },
+    {
+        "word": "better",
+        "translation": "a. 较好的",
+        "collins": 5,
+        "frequency": 452,
+        "options": [
+            "a. 较好的",
+            "pron. 她自己, 她亲自",
+            "n. 价值, 价格, 购买力, 评价, 估价, 计算结果",
+            "n. 事件, 结果, 事情的进程, 竞赛项目"
+        ]
+    },
+    {
+        "word": "between",
+        "translation": "prep. 在...之间",
+        "collins": 5,
+        "frequency": 140,
+        "options": [
+            "prep. 在...之间",
+            "num. 六, 六个",
+            "n. 停止, 车站, 逗留, 填塞, 障碍, (风琴的)音栓",
+            "n. 弹性, 适应性"
+        ]
+    },
+    {
+        "word": "big",
+        "translation": "a. 大的, 重要的",
+        "collins": 5,
+        "frequency": 162,
+        "options": [
+            "a. 大的, 重要的",
+            "n. 规则, 统治, 控制, 支配, 规律, 标准, 章程, 破折号, 铅线",
+            "prep. 在, 向, 对",
+            "n. 星期, 周"
+        ]
+    },
+    {
+        "word": "billion",
+        "translation": "num. 十亿, 十亿个",
+        "collins": 5,
+        "frequency": 612,
+        "options": [
+            "num. 十亿, 十亿个",
+            "n. 报告, 解释, 估价, 理由, 利润, 算账, 帐目",
+            "n. 和平, 和约, 治安, 和睦, 安宁, 静寂",
+            "prep. 自...以后, 自...以来"
+        ]
+    },
+    {
+        "word": "bit",
+        "translation": "n. 少量, 马嚼子, 辅币",
+        "collins": 5,
+        "frequency": 952,
+        "options": [
+            "n. 少量, 马嚼子, 辅币",
+            "vi. 失败, 缺乏, 中断, 衰退, 失灵",
+            "n. 期末考试, 结局, 决赛",
+            "n. 白色, 洁白, 眼白, 白种人, 蛋白"
+        ]
+    },
+    {
+        "word": "bite",
+        "translation": "n. 咬, 一口",
+        "collins": 5,
+        "frequency": 3153,
+        "options": [
+            "n. 咬, 一口",
+            "n. 下一个",
+            "n. 需要, 必须, 缺乏",
+            "n. 希望, 信心, 期待"
+        ]
+    },
+    {
+        "word": "black",
+        "translation": "n. 黑色, 黑颜料",
+        "collins": 5,
+        "frequency": 253,
+        "options": [
+            "n. 黑色, 黑颜料",
+            "n. 学生, 研究者, 学者",
+            "a. 经济上的, 实用的, 节省的",
+            "adv. 一次, 曾经, 一旦"
+        ]
+    },
+    {
+        "word": "blue",
+        "translation": "n. 蓝色",
+        "collins": 5,
+        "frequency": 842,
+        "options": [
+            "n. 蓝色",
+            "num. 八十, 八十个",
+            "n. 惊起, 出发, 开端, 起点, 吃惊, 有利条件",
+            "n. 全部, 完整"
+        ]
+    },
+    {
+        "word": "body",
+        "translation": "n. 身体, 人, 尸体, 主要部分, 团体",
+        "collins": 5,
+        "frequency": 313,
+        "options": [
+            "n. 身体, 人, 尸体, 主要部分, 团体",
+            "a. 唯一的, 仅有的, 最佳的",
+            "vt. 说, 讲, 念, 说明, 指明",
+            "n. 女人, 妇女, 女仆"
+        ]
+    },
+    {
+        "word": "book",
+        "translation": "n. 书, 书籍, 帐簿, 名册, 工作簿",
+        "collins": 5,
+        "frequency": 241,
+        "options": [
+            "n. 书, 书籍, 帐簿, 名册, 工作簿",
+            "vt. 发送, 使进入, 寄, 派遣, 发射, 使陷于",
+            "n. 战争, 战争状态, 战术, 军事, 冲突, 斗争, 竞争",
+            "a. 大的, 非常的, 主要的, 重大的, 崇高的, 伟大的"
+        ]
+    },
+    {
+        "word": "both",
+        "translation": "a. 两者的",
+        "collins": 5,
+        "frequency": 255,
+        "options": [
+            "a. 两者的",
+            "n. 天, 日子, 白天, 工作日",
+            "v. 操作, 运转, 动手术, 活动",
+            "n. 一半, 半场, 不完全"
+        ]
+    },
+    {
+        "word": "boy",
+        "translation": "n. 男孩",
+        "collins": 5,
+        "frequency": 382,
+        "options": [
+            "n. 男孩",
+            "n. 黑色, 黑颜料",
+            "adv. 总是, 始终",
+            "vt. 看见, 查看, 参观, 游览, 理解, 知道, 同意"
+        ]
+    },
+    {
+        "word": "break",
+        "translation": "n. 休息, 中断, 破裂处, 绝交, 破晓, 突变",
+        "collins": 5,
+        "frequency": 494,
+        "options": [
+            "n. 休息, 中断, 破裂处, 绝交, 破晓, 突变",
+            "aux. 将, 愿意",
+            "pron. 它",
+            "pron. 这些"
+        ]
+    },
+    {
+        "word": "bring",
+        "translation": "vt. 带来, 产生, 促使, 提出",
+        "collins": 5,
+        "frequency": 215,
+        "options": [
+            "vt. 带来, 产生, 促使, 提出",
+            "n. 角色, 职责, 任务",
+            "a. 唯一的, 仅有的, 最佳的",
+            "adv. 在哪里"
+        ]
+    },
+    {
+        "word": "brother",
+        "translation": "n. 兄弟",
+        "collins": 5,
+        "frequency": 614,
+        "options": [
+            "n. 兄弟",
+            "n. 事件, 结果, 事情的进程, 竞赛项目",
+            "(= do not)不要",
+            "n. 街道, 马路, 街区"
+        ]
+    },
+    {
+        "word": "brown",
+        "translation": "n. 褐色",
+        "collins": 5,
+        "frequency": 1769,
+        "options": [
+            "n. 褐色",
+            "adv. 再一次, 又, 到原处",
+            "n. 出售, 卖, 拍卖, 销售额, 廉价出售",
+            "n. 顶部, 顶端, 极点, 上面, 上部, 顶篷, 最高地位, 首位, 陀螺"
+        ]
+    },
+    {
+        "word": "build",
+        "translation": "v. 建立, 建筑",
+        "collins": 5,
+        "frequency": 408,
+        "options": [
+            "v. 建立, 建筑",
+            "a. 社会的, 群居的, 社交的",
+            "adv. 也, 并且, 同样地",
+            "prep. 向, 对于, 为了"
+        ]
+    },
+    {
+        "word": "building",
+        "translation": "n. 建筑物, 建筑",
+        "collins": 5,
+        "frequency": 501,
+        "options": [
+            "n. 建筑物, 建筑",
+            "pron. 任何事",
+            "adv. 在那里",
+            "adv. 同样地, 例如"
+        ]
+    },
+    {
+        "word": "business",
+        "translation": "n. 生意, 事情, 业务, 商业, 商行, 职责",
+        "collins": 5,
+        "frequency": 246,
+        "options": [
+            "n. 生意, 事情, 业务, 商业, 商行, 职责",
+            "n. 星, 恒星, 星形物, 运气, 明星",
+            "n. 孩子, 产物, 追随者",
+            "abbr. you have 你（们）已经"
+        ]
+    },
+    {
+        "word": "but",
+        "translation": "prep. 除了",
+        "collins": 5,
+        "frequency": 23,
+        "options": [
+            "prep. 除了",
+            "adv. 不, 非, 未",
+            "n. 建筑物, 建筑",
+            "pron. 我们的"
+        ]
+    },
+    {
+        "word": "buy",
+        "translation": "vt. 买, 获得",
+        "collins": 5,
+        "frequency": 397,
+        "options": [
+            "vt. 买, 获得",
+            "a. 大的, 重要的",
+            "vt. 看见, 查看, 参观, 游览, 理解, 知道, 同意",
+            "a. 迟的, 晚的, 已故的"
+        ]
+    },
+    {
+        "word": "by",
+        "translation": "prep. 被, 经, 由, 在...之旁",
+        "collins": 5,
+        "frequency": 30,
+        "options": [
+            "prep. 被, 经, 由, 在...之旁",
+            "vt. 描述, 描绘, 画",
+            "n. 机会, 意外, 可能性",
+            "n. 城镇, 市, 镇"
+        ]
+    },
+    {
+        "word": "call",
+        "translation": "n. 呼叫, 访问, 打电话, 号召, 召集, 要求",
+        "collins": 5,
+        "frequency": 122,
+        "options": [
+            "n. 呼叫, 访问, 打电话, 号召, 召集, 要求",
+            "n. 父母, 父母亲, 根源",
+            "n. 事实, 真实性, 真相, 细节, 论据",
+            "n. 多数, 多数人"
+        ]
+    },
+    {
+        "word": "campaign",
+        "translation": "n. 战役, 运动, 竞选运动",
+        "collins": 5,
+        "frequency": 640,
+        "options": [
+            "n. 战役, 运动, 竞选运动",
+            "vt. 得到, 获得, 变成, 使得, 收获, 接通, 抓住, 染上",
+            "vt. 看见, 查看, 参观, 游览, 理解, 知道, 同意",
+            "n. 进位, 射程, 运载"
+        ]
+    },
+    {
+        "word": "can't",
+        "translation": "vi. 不能",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "vi. 不能",
+            "abbr. you have 你（们）已经",
+            "prep. 在...之下, 低于",
+            "n. 术语, 专有名词, 期限, 学期, 任期, 条件, 价钱, 关系, 地位, 项, 界石"
+        ]
+    },
+    {
+        "word": "capital",
+        "translation": "n. 首都, 大写字母, 资本",
+        "collins": 5,
+        "frequency": 1061,
+        "options": [
+            "n. 首都, 大写字母, 资本",
+            "aux. 表示否定",
+            "a. 地方性的, 当地的, 局部的, 乡土的, 本地的",
+            "n. 进位, 射程, 运载"
+        ]
+    },
+    {
+        "word": "car",
+        "translation": "n. 汽车, 客车",
+        "collins": 5,
+        "frequency": 289,
+        "options": [
+            "n. 汽车, 客车",
+            "pron. 谁的",
+            "v. 读, 阅读, 理解",
+            "n. 进位, 射程, 运载"
+        ]
+    },
+    {
+        "word": "care",
+        "translation": "n. 小心, 照料, 忧虑",
+        "collins": 5,
+        "frequency": 434,
+        "options": [
+            "n. 小心, 照料, 忧虑",
+            "n. 价格, 代价, 价值",
+            " (we are 的常用口语形式)",
+            "n. 国家, 乡村, 地区, 故乡"
+        ]
+    },
+    {
+        "word": "carry",
+        "translation": "n. 进位, 射程, 运载",
+        "collins": 5,
+        "frequency": 487,
+        "options": [
+            "n. 进位, 射程, 运载",
+            "vi. 死亡, 消逝, 平息, 熄灭, 漠然, 渴望",
+            "n. 帮忙, 帮助者, 补救办法, 有益的东西",
+            "n. 百分比, 百分数, 部分"
+        ]
+    },
+    {
+        "word": "cause",
+        "translation": "n. 原因, 目标",
+        "collins": 5,
+        "frequency": 601,
+        "options": [
+            "n. 原因, 目标",
+            "conj. 虽然, 尽管",
+            "a. 大的, 大量的, 宽大的, 广博的",
+            "美国微软公司"
+        ]
+    },
+    {
+        "word": "central",
+        "translation": "a. 中央的, 重要的",
+        "collins": 5,
+        "frequency": 743,
+        "options": [
+            "a. 中央的, 重要的",
+            "num. 二, 二个",
+            "第一个字母 A; 一个; 第一的\\r",
+            "pron. 我"
+        ]
+    },
+    {
+        "word": "centre",
+        "translation": "n. 中心, 中心点, 中锋",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "n. 中心, 中心点, 中锋",
+            "a. 可能的, 潜在的, 合适的",
+            "a. 快的, 迅速的, 敏捷的, 灵敏的, 急速的",
+            "adv. 也, 并且, 同样地"
+        ]
+    },
+    {
+        "word": "century",
+        "translation": "n. 世纪, 百年",
+        "collins": 5,
+        "frequency": 605,
+        "options": [
+            "n. 世纪, 百年",
+            "n. 兴趣, 嗜好, 利息, 利益, 爱好, 趣味, 势力",
+            "a. 宽的, 广阔的, 普遍的, 宽阔的, 广泛的, 一般的",
+            "vi. 去, 走, 达到, 运转, 查阅, 消失, 结束, 放弃, 花费, 流传, 趋于, 打算, 剩下"
+        ]
+    },
+    {
+        "word": "chance",
+        "translation": "n. 机会, 意外, 可能性",
+        "collins": 5,
+        "frequency": 613,
+        "options": [
+            "n. 机会, 意外, 可能性",
+            "n. 父亲, 祖先, 长辈, 神父, 创始者",
+            "prep. 到, 向, 趋于",
+            "a. 可能的, 潜在的, 合适的"
+        ]
+    },
+    {
+        "word": "change",
+        "translation": "n. 变化, 找回的零钱, 找头, 更换",
+        "collins": 5,
+        "frequency": 306,
+        "options": [
+            "n. 变化, 找回的零钱, 找头, 更换",
+            "a. 快的, 迅速的, 敏捷的, 灵敏的, 急速的",
+            "a. 中央的, 重要的",
+            "a. 相同的, 同样的"
+        ]
+    },
+    {
+        "word": "charge",
+        "translation": "n. 指控, 费用, 冲锋, 电荷, 炸药, 主管, 被托管人, 命令",
+        "collins": 5,
+        "frequency": 923,
+        "options": [
+            "n. 指控, 费用, 冲锋, 电荷, 炸药, 主管, 被托管人, 命令",
+            "n. 部门, 系, 机关",
+            "n. 生意, 事情, 业务, 商业, 商行, 职责",
+            "pron. 他们, 它们"
+        ]
+    },
+    {
+        "word": "chief",
+        "translation": "n. 领袖, 酋长, 长官, 主要部分",
+        "collins": 5,
+        "frequency": 1446,
+        "options": [
+            "n. 领袖, 酋长, 长官, 主要部分",
+            "adv. 几乎, 差不多",
+            "vi. 发生, 发生, 恰巧",
+            "adv. 在哪里"
+        ]
+    },
+    {
+        "word": "child",
+        "translation": "n. 孩子, 产物, 追随者",
+        "collins": 5,
+        "frequency": 115,
+        "options": [
+            "n. 孩子, 产物, 追随者",
+            "n. 姐妹, 姐, 妹, 护士, 修女",
+            "n. 理由, 原因, 理智, 道理, 前提, 理性",
+            "conj. 或, 或者"
+        ]
+    },
+    {
+        "word": "claim",
+        "translation": "n. 要求, 要求权, 断言, 权利",
+        "collins": 5,
+        "frequency": 874,
+        "options": [
+            "n. 要求, 要求权, 断言, 权利",
+            "n. 生产品, 物产, 后代",
+            "adv. 首先, 第一, 优先",
+            "a. 自由的, 享受政治权力的, 允许的, 免费的, 丰富的"
+        ]
+    },
+    {
+        "word": "class",
+        "translation": "n. 班级, 阶级, 种类, 课",
+        "collins": 5,
+        "frequency": 431,
+        "options": [
+            "n. 班级, 阶级, 种类, 课",
+            "prep. 在...之间",
+            "vi. 不能",
+            "vt. 感觉, 觉得, 触摸, 以为"
+        ]
+    },
+    {
+        "word": "clear",
+        "translation": "a. 清楚的, 明确的, 澄清的",
+        "collins": 5,
+        "frequency": 563,
+        "options": [
+            "a. 清楚的, 明确的, 澄清的",
+            "n. 设计, 图样, 方案, 企图",
+            "n. 要求, 要求权, 断言, 权利",
+            "n. 税, 税款, 重负, 会费"
+        ]
+    },
+    {
+        "word": "club",
+        "translation": "n. 俱乐部, 木棍, 球棒",
+        "collins": 5,
+        "frequency": 1257,
+        "options": [
+            "n. 俱乐部, 木棍, 球棒",
+            "n. 比率, 率, 速度, 价格, 费用, 等级",
+            "n. 软片, 薄膜, 胶卷, 电影",
+            "num. 九, 九个"
+        ]
+    },
+    {
+        "word": "colour",
+        "translation": "n. 颜色, 面色, 颜料, 外貌",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "n. 颜色, 面色, 颜料, 外貌",
+            "n. 水, 雨水, 海水, 水位, 水面, 流水",
+            "n. 男人, 人类, 人",
+            "n. 脚, 步调, 英尺, 底部, 末尾, 步兵"
+        ]
+    },
+    {
+        "word": "come",
+        "translation": "vi. 过来, 来, 到达, 出现, 开始",
+        "collins": 5,
+        "frequency": 70,
+        "options": [
+            "vi. 过来, 来, 到达, 出现, 开始",
+            "pron. 她的, 她",
+            "n. 竞赛者, 上场队员, 游戏者, 演员",
+            "vt. 遗失, 损失, 丢失, 使失去, 错过, 浪费, 迷失, 使迷路, 输去, 使沉溺于"
+        ]
+    },
+    {
+        "word": "coming",
+        "translation": "n. 来临",
+        "collins": 5,
+        "frequency": 4720,
+        "options": [
+            "n. 来临",
+            "n. 去, 离去, 工作情况, 地面状况, 行为",
+            "pron. 某事, 某物",
+            "n. 区域, 面积, 范围, 空地"
+        ]
+    },
+    {
+        "word": "committee",
+        "translation": "n. 委员会",
+        "collins": 5,
+        "frequency": 1428,
+        "options": [
+            "n. 委员会",
+            "n. 运气, 签, 抽签, 份额, 许多, 一堆",
+            "n. 自己的",
+            "先生"
+        ]
+    },
+    {
+        "word": "community",
+        "translation": "n. 社区, 公众, 共有, 共同体",
+        "collins": 5,
+        "frequency": 296,
+        "options": [
+            "n. 社区, 公众, 共有, 共同体",
+            "prep. 向, 对于, 为了",
+            "n. 拜访, 访问, 游览, 视察",
+            "pron. 她的, 她"
+        ]
+    },
+    {
+        "word": "company",
+        "translation": "n. 公司, 友伴, 交往, 连队, 朋友, 一群",
+        "collins": 5,
+        "frequency": 189,
+        "options": [
+            "n. 公司, 友伴, 交往, 连队, 朋友, 一群",
+            "vt. 允许, 同意给予, 承认",
+            "n. 全体人员, 工作班子, 棍棒, 杆, 拐杖, 支柱, 权杖",
+            "a. 远的, 久远的, 遥远的"
+        ]
+    },
+    {
+        "word": "complete",
+        "translation": "a. 完全的, 十足的, 完成的",
+        "collins": 5,
+        "frequency": 1207,
+        "options": [
+            "a. 完全的, 十足的, 完成的",
+            "n. 领袖, 酋长, 长官, 主要部分",
+            "pron. 我",
+            "a. 那, 那个"
+        ]
+    },
+    {
+        "word": "concern",
+        "translation": "n. 关心, 忧虑",
+        "collins": 5,
+        "frequency": 717,
+        "options": [
+            "n. 关心, 忧虑",
+            "a. 政治的, 政治上的, 政党的, 从事政治的",
+            "vi. 继续, 延续, 延长",
+            "n. 艺术, 人文科学, 技术, 巧妙, 诡计, 美术"
+        ]
+    },
+    {
+        "word": "condition",
+        "translation": "n. 情况, 条件",
+        "collins": 5,
+        "frequency": 629,
+        "options": [
+            "n. 情况, 条件",
+            "n. 多数, 多数人",
+            "num. 三十, 三十个",
+            "n. 支持, 支撑, 援助, 供养, 支撑物"
+        ]
+    },
+    {
+        "word": "conference",
+        "translation": "n. 会议",
+        "collins": 5,
+        "frequency": 965,
+        "options": [
+            "n. 会议",
+            "n. 军队",
+            "n. 宴会, 党, 政党, 团体, 当事人, 聚会",
+            "prep. 直到, 在...以前"
+        ]
+    },
+    {
+        "word": "consider",
+        "translation": "v. 考虑, 思考, 认为",
+        "collins": 5,
+        "frequency": 394,
+        "options": [
+            "v. 考虑, 思考, 认为",
+            "n. 情况, 条件",
+            "n. 政府, 内阁",
+            "n. 发展"
+        ]
+    },
+    {
+        "word": "continue",
+        "translation": "vi. 继续, 延续, 延长",
+        "collins": 5,
+        "frequency": 293,
+        "options": [
+            "vi. 继续, 延续, 延长",
+            "n. 联盟, 联合, 结合, 工会",
+            "prep. 和...在一起, 以, 由于",
+            " (we are 的常用口语形式)"
+        ]
+    },
+    {
+        "word": "control",
+        "translation": "n. 控制, 管理, 克制, 控制器, 操纵装置",
+        "collins": 5,
+        "frequency": 432,
+        "options": [
+            "n. 控制, 管理, 克制, 控制器, 操纵装置",
+            "vi. 同意, 赞成, 应允, 适合",
+            "n. 经济, 理财, 节约",
+            "n. 人, 人民, 民族, 平民"
+        ]
+    },
+    {
+        "word": "cost",
+        "translation": "n. 代价, 价值, 费用",
+        "collins": 5,
+        "frequency": 550,
+        "options": [
+            "n. 代价, 价值, 费用",
+            "n. 游戏, 游玩, 玩笑, 运动, 比赛, 赌博, 跳动, 表演, 剧本",
+            "pron. 他",
+            "aux. 可以, 能"
+        ]
+    },
+    {
+        "word": "could",
+        "translation": "aux. 可以, 能",
+        "collins": 5,
+        "frequency": 71,
+        "options": [
+            "aux. 可以, 能",
+            "a. 较好的",
+            "adv. 如何, 怎样, 多少, 多么",
+            "n. 领导者, 社论, 指挥, 领袖, 领唱者, 前导字符"
+        ]
+    },
+    {
+        "word": "couldn't",
+        "translation": "(=could not)不能",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "(=could not)不能",
+            "adv. 在这里, 此时, 这里",
+            "n. 手臂, 袖子, 狭长港湾, 武器",
+            "a. 年轻的, 无经验的, 朝气蓬勃的"
+        ]
+    },
+    {
+        "word": "council",
+        "translation": "n. 会议, 委员会",
+        "collins": 5,
+        "frequency": 2612,
+        "options": [
+            "n. 会议, 委员会",
+            "n. 答案, 回答, 回报, 答辩",
+            "n. 比赛, 火柴, 对手",
+            "adv. 首先, 第一, 优先"
+        ]
+    },
+    {
+        "word": "country",
+        "translation": "n. 国家, 乡村, 地区, 故乡",
+        "collins": 5,
+        "frequency": 166,
+        "options": [
+            "n. 国家, 乡村, 地区, 故乡",
+            "n. 内部, 里头",
+            "n. 时间, 时侯, 时机, 时期, 期限, 次数, 节拍, 暂停, 规定时间",
+            "n. 进位, 射程, 运载"
+        ]
+    },
+    {
+        "word": "course",
+        "translation": "n. 课程, 路线, 过程, 一道菜, 道路",
+        "collins": 5,
+        "frequency": 418,
+        "options": [
+            "n. 课程, 路线, 过程, 一道菜, 道路",
+            "n. 年龄, 老年, 成年, 寿命, 时代, 时期",
+            "pron. 什么",
+            "n. 黑色, 黑颜料"
+        ]
+    },
+    {
+        "word": "cover",
+        "translation": "n. 盖子, 封面, 藉口",
+        "collins": 5,
+        "frequency": 560,
+        "options": [
+            "n. 盖子, 封面, 藉口",
+            "n. 自己的",
+            "adv. 相当, 完全, 十分",
+            "n. 部长, 牧师, 公使"
+        ]
+    },
+    {
+        "word": "create",
+        "translation": "vt. 创造, 建造, 引起, 任命",
+        "collins": 5,
+        "frequency": 332,
+        "options": [
+            "vt. 创造, 建造, 引起, 任命",
+            "n. 无线电, 收音机, 无线电报, 无线电广播, 无线电台",
+            "vt. 赢得, 打胜, 成功",
+            "pron. 他们, 她们, 它们"
+        ]
+    },
+    {
+        "word": "cup",
+        "translation": "n. 杯子, 茶杯, 优胜杯",
+        "collins": 5,
+        "frequency": 780,
+        "options": [
+            "n. 杯子, 茶杯, 优胜杯",
+            "a. 经济上的, 实用的, 节省的",
+            "abbr. 我是（缩写）",
+            "n. 战争, 战争状态, 战术, 军事, 冲突, 斗争, 竞争"
+        ]
+    },
+    {
+        "word": "current",
+        "translation": "n. 涌流, 趋势, 流",
+        "collins": 5,
+        "frequency": 652,
+        "options": [
+            "n. 涌流, 趋势, 流",
+            "adv. 不, 非, 未",
+            "adv. 是",
+            "num. 十七, 十七个"
+        ]
+    },
+    {
+        "word": "cut",
+        "translation": "n. 切口, 割伤, 降低, 切, 割, 砍, 削, 伤口, 削减, 缩短, 删节, 通路",
+        "collins": 5,
+        "frequency": 414,
+        "options": [
+            "n. 切口, 割伤, 降低, 切, 割, 砍, 削, 伤口, 削减, 缩短, 删节, 通路",
+            "n. 跑, 赛跑, 奔跑, 奔跑的路程, 趋向, 流出, 运转时间, 连续",
+            "adv. 以前",
+            "vt. 预期, 盼望, 期待"
+        ]
+    },
+    {
+        "word": "daughter",
+        "translation": "n. 女儿",
+        "collins": 5,
+        "frequency": 634,
+        "options": [
+            "n. 女儿",
+            "vt. 遗失, 损失, 丢失, 使失去, 错过, 浪费, 迷失, 使迷路, 输去, 使沉溺于",
+            "n. 一般, 将军, 大体",
+            "n. 房子, 住宅, 机构, 议院, 家族, 家庭"
+        ]
+    },
+    {
+        "word": "day",
+        "translation": "n. 天, 日子, 白天, 工作日",
+        "collins": 5,
+        "frequency": 90,
+        "options": [
+            "n. 天, 日子, 白天, 工作日",
+            "n. 全体人员, 工作班子, 棍棒, 杆, 拐杖, 支柱, 权杖",
+            "n. 事物, 东西, 物, 用品, 事, 事件, 情况, 行为, 特征",
+            "pron. 你, 你们"
+        ]
+    },
+    {
+        "word": "decide",
+        "translation": "v. 决定, 判决",
+        "collins": 5,
+        "frequency": 456,
+        "options": [
+            "v. 决定, 判决",
+            "a. 关着的, 不再生效的, 处于...境况的, 休假的, 空闲的",
+            "pron. 他们, 她们, 它们",
+            "aux. 表示否定"
+        ]
+    },
+    {
+        "word": "decision",
+        "translation": "n. 决定, 决心, 决断",
+        "collins": 5,
+        "frequency": 479,
+        "options": [
+            "n. 决定, 决心, 决断",
+            "num. 五, 五个",
+            "prep. 在...之后, 由于",
+            "n. 儿子, 女婿, 子孙"
+        ]
+    },
+    {
+        "word": "demand",
+        "translation": "n. 要求, 需求, 需要",
+        "collins": 5,
+        "frequency": 1287,
+        "options": [
+            "n. 要求, 需求, 需要",
+            "n. 结果, 成绩, 答案",
+            "n. 绿色, 绿色颜料",
+            "n. 点, 小数点, 标点, 地点, 要点, 特点, 尖端, 分数, 得分, 穴位"
+        ]
+    },
+    {
+        "word": "department",
+        "translation": "n. 部门, 系, 机关",
+        "collins": 5,
+        "frequency": 1198,
+        "options": [
+            "n. 部门, 系, 机关",
+            "a. 困难的",
+            "pron. 他自己, 他亲自",
+            "n. 报告, 报道, 传说, 案情报告, 爆炸声, 成绩单"
+        ]
+    },
+    {
+        "word": "describe",
+        "translation": "vt. 描述, 描绘, 画",
+        "collins": 5,
+        "frequency": 568,
+        "options": [
+            "vt. 描述, 描绘, 画",
+            "a. 自由的, 享受政治权力的, 允许的, 免费的, 丰富的",
+            "prep. 包围, 在...周围, 四处",
+            "vt. 理解, 了解, 领会, 听说, 懂"
+        ]
+    },
+    {
+        "word": "design",
+        "translation": "n. 设计, 图样, 方案, 企图",
+        "collins": 5,
+        "frequency": 834,
+        "options": [
+            "n. 设计, 图样, 方案, 企图",
+            "pron. 什么",
+            "v. 是, 表示, 在",
+            "a. 年轻的, 无经验的, 朝气蓬勃的"
+        ]
+    },
+    {
+        "word": "develop",
+        "translation": "vt. 发展, 使发达, 进步, 洗印, 显影",
+        "collins": 5,
+        "frequency": 484,
+        "options": [
+            "vt. 发展, 使发达, 进步, 洗印, 显影",
+            "n. 办公室, 部, 公职, 职责",
+            "adv. 穿越, 从头至尾, 到底, 因为",
+            "adv. 在那里"
+        ]
+    },
+    {
+        "word": "development",
+        "translation": "n. 发展",
+        "collins": 5,
+        "frequency": 448,
+        "options": [
+            "n. 发展",
+            "pron. 它的",
+            "a. 财政的, 金融的",
+            "vt. 创造, 建造, 引起, 任命"
+        ]
+    },
+    {
+        "word": "didn't",
+        "translation": "abbr. did not 没有",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "abbr. did not 没有",
+            "pron. 我们的",
+            "n. 会议",
+            "num. 九十, 九十个"
+        ]
+    },
+    {
+        "word": "die",
+        "translation": "vi. 死亡, 消逝, 平息, 熄灭, 漠然, 渴望",
+        "collins": 5,
+        "frequency": 403,
+        "options": [
+            "vi. 死亡, 消逝, 平息, 熄灭, 漠然, 渴望",
+            "vt. 想, 考虑, 想起, 想像, 打算, 认为",
+            "a. 容易的, 缓缓的, 舒适的, 从容的, 宽容的, 流畅的, 随便的, 自在的, 疲软的",
+            "n. 符号, 招牌, 征兆, 正负号, 手势"
+        ]
+    },
+    {
+        "word": "different",
+        "translation": "a. 不同的",
+        "collins": 5,
+        "frequency": 237,
+        "options": [
+            "a. 不同的",
+            "n. 家庭, 家人, 族",
+            "n. 惊起, 出发, 开端, 起点, 吃惊, 有利条件",
+            "abbr. 我是（缩写）"
+        ]
+    },
+    {
+        "word": "difficult",
+        "translation": "a. 困难的",
+        "collins": 5,
+        "frequency": 608,
+        "options": [
+            "a. 困难的",
+            "prep. 进入...之内, 朝..., 深入...之中, 成为...状况",
+            "n. 市场, 交易, 集市, 推销地区, 行情, 市面, 销路",
+            "prep. 反对, 对着, 倚靠"
+        ]
+    },
+    {
+        "word": "direct",
+        "translation": "a. 直接的, 坦白的",
+        "collins": 5,
+        "frequency": 1478,
+        "options": [
+            "a. 直接的, 坦白的",
+            "pron. 她的, 她",
+            "n. 结果, 成绩, 答案",
+            "prep. 越过, 穿过, 与...相交叉, 在...的对面"
+        ]
+    },
+    {
+        "word": "director",
+        "translation": "n. 主管, 导演, 董事",
+        "collins": 5,
+        "frequency": 510,
+        "options": [
+            "n. 主管, 导演, 董事",
+            "a. 远的, 久远的, 遥远的",
+            "n. 部长, 牧师, 公使",
+            "adv. 在后地"
+        ]
+    },
+    {
+        "word": "do",
+        "translation": "v. 做, 进行, 完成",
+        "collins": 5,
+        "frequency": 18,
+        "options": [
+            "v. 做, 进行, 完成",
+            "num. 九, 九个",
+            "n. 一致, 调和, 协定",
+            "n. 站立, 站住, 停顿, 讲台, 看台, 立场, 法院证人席"
+        ]
+    },
+    {
+        "word": "doesn't",
+        "translation": "aux. 表示否定",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "aux. 表示否定",
+            "conj. 比, 除...外",
+            "n. 更多",
+            "n. 星, 恒星, 星形物, 运气, 明星"
+        ]
+    },
+    {
+        "word": "dollar",
+        "translation": "n. 美元, 元(加、澳等国货币单位)",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "n. 美元, 元(加、澳等国货币单位)",
+            "n. 父母, 父母亲, 根源",
+            "n. 消息, 知识, 通知, 情报, 信息, 问讯处, 起诉",
+            "pron. 她自己, 她亲自"
+        ]
+    },
+    {
+        "word": "don't",
+        "translation": "(= do not)不要",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "(= do not)不要",
+            "n. 姐妹, 姐, 妹, 护士, 修女",
+            "adv. 事实上, 竟然, 如今, 现在",
+            "n. 秒, 瞬间, 第二名, 支持者, 助手"
+        ]
+    },
+    {
+        "word": "door",
+        "translation": "n. 门",
+        "collins": 5,
+        "frequency": 343,
+        "options": [
+            "n. 门",
+            "pron. 我们",
+            "n. 事实, 真实性, 真相, 细节, 论据",
+            "n. 空气, 旋律, 态度"
+        ]
+    },
+    {
+        "word": "draw",
+        "translation": "vi. 拉, 拖, 拔剑",
+        "collins": 5,
+        "frequency": 592,
+        "options": [
+            "vi. 拉, 拖, 拔剑",
+            "vt. 赢得, 打胜, 成功",
+            "pron. 他",
+            "n. 妻子, 太太, 夫人"
+        ]
+    },
+    {
+        "word": "drive",
+        "translation": "n. 驾车, 快车道, 推进力, 驱动, 动力, 击球, 驱动器",
+        "collins": 5,
+        "frequency": 490,
+        "options": [
+            "n. 驾车, 快车道, 推进力, 驱动, 动力, 击球, 驱动器",
+            "n. 父母, 父母亲, 根源",
+            "n. 页, 记录, 事件, 专栏, 男侍",
+            "abbr. they are 他们是"
+        ]
+    },
+    {
+        "word": "drug",
+        "translation": "n. 药, 麻药, 麻醉药",
+        "collins": 5,
+        "frequency": 461,
+        "options": [
+            "n. 药, 麻药, 麻醉药",
+            "n. 目录, 名单, 明细表, 布条, 条纹, 列表, 序列, 数据清单",
+            "n. 学生, 研究者, 学者",
+            "n. 军队, 陆军"
+        ]
+    },
+    {
+        "word": "during",
+        "translation": "prep. 在...的时候",
+        "collins": 5,
+        "frequency": 198,
+        "options": [
+            "prep. 在...的时候",
+            "adv. 以后, 随后",
+            "a. 很少的, 不多的, 少数的",
+            "n. 褐色"
+        ]
+    },
+    {
+        "word": "each",
+        "translation": "a. 每个, 每一",
+        "collins": 5,
+        "frequency": 192,
+        "options": [
+            "a. 每个, 每一",
+            "a. 宽的, 广阔的, 普遍的, 宽阔的, 广泛的, 一般的",
+            "vt. 赢得, 打胜, 成功",
+            "n. 生意, 事情, 业务, 商业, 商行, 职责"
+        ]
+    },
+    {
+        "word": "early",
+        "translation": "a. 早的, 早熟的",
+        "collins": 5,
+        "frequency": 365,
+        "options": [
+            "a. 早的, 早熟的",
+            "a. 近的, 近亲的, 近似的",
+            "n. 公司, 友伴, 交往, 连队, 朋友, 一群",
+            "n. 主修课, 成年人, 陆军少校"
+        ]
+    },
+    {
+        "word": "east",
+        "translation": "n. 东方, 东",
+        "collins": 5,
+        "frequency": 733,
+        "options": [
+            "n. 东方, 东",
+            "pron. 我们的",
+            "adv. 也许, 大概",
+            "n. 先生, 阁下"
+        ]
+    },
+    {
+        "word": "easy",
+        "translation": "a. 容易的, 缓缓的, 舒适的, 从容的, 宽容的, 流畅的, 随便的, 自在的, 疲软的",
+        "collins": 5,
+        "frequency": 549,
+        "options": [
+            "a. 容易的, 缓缓的, 舒适的, 从容的, 宽容的, 流畅的, 随便的, 自在的, 疲软的",
+            "n. 杯子, 茶杯, 优胜杯",
+            "num. 三, 三个",
+            "vt. 记得, 回忆起, 记住, 铭记, 纪念"
+        ]
+    },
+    {
+        "word": "economic",
+        "translation": "a. 经济上的, 实用的, 节省的",
+        "collins": 5,
+        "frequency": 453,
+        "options": [
+            "a. 经济上的, 实用的, 节省的",
+            "n. 视野, 风景, 见解, 视力, 观看, 视图, 指望, 意图, 印象",
+            "num. 千",
+            "it is的缩写, it has的缩写"
+        ]
+    },
+    {
+        "word": "economy",
+        "translation": "n. 经济, 理财, 节约",
+        "collins": 5,
+        "frequency": 645,
+        "options": [
+            "n. 经济, 理财, 节约",
+            "vt. 告诉, 说, 吩咐, 断定, 知道",
+            "prep. 包围, 在...周围, 四处",
+            "n. 脚, 步调, 英尺, 底部, 末尾, 步兵"
+        ]
+    },
+    {
+        "word": "education",
+        "translation": "n. 教育, 训练, 教育学",
+        "collins": 5,
+        "frequency": 376,
+        "options": [
+            "n. 教育, 训练, 教育学",
+            "n. 学校, 鱼群, 门派, 学派",
+            "n. 劳动, 努力, 工作, 劳工, 分娩",
+            "adv. 如何, 怎样, 多少, 多么"
+        ]
+    },
+    {
+        "word": "effect",
+        "translation": "n. 结果, 影响, 效果, 印象",
+        "collins": 5,
+        "frequency": 427,
+        "options": [
+            "n. 结果, 影响, 效果, 印象",
+            "adv. 现在, 刚才, 目前",
+            "n. 男孩",
+            "num. 七十, 七十个"
+        ]
+    },
+    {
+        "word": "effort",
+        "translation": "n. 努力, 成就",
+        "collins": 5,
+        "frequency": 454,
+        "options": [
+            "n. 努力, 成就",
+            "n. 房子, 住宅, 机构, 议院, 家族, 家庭",
+            "v. 建立, 建筑",
+            "n. 脸, 面容, 正面, 外观"
+        ]
+    },
+    {
+        "word": "eight",
+        "translation": "num. 八, 八个",
+        "collins": 5,
+        "frequency": 739,
+        "options": [
+            "num. 八, 八个",
+            "n. 打击, 打, 冲撞, 讽刺",
+            "adv. 曾经, 究竟, 永远",
+            "n. 显示, 表现, 展览, 卖弄, 炫耀, 外观, 演出, 洋相"
+        ]
+    },
+    {
+        "word": "eighteen",
+        "translation": "num. 十八, 十八个",
+        "collins": 5,
+        "frequency": 5480,
+        "options": [
+            "num. 十八, 十八个",
+            "n. 种族, 人种, 赛跑, 比赛, 急流, 人类, 同道, 姜根",
+            "n. 今天, 当今, 现在",
+            "a. 清楚的, 明确的, 澄清的"
+        ]
+    },
+    {
+        "word": "eighty",
+        "translation": "num. 八十, 八十个",
+        "collins": 5,
+        "frequency": 7486,
+        "options": [
+            "num. 八十, 八十个",
+            "a. 两者的",
+            "n. 帮助, 外援, 助手",
+            "a. 确信, 必然的, 必定的"
+        ]
+    },
+    {
+        "word": "either",
+        "translation": "a. (两者之中)任一的, (两者之中)各一的",
+        "collins": 5,
+        "frequency": 558,
+        "options": [
+            "a. (两者之中)任一的, (两者之中)各一的",
+            "n. 世界, 地球, 宇宙, 万物, 世人, 人间, 领域, 世事, 世故, 社会生活, 大量",
+            "aux. 表示否定",
+            "pron. 它"
+        ]
+    },
+    {
+        "word": "election",
+        "translation": "n. 选举, 当选, 选择权",
+        "collins": 5,
+        "frequency": 801,
+        "options": [
+            "n. 选举, 当选, 选择权",
+            "n. 记录, 履历, 档案, 审判记录, 最高纪录, 唱片",
+            "a. 可利用的, 可获得的, 有效的",
+            "n. 结果, 影响, 效果, 印象"
+        ]
+    },
+    {
+        "word": "eleven",
+        "translation": "num. 十一, 十一个",
+        "collins": 5,
+        "frequency": 4273,
+        "options": [
+            "num. 十一, 十一个",
+            "n. 要求, 要求权, 断言, 权利",
+            "n. 产品, 结果, 乘积",
+            "n. 百万, 无数"
+        ]
+    },
+    {
+        "word": "else",
+        "translation": "a. 别的, 其他的",
+        "collins": 5,
+        "frequency": 440,
+        "options": [
+            "a. 别的, 其他的",
+            "n. 战争, 战争状态, 战术, 军事, 冲突, 斗争, 竞争",
+            "n. 生意, 事情, 业务, 商业, 商行, 职责",
+            "n. 顶部, 顶端, 极点, 上面, 上部, 顶篷, 最高地位, 首位, 陀螺"
+        ]
+    },
+    {
+        "word": "end",
+        "translation": "n. 结束, 终点, 目标, 末端, 梢, 死亡, 残余",
+        "collins": 5,
+        "frequency": 278,
+        "options": [
+            "n. 结束, 终点, 目标, 末端, 梢, 死亡, 残余",
+            "n. 经历, 经验, 体验",
+            "vi. 继续, 延续, 延长",
+            "vi. 死亡, 消逝, 平息, 熄灭, 漠然, 渴望"
+        ]
+    },
+    {
+        "word": "enough",
+        "translation": "n. 充足, 够, 很多",
+        "collins": 5,
+        "frequency": 374,
+        "options": [
+            "n. 充足, 够, 很多",
+            "pron. 她自己, 她亲自",
+            "num. 九, 九个",
+            "n. 打击, 打, 冲撞, 讽刺"
+        ]
+    },
+    {
+        "word": "event",
+        "translation": "n. 事件, 结果, 事情的进程, 竞赛项目",
+        "collins": 5,
+        "frequency": 525,
+        "options": [
+            "n. 事件, 结果, 事情的进程, 竞赛项目",
+            "a. 全体的, 总的, 全然的",
+            "n. 办公室, 部, 公职, 职责",
+            "vt. 听到, 倾听, 听说, 审理"
+        ]
+    },
+    {
+        "word": "ever",
+        "translation": "adv. 曾经, 究竟, 永远",
+        "collins": 5,
+        "frequency": 280,
+        "options": [
+            "adv. 曾经, 究竟, 永远",
+            "vt. 理解, 了解, 领会, 听说, 懂",
+            "vt. 发送, 使进入, 寄, 派遣, 发射, 使陷于",
+            "vt. 带来, 产生, 促使, 提出"
+        ]
+    },
+    {
+        "word": "every",
+        "translation": "a. 每一, 所有的",
+        "collins": 5,
+        "frequency": 172,
+        "options": [
+            "a. 每一, 所有的",
+            "vt. 跟随, 沿行, 遵循, 追求",
+            "n. 秒, 瞬间, 第二名, 支持者, 助手",
+            " (we are 的常用口语形式)"
+        ]
+    },
+    {
+        "word": "everything",
+        "translation": "pron. 每件事物, 所有事物",
+        "collins": 5,
+        "frequency": 389,
+        "options": [
+            "pron. 每件事物, 所有事物",
+            "n. 决定, 决心, 决断",
+            "n. 希望, 信心, 期待",
+            "vt. 带来, 产生, 促使, 提出"
+        ]
+    },
+    {
+        "word": "example",
+        "translation": "n. 例子, 样本, 实例",
+        "collins": 5,
+        "frequency": 852,
+        "options": [
+            "n. 例子, 样本, 实例",
+            "n. 经历, 经验, 体验",
+            "n. 油, 石油, 油画颜料",
+            "n. 决定, 决心, 决断"
+        ]
+    },
+    {
+        "word": "expect",
+        "translation": "vt. 预期, 盼望, 期待",
+        "collins": 5,
+        "frequency": 405,
+        "options": [
+            "vt. 预期, 盼望, 期待",
+            "n. 落下, 瀑布, 采伐量, 下降, 落差, 降低, 堕落, 秋天",
+            "pron. 什么",
+            "vt. 让, 假设, 出租, 排放, 妨碍"
+        ]
+    },
+    {
+        "word": "experience",
+        "translation": "n. 经历, 经验, 体验",
+        "collins": 5,
+        "frequency": 420,
+        "options": [
+            "n. 经历, 经验, 体验",
+            "pron. 那些",
+            "adv. 已经, 早已",
+            "n. 政策, 方针, 策略, 保险单"
+        ]
+    },
+    {
+        "word": "eye",
+        "translation": "n. 眼睛, 视力, 看",
+        "collins": 5,
+        "frequency": 242,
+        "options": [
+            "n. 眼睛, 视力, 看",
+            "n. 需要的东西, 缺乏, 贫困, 需要",
+            "a. 那, 那个",
+            "n. 一般, 将军, 大体"
+        ]
+    },
+    {
+        "word": "face",
+        "translation": "n. 脸, 面容, 正面, 外观",
+        "collins": 5,
+        "frequency": 330,
+        "options": [
+            "n. 脸, 面容, 正面, 外观",
+            "a. 单身的, 单程的, 单一的, 个别的, 孤独的, 专一的",
+            "n. 工作, 零活, 职业, 事情",
+            "n. 女孩, 少女, 女佣"
+        ]
+    },
+    {
+        "word": "fact",
+        "translation": "n. 事实, 真实性, 真相, 细节, 论据",
+        "collins": 5,
+        "frequency": 235,
+        "options": [
+            "n. 事实, 真实性, 真相, 细节, 论据",
+            "a. 确信, 必然的, 必定的",
+            "a. 最近的, 近代的, 最新的",
+            "n. 来临"
+        ]
+    },
+    {
+        "word": "fail",
+        "translation": "vi. 失败, 缺乏, 中断, 衰退, 失灵",
+        "collins": 5,
+        "frequency": 808,
+        "options": [
+            "vi. 失败, 缺乏, 中断, 衰退, 失灵",
+            "n. 课程, 路线, 过程, 一道菜, 道路",
+            "a. 快的, 迅速的, 敏捷的, 灵敏的, 急速的",
+            "vt. 宣布, 声称, 显示, 预告"
+        ]
+    },
+    {
+        "word": "fall",
+        "translation": "n. 落下, 瀑布, 采伐量, 下降, 落差, 降低, 堕落, 秋天",
+        "collins": 5,
+        "frequency": 410,
+        "options": [
+            "n. 落下, 瀑布, 采伐量, 下降, 落差, 降低, 堕落, 秋天",
+            "interj. (表示惊讶、恐怖、赞叹)哦",
+            "prep. 包含, 包括",
+            "n. 惊奇, 奇袭, 诧异"
+        ]
+    },
+    {
+        "word": "family",
+        "translation": "n. 家庭, 家人, 族",
+        "collins": 5,
+        "frequency": 147,
+        "options": [
+            "n. 家庭, 家人, 族",
+            "num. 五十, 五十个",
+            "n. 代价, 价值, 费用",
+            "n. 经济, 理财, 节约"
+        ]
+    },
+    {
+        "word": "far",
+        "translation": "a. 远的, 久远的, 遥远的",
+        "collins": 5,
+        "frequency": 252,
+        "options": [
+            "a. 远的, 久远的, 遥远的",
+            "pron. 他们的",
+            "num. 二十, 二十个",
+            "n. 惊奇, 奇袭, 诧异"
+        ]
+    },
+    {
+        "word": "father",
+        "translation": "n. 父亲, 祖先, 长辈, 神父, 创始者",
+        "collins": 5,
+        "frequency": 267,
+        "options": [
+            "n. 父亲, 祖先, 长辈, 神父, 创始者",
+            " （尤当 have 为助动词时, we have 的常用口语形式）",
+            "n. 选举, 当选, 选择权",
+            "prep. 除了"
+        ]
+    },
+    {
+        "word": "fear",
+        "translation": "n. 恐怖, 害怕, 担心",
+        "collins": 5,
+        "frequency": 985,
+        "options": [
+            "n. 恐怖, 害怕, 担心",
+            "n. 拜访, 访问, 游览, 视察",
+            "pron. 某事, 某物",
+            "a. 地方性的, 当地的, 局部的, 乡土的, 本地的"
+        ]
+    },
+    {
+        "word": "feel",
+        "translation": "vt. 感觉, 觉得, 触摸, 以为",
+        "collins": 5,
+        "frequency": 134,
+        "options": [
+            "vt. 感觉, 觉得, 触摸, 以为",
+            "vt. 种植, 使长满",
+            "aux. 表示否定",
+            "prep. 自...以后, 自...以来"
+        ]
+    },
+    {
+        "word": "few",
+        "translation": "a. 很少的, 不多的, 少数的",
+        "collins": 5,
+        "frequency": 185,
+        "options": [
+            "a. 很少的, 不多的, 少数的",
+            "n. 盖子, 封面, 藉口",
+            "n. 问题, 难题",
+            "vi. 去, 走, 达到, 运转, 查阅, 消失, 结束, 放弃, 花费, 流传, 趋于, 打算, 剩下"
+        ]
+    },
+    {
+        "word": "fifteen",
+        "translation": "num. 十五, 十五个",
+        "collins": 5,
+        "frequency": 2995,
+        "options": [
+            "num. 十五, 十五个",
+            "adv. 在后地",
+            "美国微软公司",
+            "adv. 为什么"
+        ]
+    },
+    {
+        "word": "fifty",
+        "translation": "num. 五十, 五十个",
+        "collins": 5,
+        "frequency": 3038,
+        "options": [
+            "num. 五十, 五十个",
+            "n. 顶部, 顶端, 极点, 上面, 上部, 顶篷, 最高地位, 首位, 陀螺",
+            "a. 完全的, 十足的, 完成的",
+            "vi. 参加, 结合, 加入"
+        ]
+    },
+    {
+        "word": "fight",
+        "translation": "n. 打架, 争吵, 斗志",
+        "collins": 5,
+        "frequency": 676,
+        "options": [
+            "n. 打架, 争吵, 斗志",
+            "n. 军队, 陆军",
+            "a. 清楚的, 明确的, 澄清的",
+            "adv. 时常, 常常"
+        ]
+    },
+    {
+        "word": "figure",
+        "translation": "n. 数字, 价格, 图形, 形状",
+        "collins": 5,
+        "frequency": 552,
+        "options": [
+            "n. 数字, 价格, 图形, 形状",
+            "adv. 一次, 曾经, 一旦",
+            "a. 远的, 久远的, 遥远的",
+            "n. 女儿"
+        ]
+    },
+    {
+        "word": "film",
+        "translation": "n. 软片, 薄膜, 胶卷, 电影",
+        "collins": 5,
+        "frequency": 593,
+        "options": [
+            "n. 软片, 薄膜, 胶卷, 电影",
+            "n. 社会；社交界；交往；社团",
+            "n. 旁边, 侧, 方面, 胁, 侧边, 血统",
+            "adv. 穿越, 从头至尾, 到底, 因为"
+        ]
+    },
+    {
+        "word": "final",
+        "translation": "n. 期末考试, 结局, 决赛",
+        "collins": 5,
+        "frequency": 887,
+        "options": [
+            "n. 期末考试, 结局, 决赛",
+            "adv. 实际上, 真实地, 实在",
+            "n. 指控, 费用, 冲锋, 电荷, 炸药, 主管, 被托管人, 命令",
+            "a. 严肃的, 认真的, 重要的, 严重的"
+        ]
+    },
+    {
+        "word": "financial",
+        "translation": "a. 财政的, 金融的",
+        "collins": 5,
+        "frequency": 827,
+        "options": [
+            "a. 财政的, 金融的",
+            "n. 市场, 交易, 集市, 推销地区, 行情, 市面, 销路",
+            "a. 国际的",
+            "conj. 或, 或者"
+        ]
+    },
+    {
+        "word": "find",
+        "translation": "vt. 发现, 感到, 找到, 认为, 得到",
+        "collins": 5,
+        "frequency": 95,
+        "options": [
+            "vt. 发现, 感到, 找到, 认为, 得到",
+            "n. 全体人员, 工作班子, 棍棒, 杆, 拐杖, 支柱, 权杖",
+            "我将, 我会（=I shall）",
+            "n. 期末考试, 结局, 决赛"
+        ]
+    },
+    {
+        "word": "firm",
+        "translation": "n. 公司, 商号",
+        "collins": 5,
+        "frequency": 902,
+        "options": [
+            "n. 公司, 商号",
+            "n. 俱乐部, 木棍, 球棒",
+            "vi. 不能",
+            "a. 别的, 其他的"
+        ]
+    },
+    {
+        "word": "first",
+        "translation": "adv. 首先, 第一, 优先",
+        "collins": 5,
+        "frequency": 86,
+        "options": [
+            "adv. 首先, 第一, 优先",
+            "interj. (表示惊讶、恐怖、赞叹)哦",
+            "n. 树干, 祖先, 血统, 原料, 备料, 库存, 牲畜, 股票, 股份, 保留剧目",
+            "n. 打击, 打, 冲撞, 讽刺"
+        ]
+    },
+    {
+        "word": "five",
+        "translation": "num. 五, 五个",
+        "collins": 5,
+        "frequency": 299,
+        "options": [
+            "num. 五, 五个",
+            "a. 严肃的, 认真的, 重要的, 严重的",
+            "vt. 跟随, 沿行, 遵循, 追求",
+            "n. 报告, 解释, 估价, 理由, 利润, 算账, 帐目"
+        ]
+    },
+    {
+        "word": "fly",
+        "translation": "n. 苍蝇, 两翼昆虫, 飞行",
+        "collins": 5,
+        "frequency": 943,
+        "options": [
+            "n. 苍蝇, 两翼昆虫, 飞行",
+            "adv. 然而, 无论如何, 究竟怎样",
+            "vt. 赢得, 打胜, 成功",
+            "n. 学习, 研究, 学科, 论文, 求学, 书房, 试作"
+        ]
+    },
+    {
+        "word": "follow",
+        "translation": "vt. 跟随, 沿行, 遵循, 追求",
+        "collins": 5,
+        "frequency": 325,
+        "options": [
+            "vt. 跟随, 沿行, 遵循, 追求",
+            "n. 情形, 境遇, 位置",
+            "vt. 感觉, 觉得, 触摸, 以为",
+            "vt. 预期, 盼望, 期待"
+        ]
+    },
+    {
+        "word": "food",
+        "translation": "n. 食物, 养料",
+        "collins": 5,
+        "frequency": 366,
+        "options": [
+            "n. 食物, 养料",
+            "pron. 他自己, 他亲自",
+            "num. 四, 四个",
+            "n. 信, 字母, 证书, 字面意义, 铅字, 学问, 出租人"
+        ]
+    },
+    {
+        "word": "foot",
+        "translation": "n. 脚, 步调, 英尺, 底部, 末尾, 步兵",
+        "collins": 5,
+        "frequency": 380,
+        "options": [
+            "n. 脚, 步调, 英尺, 底部, 末尾, 步兵",
+            "get的过去式和过去分词",
+            "n. 会议, 会面",
+            "a. 宽的, 广阔的, 普遍的, 宽阔的, 广泛的, 一般的"
+        ]
+    },
+    {
+        "word": "for",
+        "translation": "prep. 为, 因为, 至于",
+        "collins": 5,
+        "frequency": 13,
+        "options": [
+            "prep. 为, 因为, 至于",
+            "pron. 你的, 你们的",
+            "adv. 然而, 无论如何, 究竟怎样",
+            "a. 近的, 近亲的, 近似的"
+        ]
+    },
+    {
+        "word": "force",
+        "translation": "n. 力量, 武力, 势力, 影响力, 军队, 力, 效力",
+        "collins": 5,
+        "frequency": 372,
+        "options": [
+            "n. 力量, 武力, 势力, 影响力, 军队, 力, 效力",
+            "pron. 谁",
+            "abbr. you have 你（们）已经",
+            "conj. 比, 除...外"
+        ]
+    },
+    {
+        "word": "former",
+        "translation": "a. 从前的, 前者的",
+        "collins": 5,
+        "frequency": 442,
+        "options": [
+            "a. 从前的, 前者的",
+            "n. 人, 人民, 民族, 平民",
+            "a. 远的, 久远的, 遥远的",
+            "v. 立基于, 以…为基础（base的过去式和过去分词）"
+        ]
+    },
+    {
+        "word": "forty",
+        "translation": "num. 四十, 四十个",
+        "collins": 5,
+        "frequency": 3734,
+        "options": [
+            "num. 四十, 四十个",
+            "a. 国家的, 国立的, 全国性的, 民族的",
+            "n. 房子, 住宅, 机构, 议院, 家族, 家庭",
+            "a. 坏的"
+        ]
+    },
+    {
+        "word": "four",
+        "translation": "num. 四, 四个",
+        "collins": 5,
+        "frequency": 247,
+        "options": [
+            "num. 四, 四个",
+            "n. 呼叫, 访问, 打电话, 号召, 召集, 要求",
+            "n. 头, 头脑, 领袖, 脑袋, 最前的部分",
+            "n. 孩子, 产物, 追随者"
+        ]
+    },
+    {
+        "word": "fourteen",
+        "translation": "num. 十四, 十四个",
+        "collins": 5,
+        "frequency": 5498,
+        "options": [
+            "num. 十四, 十四个",
+            "a. 重要的, 有地位的, 大量的, 显要的, 自负的",
+            "n. 行动, 行为, 幕, 法案",
+            "n. 部门, 系, 机关"
+        ]
+    },
+    {
+        "word": "free",
+        "translation": "a. 自由的, 享受政治权力的, 允许的, 免费的, 丰富的",
+        "collins": 5,
+        "frequency": 473,
+        "options": [
+            "a. 自由的, 享受政治权力的, 允许的, 免费的, 丰富的",
+            "n. 工作, 零活, 职业, 事情",
+            "adv. 相当, 完全, 十分",
+            "vt. 创造, 建造, 引起, 任命"
+        ]
+    },
+    {
+        "word": "friend",
+        "translation": "n. 朋友, 支持者, 赞助者",
+        "collins": 5,
+        "frequency": 265,
+        "options": [
+            "n. 朋友, 支持者, 赞助者",
+            "pron. 你的, 你们的",
+            "n. 早晨, 早上, 初期",
+            "a. 每一, 所有的"
+        ]
+    },
+    {
+        "word": "from",
+        "translation": "prep. 从, 来自, 根据",
+        "collins": 5,
+        "frequency": 26,
+        "options": [
+            "prep. 从, 来自, 根据",
+            "num. 七十, 七十个",
+            "n. 水, 雨水, 海水, 水位, 水面, 流水",
+            "pron. 我们"
+        ]
+    },
+    {
+        "word": "front",
+        "translation": "n. 前面, 开头, 前线, 阵线, 态度",
+        "collins": 5,
+        "frequency": 1087,
+        "options": [
+            "n. 前面, 开头, 前线, 阵线, 态度",
+            "a. 确信, 必然的, 必定的",
+            "adv. 两次, 两倍",
+            "conj. 或, 或者"
+        ]
+    },
+    {
+        "word": "full",
+        "translation": "n. 全部, 完整",
+        "collins": 5,
+        "frequency": 503,
+        "options": [
+            "n. 全部, 完整",
+            "n. 公司, 商号",
+            "num. 十六, 十六个",
+            "vt. 种植, 使长满"
+        ]
+    },
+    {
+        "word": "fund",
+        "translation": "n. 基金, 资金, 存款, 财源, 贮藏",
+        "collins": 5,
+        "frequency": 754,
+        "options": [
+            "n. 基金, 资金, 存款, 财源, 贮藏",
+            "n. 变化, 找回的零钱, 找头, 更换",
+            "n. 显示, 表现, 展览, 卖弄, 炫耀, 外观, 演出, 洋相",
+            "n. 金钱, 一笔款, 财富, 货币, 金额"
+        ]
+    },
+    {
+        "word": "further",
+        "translation": "a. 更远的, 此外的, 更多的",
+        "collins": 5,
+        "frequency": 11239,
+        "options": [
+            "a. 更远的, 此外的, 更多的",
+            "n. 话, 消息, 词, 诺言, 命令",
+            "v. 是, 表示, 在",
+            "n. 学生, 研究者, 学者"
+        ]
+    },
+    {
+        "word": "future",
+        "translation": "n. 未来, 将来",
+        "collins": 5,
+        "frequency": 654,
+        "options": [
+            "n. 未来, 将来",
+            "n. 总统, 总裁, 董事长, (学院)院长, (大学)校长, 主管人, 主持人",
+            "n. 会议, 委员会",
+            "n. 伸出, 延伸, 区域, 范围, 流域, 岬"
+        ]
+    },
+    {
+        "word": "game",
+        "translation": "n. 比赛, 玩耍, 比分, 得胜, 比赛规则, 策略, 游戏, 野味",
+        "collins": 5,
+        "frequency": 273,
+        "options": [
+            "n. 比赛, 玩耍, 比分, 得胜, 比赛规则, 策略, 游戏, 野味",
+            "num. 四十, 四十个",
+            "a. 财政的, 金融的",
+            "a. 可利用的, 可获得的, 有效的"
+        ]
+    },
+    {
+        "word": "general",
+        "translation": "n. 一般, 将军, 大体",
+        "collins": 5,
+        "frequency": 804,
+        "options": [
+            "n. 一般, 将军, 大体",
+            "n. 油, 石油, 油画颜料",
+            "n. 结束, 终点, 目标, 末端, 梢, 死亡, 残余",
+            "n. 计划, 方案, 策略, 方法, 进度表, 程序表, 平面图, 设计图, 轮廓, 示意图"
+        ]
+    },
+    {
+        "word": "get",
+        "translation": "vt. 得到, 获得, 变成, 使得, 收获, 接通, 抓住, 染上",
+        "collins": 5,
+        "frequency": 39,
+        "options": [
+            "vt. 得到, 获得, 变成, 使得, 收获, 接通, 抓住, 染上",
+            "aux. 可以, 能",
+            "n. 报告, 报道, 传说, 案情报告, 爆炸声, 成绩单",
+            "n. 事件, 物质, 原因, 素材, 实体, 重要"
+        ]
+    },
+    {
+        "word": "girl",
+        "translation": "n. 女孩, 少女, 女佣",
+        "collins": 5,
+        "frequency": 363,
+        "options": [
+            "n. 女孩, 少女, 女佣",
+            "n. 发行, 问题, 后果, 流出, 出口, 争端",
+            "prep. 被, 经, 由, 在...之旁",
+            "vi. 过来, 来, 到达, 出现, 开始"
+        ]
+    },
+    {
+        "word": "give",
+        "translation": "n. 弹性, 适应性",
+        "collins": 5,
+        "frequency": 98,
+        "options": [
+            "n. 弹性, 适应性",
+            "a. 强壮的, 坚固的, 坚强的, 强烈的, 有力的, 优良的",
+            "vt. 增加, 添加, 附带说明, 计算...总和",
+            "pron. 我们的"
+        ]
+    },
+    {
+        "word": "go",
+        "translation": "vi. 去, 走, 达到, 运转, 查阅, 消失, 结束, 放弃, 花费, 流传, 趋于, 打算, 剩下",
+        "collins": 5,
+        "frequency": 35,
+        "options": [
+            "vi. 去, 走, 达到, 运转, 查阅, 消失, 结束, 放弃, 花费, 流传, 趋于, 打算, 剩下",
+            "n. 成员, 会员",
+            "n. 种类, 方式, 品质, 态度, 举止",
+            "v. 建立, 建筑"
+        ]
+    },
+    {
+        "word": "going",
+        "translation": "n. 去, 离去, 工作情况, 地面状况, 行为",
+        "collins": 5,
+        "frequency": 10792,
+        "options": [
+            "n. 去, 离去, 工作情况, 地面状况, 行为",
+            "a. 如此的, 这样的",
+            "n. 视野, 风景, 见解, 视力, 观看, 视图, 指望, 意图, 印象",
+            "adv. 以后, 随后"
+        ]
+    },
+    {
+        "word": "good",
+        "translation": "n. 善行, 好处, 利益",
+        "collins": 5,
+        "frequency": 110,
+        "options": [
+            "n. 善行, 好处, 利益",
+            "n. 主要部分, 干线, 体力, 力量, 主群组",
+            "prep. 在...之上",
+            "n. 等待, 等候"
+        ]
+    },
+    {
+        "word": "got",
+        "translation": "get的过去式和过去分词",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "get的过去式和过去分词",
+            "adv. 还, 尚, 仍然, 已经, 然而",
+            "n. 战争, 战争状态, 战术, 军事, 冲突, 斗争, 竞争",
+            "a. 那, 那个"
+        ]
+    },
+    {
+        "word": "government",
+        "translation": "n. 政府, 内阁",
+        "collins": 5,
+        "frequency": 201,
+        "options": [
+            "n. 政府, 内阁",
+            "a. 后面的",
+            "n. 年龄, 老年, 成年, 寿命, 时代, 时期",
+            "n. 兄弟"
+        ]
+    },
+    {
+        "word": "great",
+        "translation": "a. 大的, 非常的, 主要的, 重大的, 崇高的, 伟大的",
+        "collins": 5,
+        "frequency": 160,
+        "options": [
+            "a. 大的, 非常的, 主要的, 重大的, 崇高的, 伟大的",
+            "vt. 说, 讲, 念, 说明, 指明",
+            "n. 星期, 周",
+            "pron. 这些"
+        ]
+    },
+    {
+        "word": "green",
+        "translation": "n. 绿色, 绿色颜料",
+        "collins": 5,
+        "frequency": 890,
+        "options": [
+            "n. 绿色, 绿色颜料",
+            "n. 行动, 活动, 动作, 作用, 战斗, 行为, 诉讼",
+            "n. 俱乐部, 木棍, 球棒",
+            "n. 符号, 招牌, 征兆, 正负号, 手势"
+        ]
+    },
+    {
+        "word": "grey",
+        "translation": "n. 灰色",
+        "collins": 5,
+        "frequency": 37508,
+        "options": [
+            "n. 灰色",
+            "n. 不, 拒绝, 否决票",
+            "pron. 哪一个, 那一个",
+            "(=that is)说得更精确些, 简而言之"
+        ]
+    },
+    {
+        "word": "ground",
+        "translation": "n. 土地, 战场, 场地, 地面, 范围",
+        "collins": 5,
+        "frequency": 522,
+        "options": [
+            "n. 土地, 战场, 场地, 地面, 范围",
+            "n. 官员, 公务员, 职员",
+            "他是, 他有",
+            "n. 季节, 时节, 当令期, 时期"
+        ]
+    },
+    {
+        "word": "group",
+        "translation": "n. 团体, 组, 团, 群",
+        "collins": 5,
+        "frequency": 163,
+        "options": [
+            "n. 团体, 组, 团, 群",
+            "n. 路, 路线, 路途, 方法, 道路, 情形, 规模, 习惯, 行业, 方面",
+            "a. 可利用的, 可获得的, 有效的",
+            "n. 规则, 统治, 控制, 支配, 规律, 标准, 章程, 破折号, 铅线"
+        ]
+    },
+    {
+        "word": "grow",
+        "translation": "vt. 种植, 使长满",
+        "collins": 5,
+        "frequency": 353,
+        "options": [
+            "vt. 种植, 使长满",
+            "n. 脸, 面容, 正面, 外观",
+            "n. 薪资, 付款, 补偿",
+            "n. 比赛, 玩耍, 比分, 得胜, 比赛规则, 策略, 游戏, 野味"
+        ]
+    },
+    {
+        "word": "half",
+        "translation": "n. 一半, 半场, 不完全",
+        "collins": 5,
+        "frequency": 547,
+        "options": [
+            "n. 一半, 半场, 不完全",
+            "pron. 你的, 你们的",
+            "prep. 在...之中",
+            "pron. 谁的"
+        ]
+    },
+    {
+        "word": "happen",
+        "translation": "vi. 发生, 发生, 恰巧",
+        "collins": 5,
+        "frequency": 216,
+        "options": [
+            "vi. 发生, 发生, 恰巧",
+            "n. 爱, 恋爱, 爱情, 爱好, 性爱",
+            "pron. 他们, 她们, 它们",
+            "adv. 平行地, 向前"
+        ]
+    },
+    {
+        "word": "hard",
+        "translation": "a. 坚硬的, 硬的, 难的, 艰苦的, 困难的, 坚固的, 猛烈的, 艰难的, 结实的, 确实的",
+        "collins": 5,
+        "frequency": 438,
+        "options": [
+            "a. 坚硬的, 硬的, 难的, 艰苦的, 困难的, 坚固的, 猛烈的, 艰难的, 结实的, 确实的",
+            "n. 事物, 东西, 物, 用品, 事, 事件, 情况, 行为, 特征",
+            "a. 迟的, 晚的, 已故的",
+            "n. 笑, 笑声"
+        ]
+    },
+    {
+        "word": "have",
+        "translation": "vt. 有, 怀有, 拿, 进行",
+        "collins": 5,
+        "frequency": 8,
+        "options": [
+            "vt. 有, 怀有, 拿, 进行",
+            "vi. 保持, 逗留, 剩余",
+            "num. 十三, 十三个",
+            "num. 六, 六个"
+        ]
+    },
+    {
+        "word": "he",
+        "translation": "pron. 他",
+        "collins": 5,
+        "frequency": 15,
+        "options": [
+            "pron. 他",
+            "(=is not)不是",
+            "a. 清楚的, 明确的, 澄清的",
+            "a. 单身的, 单程的, 单一的, 个别的, 孤独的, 专一的"
+        ]
+    },
+    {
+        "word": "he's",
+        "translation": "他是, 他有",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "他是, 他有",
+            "n. 少量, 马嚼子, 辅币",
+            "prep. 在...之前",
+            "n. 驾车, 快车道, 推进力, 驱动, 动力, 击球, 驱动器"
+        ]
+    },
+    {
+        "word": "head",
+        "translation": "n. 头, 头脑, 领袖, 脑袋, 最前的部分",
+        "collins": 5,
+        "frequency": 251,
+        "options": [
+            "n. 头, 头脑, 领袖, 脑袋, 最前的部分",
+            "n. 结果, 成绩, 答案",
+            "n. 妻子, 太太, 夫人",
+            "adv. 一起, 共同, 彼此"
+        ]
+    },
+    {
+        "word": "health",
+        "translation": "n. 健康, 卫生, 蓬勃, 健康状态",
+        "collins": 5,
+        "frequency": 344,
+        "options": [
+            "n. 健康, 卫生, 蓬勃, 健康状态",
+            "n. 出售, 卖, 拍卖, 销售额, 廉价出售",
+            "pron. 它的",
+            "n. 大量, 许多, 重要的事"
+        ]
+    },
+    {
+        "word": "hear",
+        "translation": "vt. 听到, 倾听, 听说, 审理",
+        "collins": 5,
+        "frequency": 195,
+        "options": [
+            "vt. 听到, 倾听, 听说, 审理",
+            "adv. 事实上, 竟然, 如今, 现在",
+            "n. 感应, 感觉, 感官, 意识, 观念, 情理, 知觉, 理智",
+            "num. 十三, 十三个"
+        ]
+    },
+    {
+        "word": "help",
+        "translation": "n. 帮忙, 帮助者, 补救办法, 有益的东西",
+        "collins": 5,
+        "frequency": 167,
+        "options": [
+            "n. 帮忙, 帮助者, 补救办法, 有益的东西",
+            "pron. 他们, 它们",
+            "pron. 那些",
+            "a. 社会的, 群居的, 社交的"
+        ]
+    },
+    {
+        "word": "her",
+        "translation": "pron. 她的, 她",
+        "collins": 5,
+        "frequency": 42,
+        "options": [
+            "pron. 她的, 她",
+            "a. 那, 那个",
+            "n. 投票, 选举, 选票, 表决, 选举权, 得票数",
+            "n. 音乐, 乐曲"
+        ]
+    },
+    {
+        "word": "here",
+        "translation": "adv. 在这里, 此时, 这里",
+        "collins": 5,
+        "frequency": 96,
+        "options": [
+            "adv. 在这里, 此时, 这里",
+            "n. 女人, 妇女, 女仆",
+            "a. 容易的, 缓缓的, 舒适的, 从容的, 宽容的, 流畅的, 随便的, 自在的, 疲软的",
+            "vt. 学习；认识到；得知"
+        ]
+    },
+    {
+        "word": "herself",
+        "translation": "pron. 她自己, 她亲自",
+        "collins": 5,
+        "frequency": 792,
+        "options": [
+            "pron. 她自己, 她亲自",
+            "abbr. you are 你（你们）是",
+            "n. 中央, 中间, 腰部",
+            "vt. 赢得, 打胜, 成功"
+        ]
+    },
+    {
+        "word": "high",
+        "translation": "n. 高度, 高处",
+        "collins": 5,
+        "frequency": 141,
+        "options": [
+            "n. 高度, 高处",
+            "n. 工作, 零活, 职业, 事情",
+            "num. 十八, 十八个",
+            "n. 爱, 恋爱, 爱情, 爱好, 性爱"
+        ]
+    },
+    {
+        "word": "him",
+        "translation": "pron. 他",
+        "collins": 5,
+        "frequency": 68,
+        "options": [
+            "pron. 他",
+            "num. 三, 三个",
+            "n. 名字, 名称, 姓名, 名义, 名誉, 文件名",
+            "pron. 你的, 你们的"
+        ]
+    },
+    {
+        "word": "himself",
+        "translation": "pron. 他自己, 他亲自",
+        "collins": 5,
+        "frequency": 367,
+        "options": [
+            "pron. 他自己, 他亲自",
+            "a. 近的, 近亲的, 近似的",
+            "n. 国家, 乡村, 地区, 故乡",
+            "num. 十六, 十六个"
+        ]
+    },
+    {
+        "word": "his",
+        "translation": "pron. 他的",
+        "collins": 5,
+        "frequency": 25,
+        "options": [
+            "pron. 他的",
+            "num. 七, 七个",
+            "n. 音乐, 乐曲",
+            "n. 停止, 车站, 逗留, 填塞, 障碍, (风琴的)音栓"
+        ]
+    },
+    {
+        "word": "history",
+        "translation": "n. 历史, 过去, 经历, 发展过程, 历史学, 过去的事, 历史记录",
+        "collins": 5,
+        "frequency": 350,
+        "options": [
+            "n. 历史, 过去, 经历, 发展过程, 历史学, 过去的事, 历史记录",
+            "n. 位置, 地位, 身分, 形势, 姿势, 立场, 职位, 状态, 阵地",
+            "vt. 理解, 了解, 领会, 听说, 懂",
+            "n. 等待, 等候"
+        ]
+    },
+    {
+        "word": "hit",
+        "translation": "n. 打击, 打, 冲撞, 讽刺",
+        "collins": 5,
+        "frequency": 535,
+        "options": [
+            "n. 打击, 打, 冲撞, 讽刺",
+            "a. 年轻的, 无经验的, 朝气蓬勃的",
+            "num. 九, 九个",
+            "num. 十四, 十四个"
+        ]
+    },
+    {
+        "word": "hope",
+        "translation": "n. 希望, 信心, 期待",
+        "collins": 5,
+        "frequency": 482,
+        "options": [
+            "n. 希望, 信心, 期待",
+            "num. 十七, 十七个",
+            "adv. 也, 并且, 同样地",
+            "abbr. 我是（缩写）"
+        ]
+    },
+    {
+        "word": "hospital",
+        "translation": "n. 医院",
+        "collins": 5,
+        "frequency": 647,
+        "options": [
+            "n. 医院",
+            "n. 休息, 中断, 破裂处, 绝交, 破晓, 突变",
+            "n. 房子, 住宅, 机构, 议院, 家族, 家庭",
+            "n. 家庭, 家人, 族"
+        ]
+    },
+    {
+        "word": "host",
+        "translation": "n. 主人, 旅馆老板, 节目主持人",
+        "collins": 5,
+        "frequency": 1840,
+        "options": [
+            "n. 主人, 旅馆老板, 节目主持人",
+            "n. 苍蝇, 两翼昆虫, 飞行",
+            "n. 国家, 民族",
+            "vt. 收到, 接到, 得到, 接待, 迎接, 承受"
+        ]
+    },
+    {
+        "word": "hour",
+        "translation": "n. 小时, 钟头, 时间, ...点钟, 课时",
+        "collins": 5,
+        "frequency": 272,
+        "options": [
+            "n. 小时, 钟头, 时间, ...点钟, 课时",
+            "a. 相似的, 同样的",
+            "n. 工作, 劳动, 职业, 行为, 功, 作品, 成果, 产品, 工程",
+            "n. 页, 记录, 事件, 专栏, 男侍"
+        ]
+    },
+    {
+        "word": "house",
+        "translation": "n. 房子, 住宅, 机构, 议院, 家族, 家庭",
+        "collins": 5,
+        "frequency": 257,
+        "options": [
+            "n. 房子, 住宅, 机构, 议院, 家族, 家庭",
+            "n. 父母, 父母亲, 根源",
+            "conj. 和, 与",
+            "n. 研究, 调查, 考察"
+        ]
+    },
+    {
+        "word": "how",
+        "translation": "adv. 如何, 怎样, 多少, 多么",
+        "collins": 5,
+        "frequency": 76,
+        "options": [
+            "adv. 如何, 怎样, 多少, 多么",
+            "abbr. 我是（缩写）",
+            "n. 树干, 祖先, 血统, 原料, 备料, 库存, 牲畜, 股票, 股份, 保留剧目",
+            "n. 要求, 要求权, 断言, 权利"
+        ]
+    },
+    {
+        "word": "however",
+        "translation": "adv. 然而, 无论如何, 究竟怎样",
+        "collins": 5,
+        "frequency": 284,
+        "options": [
+            "adv. 然而, 无论如何, 究竟怎样",
+            "n. 最多, 最大",
+            "n. 政府, 内阁",
+            "abbr. 我是（缩写）"
+        ]
+    },
+    {
+        "word": "human",
+        "translation": "n. 人, 人类",
+        "collins": 5,
+        "frequency": 399,
+        "options": [
+            "n. 人, 人类",
+            "num. 八, 八个",
+            "adv. 从不, 决不, 不曾",
+            "n. 军官, 主管, 官员, 公务员"
+        ]
+    },
+    {
+        "word": "hundred",
+        "translation": "n. 百, 百个东西",
+        "collins": 5,
+        "frequency": 621,
+        "options": [
+            "n. 百, 百个东西",
+            "n. 小时, 钟头, 时间, ...点钟, 课时",
+            "n. 手臂, 袖子, 狭长港湾, 武器",
+            "n. 队, 组"
+        ]
+    },
+    {
+        "word": "I",
+        "translation": "pron. 我",
+        "collins": 5,
+        "frequency": 11,
+        "options": [
+            "pron. 我",
+            "a. 困难的",
+            "num. 十, 十个",
+            "num. 四十, 四十个"
+        ]
+    },
+    {
+        "word": "I'd",
+        "translation": "abbr. 我愿意（等于I would）",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "abbr. 我愿意（等于I would）",
+            "pron. 它",
+            "n. 落下, 瀑布, 采伐量, 下降, 落差, 降低, 堕落, 秋天",
+            "n. 生产品, 物产, 后代"
+        ]
+    },
+    {
+        "word": "I'll",
+        "translation": "我将, 我会（=I shall）",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "我将, 我会（=I shall）",
+            "conj. 或, 或者",
+            "conj. 和, 与",
+            "n. 一般, 将军, 大体"
+        ]
+    },
+    {
+        "word": "I'm",
+        "translation": "abbr. 我是（缩写）",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "abbr. 我是（缩写）",
+            "a. (两者之中)任一的, (两者之中)各一的",
+            "num. 六, 六个",
+            "n. 主人, 旅馆老板, 节目主持人"
+        ]
+    },
+    {
+        "word": "I've",
+        "translation": "（等于I have）",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "（等于I have）",
+            "a. 宽的, 广阔的, 普遍的, 宽阔的, 广泛的, 一般的",
+            "num. 十六, 十六个",
+            "pron. 任何事"
+        ]
+    },
+    {
+        "word": "idea",
+        "translation": "n. 主意, 办法, 理想, 思想, 概念, 意见",
+        "collins": 5,
+        "frequency": 311,
+        "options": [
+            "n. 主意, 办法, 理想, 思想, 概念, 意见",
+            "a. 有可能的, 合适的, 前途有望的",
+            "n. 尝试, 试验, 审理, 审判",
+            "abbr. they are 他们是"
+        ]
+    },
+    {
+        "word": "if",
+        "translation": "conj. 如果, 是否, 无论何时, 假设, 即使",
+        "collins": 5,
+        "frequency": 40,
+        "options": [
+            "conj. 如果, 是否, 无论何时, 假设, 即使",
+            "当然",
+            "n. 时间, 时侯, 时机, 时期, 期限, 次数, 节拍, 暂停, 规定时间",
+            "abbr. did not 没有"
+        ]
+    },
+    {
+        "word": "important",
+        "translation": "a. 重要的, 有地位的, 大量的, 显要的, 自负的",
+        "collins": 5,
+        "frequency": 266,
+        "options": [
+            "a. 重要的, 有地位的, 大量的, 显要的, 自负的",
+            "n. 世纪, 百年",
+            "vt. 花费, 浪费, 度过, 消耗, 消磨",
+            "n. 中央, 中间, 腰部"
+        ]
+    },
+    {
+        "word": "include",
+        "translation": "vt. 包括, 把...算入, 包住",
+        "collins": 5,
+        "frequency": 292,
+        "options": [
+            "vt. 包括, 把...算入, 包住",
+            "n. 目录, 名单, 明细表, 布条, 条纹, 列表, 序列, 数据清单",
+            "a. 坏的",
+            "v. 考虑, 思考, 认为"
+        ]
+    },
+    {
+        "word": "including",
+        "translation": "prep. 包含, 包括",
+        "collins": 5,
+        "frequency": 393,
+        "options": [
+            "prep. 包含, 包括",
+            "prep. 直到, 在...以前",
+            "abbr. 我是（缩写）",
+            "a. 另外的, 再一的, 不同的"
+        ]
+    },
+    {
+        "word": "increase",
+        "translation": "n. 增加, 增进, 利益",
+        "collins": 5,
+        "frequency": 660,
+        "options": [
+            "n. 增加, 增进, 利益",
+            "a. 早的, 早熟的",
+            "太太",
+            "n. 成员, 会员"
+        ]
+    },
+    {
+        "word": "independent",
+        "translation": "n. 独立自主者, 无党派者",
+        "collins": 5,
+        "frequency": 1265,
+        "options": [
+            "n. 独立自主者, 无党派者",
+            "n. 时间, 时侯, 时机, 时期, 期限, 次数, 节拍, 暂停, 规定时间",
+            "n. 小心, 照料, 忧虑",
+            "n. 公司, 商号"
+        ]
+    },
+    {
+        "word": "industry",
+        "translation": "n. 勤劳, 工业, 企业, 产业, 有组织的劳动",
+        "collins": 5,
+        "frequency": 551,
+        "options": [
+            "n. 勤劳, 工业, 企业, 产业, 有组织的劳动",
+            "n. 会议, 委员会",
+            "a. 清楚的, 明确的, 澄清的",
+            "n. 昨天"
+        ]
+    },
+    {
+        "word": "information",
+        "translation": "n. 消息, 知识, 通知, 情报, 信息, 问讯处, 起诉",
+        "collins": 5,
+        "frequency": 314,
+        "options": [
+            "n. 消息, 知识, 通知, 情报, 信息, 问讯处, 起诉",
+            "num. 五, 五个",
+            "adv. 穿越, 从头至尾, 到底, 因为",
+            "a. 社会的, 群居的, 社交的"
+        ]
+    },
+    {
+        "word": "interest",
+        "translation": "n. 兴趣, 嗜好, 利息, 利益, 爱好, 趣味, 势力",
+        "collins": 5,
+        "frequency": 416,
+        "options": [
+            "n. 兴趣, 嗜好, 利息, 利益, 爱好, 趣味, 势力",
+            "n. 贸易, 商业, 交易, 生意, 职业, 顾客, 信风",
+            "pron. 谁",
+            "n. 团体, 组, 团, 群"
+        ]
+    },
+    {
+        "word": "international",
+        "translation": "a. 国际的",
+        "collins": 5,
+        "frequency": 500,
+        "options": [
+            "a. 国际的",
+            "n. 勤劳, 工业, 企业, 产业, 有组织的劳动",
+            "n. 例子, 样本, 实例",
+            "pron. 他们, 它们"
+        ]
+    },
+    {
+        "word": "into",
+        "translation": "prep. 进入...之内, 朝..., 深入...之中, 成为...状况",
+        "collins": 5,
+        "frequency": 65,
+        "options": [
+            "prep. 进入...之内, 朝..., 深入...之中, 成为...状况",
+            "pron. 这些",
+            "adv. 不久, 早, 快, 宁可",
+            "n. 故事, 小说, 传奇, 描述, 阅历, 经历, 层"
+        ]
+    },
+    {
+        "word": "isn't",
+        "translation": "(=is not)不是",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "(=is not)不是",
+            "n. 符号, 招牌, 征兆, 正负号, 手势",
+            "n. 理由, 原因, 理智, 道理, 前提, 理性",
+            "n. 外面, 外表, 外界"
+        ]
+    },
+    {
+        "word": "issue",
+        "translation": "n. 发行, 问题, 后果, 流出, 出口, 争端",
+        "collins": 5,
+        "frequency": 248,
+        "options": [
+            "n. 发行, 问题, 后果, 流出, 出口, 争端",
+            "n. 休息, 中断, 破裂处, 绝交, 破晓, 突变",
+            "n. 历史, 过去, 经历, 发展过程, 历史学, 过去的事, 历史记录",
+            "n. 跑, 赛跑, 奔跑, 奔跑的路程, 趋向, 流出, 运转时间, 连续"
+        ]
+    },
+    {
+        "word": "it",
+        "translation": "pron. 它",
+        "collins": 5,
+        "frequency": 10,
+        "options": [
+            "pron. 它",
+            "a. 别的, 其他的",
+            "pron. 他们, 她们, 它们",
+            "n. 陆地, 地面, 地界, 地产, 国土, 土地"
+        ]
+    },
+    {
+        "word": "it's",
+        "translation": "it is的缩写, it has的缩写",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "it is的缩写, it has的缩写",
+            "他是, 他有",
+            "v. 立基于, 以…为基础（base的过去式和过去分词）",
+            "n. 运气, 签, 抽签, 份额, 许多, 一堆"
+        ]
+    },
+    {
+        "word": "its",
+        "translation": "pron. 它的",
+        "collins": 5,
+        "frequency": 78,
+        "options": [
+            "pron. 它的",
+            "n. 贸易, 商业, 交易, 生意, 职业, 顾客, 信风",
+            "n. 无线电, 收音机, 无线电报, 无线电广播, 无线电台",
+            "（等于I have）"
+        ]
+    },
+    {
+        "word": "itself",
+        "translation": "pron. 它本身, 它自己",
+        "collins": 5,
+        "frequency": 556,
+        "options": [
+            "pron. 它本身, 它自己",
+            "n. 经济, 理财, 节约",
+            "a. 其他的, 另外的, 从前的",
+            "n. 国家, 乡村, 地区, 故乡"
+        ]
+    },
+    {
+        "word": "job",
+        "translation": "n. 工作, 零活, 职业, 事情",
+        "collins": 5,
+        "frequency": 243,
+        "options": [
+            "n. 工作, 零活, 职业, 事情",
+            "prep. 越过, 穿过, 与...相交叉, 在...的对面",
+            "n. 价值, 价格, 购买力, 评价, 估价, 计算结果",
+            "vi. 不能"
+        ]
+    },
+    {
+        "word": "join",
+        "translation": "vi. 参加, 结合, 加入",
+        "collins": 5,
+        "frequency": 505,
+        "options": [
+            "vi. 参加, 结合, 加入",
+            "n. 国家, 乡村, 地区, 故乡",
+            "n. 去, 离去, 工作情况, 地面状况, 行为",
+            "adv. 也, 非常, 太"
+        ]
+    },
+    {
+        "word": "keep",
+        "translation": "n. 生计, 维持, 保持",
+        "collins": 5,
+        "frequency": 156,
+        "options": [
+            "n. 生计, 维持, 保持",
+            "vt. 花费, 浪费, 度过, 消耗, 消磨",
+            "n. 百, 百个东西",
+            "n. 关心, 忧虑"
+        ]
+    },
+    {
+        "word": "kill",
+        "translation": "n. 杀, 杀戮, 小河",
+        "collins": 5,
+        "frequency": 425,
+        "options": [
+            "n. 杀, 杀戮, 小河",
+            "aux. 应该, 将要",
+            "n. 新闻, 消息, 报导",
+            "n. 规则, 统治, 控制, 支配, 规律, 标准, 章程, 破折号, 铅线"
+        ]
+    },
+    {
+        "word": "labour",
+        "translation": "n. 劳动, 努力, 工作, 劳工, 分娩",
+        "collins": 5,
+        "frequency": 16348,
+        "options": [
+            "n. 劳动, 努力, 工作, 劳工, 分娩",
+            "n. 呼叫, 访问, 打电话, 号召, 召集, 要求",
+            "a. 最近的, 近代的, 最新的",
+            "a. 那, 那个"
+        ]
+    },
+    {
+        "word": "land",
+        "translation": "n. 陆地, 地面, 地界, 地产, 国土, 土地",
+        "collins": 5,
+        "frequency": 566,
+        "options": [
+            "n. 陆地, 地面, 地界, 地产, 国土, 土地",
+            "vt. 预期, 盼望, 期待",
+            "adv. 一次, 曾经, 一旦",
+            "n. 要求, 要求权, 断言, 权利"
+        ]
+    },
+    {
+        "word": "large",
+        "translation": "a. 大的, 大量的, 宽大的, 广博的",
+        "collins": 5,
+        "frequency": 220,
+        "options": [
+            "a. 大的, 大量的, 宽大的, 广博的",
+            "n. 研究, 调查, 考察",
+            "n. 数字, 价格, 图形, 形状",
+            "prep. 为, 因为, 至于"
+        ]
+    },
+    {
+        "word": "late",
+        "translation": "a. 迟的, 晚的, 已故的",
+        "collins": 5,
+        "frequency": 437,
+        "options": [
+            "a. 迟的, 晚的, 已故的",
+            "vt. 卖, 背叛, 销售, 出卖",
+            "n. 苍蝇, 两翼昆虫, 飞行",
+            "n. 世界, 地球, 宇宙, 万物, 世人, 人间, 领域, 世事, 世故, 社会生活, 大量"
+        ]
+    },
+    {
+        "word": "later",
+        "translation": "adv. 以后, 随后",
+        "collins": 5,
+        "frequency": 295,
+        "options": [
+            "adv. 以后, 随后",
+            "n. 产品, 结果, 乘积",
+            "vt. 种植, 使长满",
+            "n. 基金, 资金, 存款, 财源, 贮藏"
+        ]
+    },
+    {
+        "word": "laugh",
+        "translation": "n. 笑, 笑声",
+        "collins": 5,
+        "frequency": 861,
+        "options": [
+            "n. 笑, 笑声",
+            "a. 可能的, 潜在的, 合适的",
+            "n. 医院",
+            "n. 经历, 经验, 体验"
+        ]
+    },
+    {
+        "word": "law",
+        "translation": "n. 法律, 法则, 定律, 法律的制约, 法学, 司法界, 诉讼",
+        "collins": 5,
+        "frequency": 287,
+        "options": [
+            "n. 法律, 法则, 定律, 法律的制约, 法学, 司法界, 诉讼",
+            "n. 变化, 找回的零钱, 找头, 更换",
+            "aux. 应该, 将要",
+            "a. 任何的"
+        ]
+    },
+    {
+        "word": "leader",
+        "translation": "n. 领导者, 社论, 指挥, 领袖, 领唱者, 前导字符",
+        "collins": 5,
+        "frequency": 463,
+        "options": [
+            "n. 领导者, 社论, 指挥, 领袖, 领唱者, 前导字符",
+            "n. 国家, 乡村, 地区, 故乡",
+            "pron. 谁的",
+            "n. 会议, 会面"
+        ]
+    },
+    {
+        "word": "learn",
+        "translation": "vt. 学习；认识到；得知",
+        "collins": 5,
+        "frequency": 304,
+        "options": [
+            "vt. 学习；认识到；得知",
+            "n. 情形, 境遇, 位置",
+            "conj. 是否, 不论",
+            "pron. 我"
+        ]
+    },
+    {
+        "word": "least",
+        "translation": "n. 最少, 最小, 最小限度",
+        "collins": 5,
+        "frequency": 302,
+        "options": [
+            "n. 最少, 最小, 最小限度",
+            "太太",
+            "n. 人, 人类",
+            "n. 名字, 名称, 姓名, 名义, 名誉, 文件名"
+        ]
+    },
+    {
+        "word": "leave",
+        "translation": "n. 许可, 告别, 请假, 休假",
+        "collins": 5,
+        "frequency": 150,
+        "options": [
+            "n. 许可, 告别, 请假, 休假",
+            "a. 单身的, 单程的, 单一的, 个别的, 孤独的, 专一的",
+            "根据, 按照；取决于；据…所说",
+            "num. 八, 八个"
+        ]
+    },
+    {
+        "word": "less",
+        "translation": "n. 较少, 较小",
+        "collins": 5,
+        "frequency": 477,
+        "options": [
+            "n. 较少, 较小",
+            "num. 四, 四个",
+            "a. 后面的",
+            "n. 季节, 时节, 当令期, 时期"
+        ]
+    },
+    {
+        "word": "let",
+        "translation": "vt. 让, 假设, 出租, 排放, 妨碍",
+        "collins": 5,
+        "frequency": 159,
+        "options": [
+            "vt. 让, 假设, 出租, 排放, 妨碍",
+            "n. 脚, 步调, 英尺, 底部, 末尾, 步兵",
+            "v. 是, 表示, 在",
+            "n. 经历, 经验, 体验"
+        ]
+    },
+    {
+        "word": "letter",
+        "translation": "n. 信, 字母, 证书, 字面意义, 铅字, 学问, 出租人",
+        "collins": 5,
+        "frequency": 628,
+        "options": [
+            "n. 信, 字母, 证书, 字面意义, 铅字, 学问, 出租人",
+            "a. 能干的, 能够的",
+            "n. 委员会",
+            "n. 决定, 决心, 决断"
+        ]
+    },
+    {
+        "word": "level",
+        "translation": "n. 水平, 水准, 平地",
+        "collins": 5,
+        "frequency": 338,
+        "options": [
+            "n. 水平, 水准, 平地",
+            "num. 三十, 三十个",
+            "a. 不同的",
+            "n. 生活, 生命, 人生, 世事, 生物, 寿命, 一生, 生命力, 灵魂, 无期徒刑"
+        ]
+    },
+    {
+        "word": "life",
+        "translation": "n. 生活, 生命, 人生, 世事, 生物, 寿命, 一生, 生命力, 灵魂, 无期徒刑",
+        "collins": 5,
+        "frequency": 114,
+        "options": [
+            "n. 生活, 生命, 人生, 世事, 生物, 寿命, 一生, 生命力, 灵魂, 无期徒刑",
+            "a. 困难的",
+            "第一个字母 A; 一个; 第一的\\r",
+            "n. 药, 麻药, 麻醉药"
+        ]
+    },
+    {
+        "word": "like",
+        "translation": "a. 相似的, 同样的",
+        "collins": 5,
+        "frequency": 74,
+        "options": [
+            "a. 相似的, 同样的",
+            "v. 读, 阅读, 理解",
+            " =would not",
+            "n. 百万, 无数"
+        ]
+    },
+    {
+        "word": "likely",
+        "translation": "a. 有可能的, 合适的, 前途有望的",
+        "collins": 5,
+        "frequency": 624,
+        "options": [
+            "a. 有可能的, 合适的, 前途有望的",
+            "vi. 发生, 发生, 恰巧",
+            "a. 能干的, 能够的",
+            "prep. 除了"
+        ]
+    },
+    {
+        "word": "line",
+        "translation": "n. 列, 线, 绳, 电线, 线路, 路线, 航线, 作业线, 界线, 战线, 外形, 排, 家系",
+        "collins": 5,
+        "frequency": 276,
+        "options": [
+            "n. 列, 线, 绳, 电线, 线路, 路线, 航线, 作业线, 界线, 战线, 外形, 排, 家系",
+            "n. 例子, 样本, 实例",
+            "n. 外面, 外表, 外界",
+            "n. 结果, 成绩, 答案"
+        ]
+    },
+    {
+        "word": "list",
+        "translation": "n. 目录, 名单, 明细表, 布条, 条纹, 列表, 序列, 数据清单",
+        "collins": 5,
+        "frequency": 761,
+        "options": [
+            "n. 目录, 名单, 明细表, 布条, 条纹, 列表, 序列, 数据清单",
+            "prep. 在...之间",
+            "n. 运气, 签, 抽签, 份额, 许多, 一堆",
+            "a. 地方性的, 当地的, 局部的, 乡土的, 本地的"
+        ]
+    },
+    {
+        "word": "little",
+        "translation": "n. 一点点, 少许, 一会儿, 短时间",
+        "collins": 5,
+        "frequency": 256,
+        "options": [
+            "n. 一点点, 少许, 一会儿, 短时间",
+            "n. 无线电, 收音机, 无线电报, 无线电广播, 无线电台",
+            "n. 油, 石油, 油画颜料",
+            "n. 位置, 地位, 身分, 形势, 姿势, 立场, 职位, 状态, 阵地"
+        ]
+    },
+    {
+        "word": "local",
+        "translation": "a. 地方性的, 当地的, 局部的, 乡土的, 本地的",
+        "collins": 5,
+        "frequency": 423,
+        "options": [
+            "a. 地方性的, 当地的, 局部的, 乡土的, 本地的",
+            "conj. 因为",
+            "vi. 去, 走, 达到, 运转, 查阅, 消失, 结束, 放弃, 花费, 流传, 趋于, 打算, 剩下",
+            "美国微软公司"
+        ]
+    },
+    {
+        "word": "look",
+        "translation": "n. 一看, 神色, 样子, 面容",
+        "collins": 5,
+        "frequency": 85,
+        "options": [
+            "n. 一看, 神色, 样子, 面容",
+            "num. 五十, 五十个",
+            "n. 走, 散步, 步行, 行走的路程, 竞走, 散步场所",
+            "n. 建筑物, 建筑"
+        ]
+    },
+    {
+        "word": "lose",
+        "translation": "vt. 遗失, 损失, 丢失, 使失去, 错过, 浪费, 迷失, 使迷路, 输去, 使沉溺于",
+        "collins": 5,
+        "frequency": 283,
+        "options": [
+            "vt. 遗失, 损失, 丢失, 使失去, 错过, 浪费, 迷失, 使迷路, 输去, 使沉溺于",
+            "n. 选举, 当选, 选择权",
+            "adv. 大概, 或许",
+            "n. 善行, 好处, 利益"
+        ]
+    },
+    {
+        "word": "lot",
+        "translation": "n. 运气, 签, 抽签, 份额, 许多, 一堆",
+        "collins": 5,
+        "frequency": 238,
+        "options": [
+            "n. 运气, 签, 抽签, 份额, 许多, 一堆",
+            "美国微软公司",
+            "num. 十八, 十八个",
+            "n. 消息, 知识, 通知, 情报, 信息, 问讯处, 起诉"
+        ]
+    },
+    {
+        "word": "love",
+        "translation": "n. 爱, 恋爱, 爱情, 爱好, 性爱",
+        "collins": 5,
+        "frequency": 390,
+        "options": [
+            "n. 爱, 恋爱, 爱情, 爱好, 性爱",
+            "n. 回来, 返回, 来回票, 归还, 报答, 利润率, 报告书",
+            "n. 成员, 会员",
+            "vt. 告诉, 说, 吩咐, 断定, 知道"
+        ]
+    },
+    {
+        "word": "low",
+        "translation": "n. 低点, 低价, 低, 牛叫声",
+        "collins": 5,
+        "frequency": 360,
+        "options": [
+            "n. 低点, 低价, 低, 牛叫声",
+            "n. 相片, 照片, 逼真的描绘",
+            "n. 颜色, 面色, 颜料, 外貌",
+            "n. 部门, 系, 机关"
+        ]
+    },
+    {
+        "word": "main",
+        "translation": "n. 主要部分, 干线, 体力, 力量, 主群组",
+        "collins": 5,
+        "frequency": 888,
+        "options": [
+            "n. 主要部分, 干线, 体力, 力量, 主群组",
+            "num. 七十, 七十个",
+            "n. 油, 石油, 油画颜料",
+            "a. 别的, 其他的"
+        ]
+    },
+    {
+        "word": "major",
+        "translation": "n. 主修课, 成年人, 陆军少校",
+        "collins": 5,
+        "frequency": 444,
+        "options": [
+            "n. 主修课, 成年人, 陆军少校",
+            "n. 前面, 开头, 前线, 阵线, 态度",
+            "n. 弹性, 适应性",
+            "n. 纸, 文件, 文章, 报纸, 证券, 证件"
+        ]
+    },
+    {
+        "word": "man",
+        "translation": "n. 男人, 人类, 人",
+        "collins": 5,
+        "frequency": 94,
+        "options": [
+            "n. 男人, 人类, 人",
+            "adv. 然而, 可是",
+            "vt. 创造, 建造, 引起, 任命",
+            "prep. 反对, 对着, 倚靠"
+        ]
+    },
+    {
+        "word": "many",
+        "translation": "n. 多数, 多数人",
+        "collins": 5,
+        "frequency": 99,
+        "options": [
+            "n. 多数, 多数人",
+            "n. 最多, 最大",
+            "n. 社区, 公众, 共有, 共同体",
+            "n. 符号, 招牌, 征兆, 正负号, 手势"
+        ]
+    },
+    {
+        "word": "market",
+        "translation": "n. 市场, 交易, 集市, 推销地区, 行情, 市面, 销路",
+        "collins": 5,
+        "frequency": 402,
+        "options": [
+            "n. 市场, 交易, 集市, 推销地区, 行情, 市面, 销路",
+            "a. 有可能的, 合适的, 前途有望的",
+            "n. 苍蝇, 两翼昆虫, 飞行",
+            "n. 停止, 车站, 逗留, 填塞, 障碍, (风琴的)音栓"
+        ]
+    },
+    {
+        "word": "match",
+        "translation": "n. 比赛, 火柴, 对手",
+        "collins": 5,
+        "frequency": 1972,
+        "options": [
+            "n. 比赛, 火柴, 对手",
+            "n. 会议",
+            "n. 指控, 费用, 冲锋, 电荷, 炸药, 主管, 被托管人, 命令",
+            "n. 主人, 旅馆老板, 节目主持人"
+        ]
+    },
+    {
+        "word": "matter",
+        "translation": "n. 事件, 物质, 原因, 素材, 实体, 重要",
+        "collins": 5,
+        "frequency": 528,
+        "options": [
+            "n. 事件, 物质, 原因, 素材, 实体, 重要",
+            "n. 建筑物, 建筑",
+            "a. 很少的, 不多的, 少数的",
+            "conj. 和, 与"
+        ]
+    },
+    {
+        "word": "me",
+        "translation": "pron. 我",
+        "collins": 5,
+        "frequency": 61,
+        "options": [
+            "pron. 我",
+            "vt. 学习；认识到；得知",
+            "n. 期末考试, 结局, 决赛",
+            "n. 涌流, 趋势, 流"
+        ]
+    },
+    {
+        "word": "meet",
+        "translation": "n. 会, 集会",
+        "collins": 5,
+        "frequency": 288,
+        "options": [
+            "n. 会, 集会",
+            "interj. (表示惊讶、恐怖、赞叹)哦",
+            "n. 食物, 养料",
+            "adv. 一次, 曾经, 一旦"
+        ]
+    },
+    {
+        "word": "meeting",
+        "translation": "n. 会议, 会面",
+        "collins": 5,
+        "frequency": 772,
+        "options": [
+            "n. 会议, 会面",
+            "(=is not)不是",
+            "他是, 他有",
+            "n. 区域, 面积, 范围, 空地"
+        ]
+    },
+    {
+        "word": "member",
+        "translation": "n. 成员, 会员",
+        "collins": 5,
+        "frequency": 285,
+        "options": [
+            "n. 成员, 会员",
+            "a. 直接的, 坦白的",
+            "n. 朋友, 支持者, 赞助者",
+            "a. 外面的, 熄灭的, 结束的"
+        ]
+    },
+    {
+        "word": "middle",
+        "translation": "n. 中央, 中间, 腰部",
+        "collins": 5,
+        "frequency": 988,
+        "options": [
+            "n. 中央, 中间, 腰部",
+            "a. 另外的, 再一的, 不同的",
+            "n. 会议, 委员会",
+            "pron. 他们的"
+        ]
+    },
+    {
+        "word": "military",
+        "translation": "n. 军队",
+        "collins": 5,
+        "frequency": 474,
+        "options": [
+            "n. 军队",
+            "a. 地方性的, 当地的, 局部的, 乡土的, 本地的",
+            "n. 事实, 真实性, 真相, 细节, 论据",
+            "adv. 同样地, 例如"
+        ]
+    },
+    {
+        "word": "million",
+        "translation": "n. 百万, 无数",
+        "collins": 5,
+        "frequency": 222,
+        "options": [
+            "n. 百万, 无数",
+            "n. 军队, 陆军",
+            "abbr. you are 你（你们）是",
+            "adv. 已经, 早已"
+        ]
+    },
+    {
+        "word": "minister",
+        "translation": "n. 部长, 牧师, 公使",
+        "collins": 5,
+        "frequency": 1910,
+        "options": [
+            "n. 部长, 牧师, 公使",
+            "n. 结束, 终点, 目标, 末端, 梢, 死亡, 残余",
+            "vt. 预期, 盼望, 期待",
+            "n. 想法, 思想, 思维, 关心, 挂念"
+        ]
+    },
+    {
+        "word": "moment",
+        "translation": "n. 片刻, 瞬间, 重要, 阶段, 力矩",
+        "collins": 5,
+        "frequency": 369,
+        "options": [
+            "n. 片刻, 瞬间, 重要, 阶段, 力矩",
+            "n. 发展",
+            "adv. 也, 并且, 同样地",
+            "n. 办公室, 部, 公职, 职责"
+        ]
+    },
+    {
+        "word": "money",
+        "translation": "n. 金钱, 一笔款, 财富, 货币, 金额",
+        "collins": 5,
+        "frequency": 232,
+        "options": [
+            "n. 金钱, 一笔款, 财富, 货币, 金额",
+            "n. 结束, 终点, 目标, 末端, 梢, 死亡, 残余",
+            "prep. 除了",
+            "pron. 我"
+        ]
+    },
+    {
+        "word": "month",
+        "translation": "n. 月",
+        "collins": 5,
+        "frequency": 236,
+        "options": [
+            "n. 月",
+            "n. 切口, 割伤, 降低, 切, 割, 砍, 削, 伤口, 削减, 缩短, 删节, 通路",
+            "pron. 哪一个, 那一个",
+            "n. 女孩, 少女, 女佣"
+        ]
+    },
+    {
+        "word": "more",
+        "translation": "n. 更多",
+        "collins": 5,
+        "frequency": 81,
+        "options": [
+            "n. 更多",
+            "n. 路, 路线, 路途, 方法, 道路, 情形, 规模, 习惯, 行业, 方面",
+            "n. 多数, 多数人",
+            "n. 生活, 生命, 人生, 世事, 生物, 寿命, 一生, 生命力, 灵魂, 无期徒刑"
+        ]
+    },
+    {
+        "word": "morning",
+        "translation": "n. 早晨, 早上, 初期",
+        "collins": 5,
+        "frequency": 357,
+        "options": [
+            "n. 早晨, 早上, 初期",
+            "n. 结果, 成绩, 答案",
+            "n. 操作, 动作, 手术, 运算, 作用, 业务",
+            "n. 价值, 价格, 购买力, 评价, 估价, 计算结果"
+        ]
+    },
+    {
+        "word": "most",
+        "translation": "n. 最多, 最大",
+        "collins": 5,
+        "frequency": 144,
+        "options": [
+            "n. 最多, 最大",
+            "n. 旁边, 侧, 方面, 胁, 侧边, 血统",
+            "n. 指控, 费用, 冲锋, 电荷, 炸药, 主管, 被托管人, 命令",
+            "a. 每个, 每一"
+        ]
+    },
+    {
+        "word": "mother",
+        "translation": "n. 母亲, 修女院长",
+        "collins": 5,
+        "frequency": 229,
+        "options": [
+            "n. 母亲, 修女院长",
+            "n. 程序, 进行, 过程",
+            "n. 男孩",
+            "vt. 创造, 建造, 引起, 任命"
+        ]
+    },
+    {
+        "word": "move",
+        "translation": "n. 移动, 迁居, 步骤",
+        "collins": 5,
+        "frequency": 207,
+        "options": [
+            "n. 移动, 迁居, 步骤",
+            "prep. 越过, 穿过, 与...相交叉, 在...的对面",
+            "a. 可能的, 潜在的, 合适的",
+            "n. 涌流, 趋势, 流"
+        ]
+    },
+    {
+        "word": "Mr",
+        "translation": "先生",
+        "collins": 5,
+        "frequency": 191,
+        "options": [
+            "先生",
+            "abbr. did not 没有",
+            "n. 目录, 名单, 明细表, 布条, 条纹, 列表, 序列, 数据清单",
+            "n. 会议, 委员会"
+        ]
+    },
+    {
+        "word": "Mrs",
+        "translation": "太太",
+        "collins": 5,
+        "frequency": 932,
+        "options": [
+            "太太",
+            "n. 列, 线, 绳, 电线, 线路, 路线, 航线, 作业线, 界线, 战线, 外形, 排, 家系",
+            "adv. 大概, 或许",
+            "n. 全体人员, 工作班子, 棍棒, 杆, 拐杖, 支柱, 权杖"
+        ]
+    },
+    {
+        "word": "MS",
+        "translation": "美国微软公司",
+        "collins": 5,
+        "frequency": 1145,
+        "options": [
+            "美国微软公司",
+            "n. 操作, 动作, 手术, 运算, 作用, 业务",
+            "n. 发行, 问题, 后果, 流出, 出口, 争端",
+            "vt. 发展, 使发达, 进步, 洗印, 显影"
+        ]
+    },
+    {
+        "word": "much",
+        "translation": "n. 大量, 许多, 重要的事",
+        "collins": 5,
+        "frequency": 146,
+        "options": [
+            "n. 大量, 许多, 重要的事",
+            "n. 旁边, 侧, 方面, 胁, 侧边, 血统",
+            "n. 法律, 法则, 定律, 法律的制约, 法学, 司法界, 诉讼",
+            "vt. 包括, 把...算入, 包住"
+        ]
+    },
+    {
+        "word": "music",
+        "translation": "n. 音乐, 乐曲",
+        "collins": 5,
+        "frequency": 392,
+        "options": [
+            "n. 音乐, 乐曲",
+            "n. 原因, 目标",
+            "n. 人, 人身, 人称",
+            "n. 上升, 增加, 上涨, 高地, 升高, 出现"
+        ]
+    },
+    {
+        "word": "must",
+        "translation": "n. 必须, 未发酵葡萄汁, 绝对必要的事物",
+        "collins": 5,
+        "frequency": 223,
+        "options": [
+            "n. 必须, 未发酵葡萄汁, 绝对必要的事物",
+            "a. 关着的, 不再生效的, 处于...境况的, 休假的, 空闲的",
+            "adv. 时常, 常常",
+            "n. 规则, 统治, 控制, 支配, 规律, 标准, 章程, 破折号, 铅线"
+        ]
+    },
+    {
+        "word": "my",
+        "translation": "pron. 我的",
+        "collins": 5,
+        "frequency": 44,
+        "options": [
+            "pron. 我的",
+            "n. 经历, 经验, 体验",
+            "vt. 收到, 接到, 得到, 接待, 迎接, 承受",
+            "prep. 直到, 在...以前"
+        ]
+    },
+    {
+        "word": "name",
+        "translation": "n. 名字, 名称, 姓名, 名义, 名誉, 文件名",
+        "collins": 5,
+        "frequency": 298,
+        "options": [
+            "n. 名字, 名称, 姓名, 名义, 名誉, 文件名",
+            "vi. 过来, 来, 到达, 出现, 开始",
+            "vt. 提议, 建议, 促成, 暗示, 启发, 使人想起",
+            "vi. 说, 说话, 演说, 发言"
+        ]
+    },
+    {
+        "word": "nation",
+        "translation": "n. 国家, 民族",
+        "collins": 5,
+        "frequency": 412,
+        "options": [
+            "n. 国家, 民族",
+            "n. 恐怖, 害怕, 担心",
+            "n. 蒸馏室, 寂静, 剧照",
+            "n. 行动, 行为, 幕, 法案"
+        ]
+    },
+    {
+        "word": "national",
+        "translation": "a. 国家的, 国立的, 全国性的, 民族的",
+        "collins": 5,
+        "frequency": 231,
+        "options": [
+            "a. 国家的, 国立的, 全国性的, 民族的",
+            "n. 经济, 理财, 节约",
+            "n. 夜, 夜晚, 晚上, 黑暗, 夜晚的工作",
+            "conj. 比, 除...外"
+        ]
+    },
+    {
+        "word": "near",
+        "translation": "a. 近的, 近亲的, 近似的",
+        "collins": 5,
+        "frequency": 706,
+        "options": [
+            "a. 近的, 近亲的, 近似的",
+            "n. 记录, 履历, 档案, 审判记录, 最高纪录, 唱片",
+            "n. 俱乐部, 木棍, 球棒",
+            "n. 打击, 打, 冲撞, 讽刺"
+        ]
+    },
+    {
+        "word": "need",
+        "translation": "n. 需要, 必须, 缺乏",
+        "collins": 5,
+        "frequency": 132,
+        "options": [
+            "n. 需要, 必须, 缺乏",
+            "a. 其他的, 另外的, 从前的",
+            "num. 六, 六个",
+            "pron. 它"
+        ]
+    },
+    {
+        "word": "never",
+        "translation": "adv. 从不, 决不, 不曾",
+        "collins": 5,
+        "frequency": 138,
+        "options": [
+            "adv. 从不, 决不, 不曾",
+            "n. 父亲, 祖先, 长辈, 神父, 创始者",
+            "pron. 什么",
+            "prep. 不是"
+        ]
+    },
+    {
+        "word": "new",
+        "translation": "a. 新的, 陌生的, 最近的, 不熟悉的",
+        "collins": 5,
+        "frequency": 88,
+        "options": [
+            "a. 新的, 陌生的, 最近的, 不熟悉的",
+            "n. 名字, 名称, 姓名, 名义, 名誉, 文件名",
+            "n. 点, 小数点, 标点, 地点, 要点, 特点, 尖端, 分数, 得分, 穴位",
+            "n. 苍蝇, 两翼昆虫, 飞行"
+        ]
+    },
+    {
+        "word": "news",
+        "translation": "n. 新闻, 消息, 报导",
+        "collins": 5,
+        "frequency": 574,
+        "options": [
+            "n. 新闻, 消息, 报导",
+            "n. 等待, 等候",
+            "n. 出售, 卖, 拍卖, 销售额, 廉价出售",
+            "a. 新的, 陌生的, 最近的, 不熟悉的"
+        ]
+    },
+    {
+        "word": "next",
+        "translation": "n. 下一个",
+        "collins": 5,
+        "frequency": 217,
+        "options": [
+            "n. 下一个",
+            "a. 地方性的, 当地的, 局部的, 乡土的, 本地的",
+            "a. 重要的, 有地位的, 大量的, 显要的, 自负的",
+            "当然"
+        ]
+    },
+    {
+        "word": "night",
+        "translation": "n. 夜, 夜晚, 晚上, 黑暗, 夜晚的工作",
+        "collins": 5,
+        "frequency": 209,
+        "options": [
+            "n. 夜, 夜晚, 晚上, 黑暗, 夜晚的工作",
+            "a. 清楚的, 明确的, 澄清的",
+            "prep. 没有, 不, 在...之外",
+            "n. 经过, 要隘, 途径, 通行, 护照, 及格"
+        ]
+    },
+    {
+        "word": "nine",
+        "translation": "num. 九, 九个",
+        "collins": 5,
+        "frequency": 1154,
+        "options": [
+            "num. 九, 九个",
+            "n. 发行, 问题, 后果, 流出, 出口, 争端",
+            "n. 机会, 意外, 可能性",
+            "pron. 她的, 她"
+        ]
+    },
+    {
+        "word": "nineteen",
+        "translation": "num. 十九, 十九个",
+        "collins": 5,
+        "frequency": 7818,
+        "options": [
+            "num. 十九, 十九个",
+            "adv. 穿越, 从头至尾, 到底, 因为",
+            "n. 杯子, 茶杯, 优胜杯",
+            "a. 早的, 早熟的"
+        ]
+    },
+    {
+        "word": "ninety",
+        "translation": "num. 九十, 九十个",
+        "collins": 5,
+        "frequency": 8279,
+        "options": [
+            "num. 九十, 九十个",
+            "n. 星期, 周",
+            "太太",
+            "n. 竞赛者, 上场队员, 游戏者, 演员"
+        ]
+    },
+    {
+        "word": "no",
+        "translation": "n. 不, 拒绝, 否决票",
+        "collins": 5,
+        "frequency": 93,
+        "options": [
+            "n. 不, 拒绝, 否决票",
+            "n. 走, 散步, 步行, 行走的路程, 竞走, 散步场所",
+            "n. 指控, 费用, 冲锋, 电荷, 炸药, 主管, 被托管人, 命令",
+            "vt. 提议, 建议, 促成, 暗示, 启发, 使人想起"
+        ]
+    },
+    {
+        "word": "not",
+        "translation": "adv. 不, 非, 未",
+        "collins": 5,
+        "frequency": 28,
+        "options": [
+            "adv. 不, 非, 未",
+            "n. 一半, 半场, 不完全",
+            "n. 发行, 问题, 后果, 流出, 出口, 争端",
+            "n. 国家, 乡村, 地区, 故乡"
+        ]
+    },
+    {
+        "word": "nothing",
+        "translation": "n. 无, 不关紧要之事, 零",
+        "collins": 5,
+        "frequency": 315,
+        "options": [
+            "n. 无, 不关紧要之事, 零",
+            "vi. 去, 走, 达到, 运转, 查阅, 消失, 结束, 放弃, 花费, 流传, 趋于, 打算, 剩下",
+            "n. 研究, 调查, 考察",
+            "n. 今天, 当今, 现在"
+        ]
+    },
+    {
+        "word": "now",
+        "translation": "adv. 现在, 刚才, 目前",
+        "collins": 5,
+        "frequency": 72,
+        "options": [
+            "adv. 现在, 刚才, 目前",
+            "v. 读, 阅读, 理解",
+            "a. 坏的",
+            "n. 去, 离去, 工作情况, 地面状况, 行为"
+        ]
+    },
+    {
+        "word": "number",
+        "translation": "n. 数, 数字, 数目, 号码",
+        "collins": 5,
+        "frequency": 204,
+        "options": [
+            "n. 数, 数字, 数目, 号码",
+            "n. 会, 集会",
+            "adv. 也许, 大概",
+            "adv. 不久, 早, 快, 宁可"
+        ]
+    },
+    {
+        "word": "of",
+        "translation": "prep. 的, 属于",
+        "collins": 5,
+        "frequency": 4,
+        "options": [
+            "prep. 的, 属于",
+            "vi. 继续, 延续, 延长",
+            "n. 生产品, 物产, 后代",
+            "n. 会议, 会面"
+        ]
+    },
+    {
+        "word": "of course",
+        "translation": "当然",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "当然",
+            "n. 代价, 价值, 费用",
+            "vt. 感觉, 觉得, 触摸, 以为",
+            "a. 关着的, 不再生效的, 处于...境况的, 休假的, 空闲的"
+        ]
+    },
+    {
+        "word": "off",
+        "translation": "a. 关着的, 不再生效的, 处于...境况的, 休假的, 空闲的",
+        "collins": 5,
+        "frequency": 205,
+        "options": [
+            "a. 关着的, 不再生效的, 处于...境况的, 休假的, 空闲的",
+            "n. 中心, 中心点, 中锋",
+            "vt. 寻求, 寻找, 探索, 追求, 搜索, 请求",
+            "n. 朋友, 支持者, 赞助者"
+        ]
+    },
+    {
+        "word": "offer",
+        "translation": "n. 给予(物), 出价, 提议, 意图, 报价",
+        "collins": 5,
+        "frequency": 373,
+        "options": [
+            "n. 给予(物), 出价, 提议, 意图, 报价",
+            "num. 二十, 二十个",
+            "v. 操作, 运转, 动手术, 活动",
+            "prep. 不是"
+        ]
+    },
+    {
+        "word": "office",
+        "translation": "n. 办公室, 部, 公职, 职责",
+        "collins": 5,
+        "frequency": 341,
+        "options": [
+            "n. 办公室, 部, 公职, 职责",
+            "n. 救球",
+            "num. 七十, 七十个",
+            "vi. 出现, 显得, 来到"
+        ]
+    },
+    {
+        "word": "officer",
+        "translation": "n. 军官, 主管, 官员, 公务员",
+        "collins": 5,
+        "frequency": 671,
+        "options": [
+            "n. 军官, 主管, 官员, 公务员",
+            "n. 移动, 迁居, 步骤",
+            "n. 税, 税款, 重负, 会费",
+            "n. 帮忙, 帮助者, 补救办法, 有益的东西"
+        ]
+    },
+    {
+        "word": "official",
+        "translation": "n. 官员, 公务员, 职员",
+        "collins": 5,
+        "frequency": 526,
+        "options": [
+            "n. 官员, 公务员, 职员",
+            "a. 单身的, 单程的, 单一的, 个别的, 孤独的, 专一的",
+            "conj. 虽然, 尽管",
+            "vt. 提供, 供应, 规定, 预备"
+        ]
+    },
+    {
+        "word": "often",
+        "translation": "adv. 时常, 常常",
+        "collins": 5,
+        "frequency": 274,
+        "options": [
+            "adv. 时常, 常常",
+            "n. 页, 记录, 事件, 专栏, 男侍",
+            "a. 可能的, 潜在的, 合适的",
+            "a. 大的, 重要的"
+        ]
+    },
+    {
+        "word": "oh",
+        "translation": "interj. (表示惊讶、恐怖、赞叹)哦",
+        "collins": 5,
+        "frequency": 411,
+        "options": [
+            "interj. (表示惊讶、恐怖、赞叹)哦",
+            "n. 比赛, 火柴, 对手",
+            "n. 战争, 战争状态, 战术, 军事, 冲突, 斗争, 竞争",
+            "n. 军官, 主管, 官员, 公务员"
+        ]
+    },
+    {
+        "word": "oil",
+        "translation": "n. 油, 石油, 油画颜料",
+        "collins": 5,
+        "frequency": 546,
+        "options": [
+            "n. 油, 石油, 油画颜料",
+            "a. 社会的, 群居的, 社交的",
+            "n. 价格, 代价, 价值",
+            "n. 白色, 洁白, 眼白, 白种人, 蛋白"
+        ]
+    },
+    {
+        "word": "old",
+        "translation": "n. 以前, 往昔",
+        "collins": 5,
+        "frequency": 152,
+        "options": [
+            "n. 以前, 往昔",
+            "vt. 买, 获得",
+            "n. 军队, 陆军",
+            "a. 经济上的, 实用的, 节省的"
+        ]
+    },
+    {
+        "word": "on",
+        "translation": "prep. 在...之上",
+        "collins": 5,
+        "frequency": 17,
+        "options": [
+            "prep. 在...之上",
+            "n. 操作, 动作, 手术, 运算, 作用, 业务",
+            "a. 每个, 每一",
+            "a. 困难的"
+        ]
+    },
+    {
+        "word": "once",
+        "translation": "adv. 一次, 曾经, 一旦",
+        "collins": 5,
+        "frequency": 300,
+        "options": [
+            "adv. 一次, 曾经, 一旦",
+            "num. 四, 四个",
+            "n. 时间, 时侯, 时机, 时期, 期限, 次数, 节拍, 暂停, 规定时间",
+            "n. 符号, 招牌, 征兆, 正负号, 手势"
+        ]
+    },
+    {
+        "word": "one",
+        "translation": "n. 一(个)",
+        "collins": 5,
+        "frequency": 51,
+        "options": [
+            "n. 一(个)",
+            "n. 不, 拒绝, 否决票",
+            "n. 时间, 时侯, 时机, 时期, 期限, 次数, 节拍, 暂停, 规定时间",
+            "vi. 同意, 赞成, 应允, 适合"
+        ]
+    },
+    {
+        "word": "only",
+        "translation": "a. 唯一的, 仅有的, 最佳的",
+        "collins": 5,
+        "frequency": 101,
+        "options": [
+            "a. 唯一的, 仅有的, 最佳的",
+            "n. 机会, 意外, 可能性",
+            "abbr. you are 你（你们）是",
+            "n. 上升, 高地, 增高"
+        ]
+    },
+    {
+        "word": "open",
+        "translation": "n. 公开, 户外, 空旷",
+        "collins": 5,
+        "frequency": 355,
+        "options": [
+            "n. 公开, 户外, 空旷",
+            "pron. 哪一个, 那一个",
+            "n. 部长, 牧师, 公使",
+            "n. 位置, 地位, 身分, 形势, 姿势, 立场, 职位, 状态, 阵地"
+        ]
+    },
+    {
+        "word": "operate",
+        "translation": "v. 操作, 运转, 动手术, 活动",
+        "collins": 5,
+        "frequency": 1309,
+        "options": [
+            "v. 操作, 运转, 动手术, 活动",
+            "prep. 的, 属于",
+            "（等于I have）",
+            "pron. 某事, 某物"
+        ]
+    },
+    {
+        "word": "operation",
+        "translation": "n. 操作, 动作, 手术, 运算, 作用, 业务",
+        "collins": 5,
+        "frequency": 826,
+        "options": [
+            "n. 操作, 动作, 手术, 运算, 作用, 业务",
+            "adv. 是",
+            "vi. 发生, 发生, 恰巧",
+            "aux. 将, 愿意"
+        ]
+    },
+    {
+        "word": "or",
+        "translation": "conj. 或, 或者",
+        "collins": 5,
+        "frequency": 32,
+        "options": [
+            "conj. 或, 或者",
+            "prep. 为, 因为, 至于",
+            "n. 杀, 杀戮, 小河",
+            "prep. 在...之中"
+        ]
+    },
+    {
+        "word": "other",
+        "translation": "a. 其他的, 另外的, 从前的",
+        "collins": 5,
+        "frequency": 75,
+        "options": [
+            "a. 其他的, 另外的, 从前的",
+            "n. 休息, 中断, 破裂处, 绝交, 破晓, 突变",
+            "n. 上升, 增加, 上涨, 高地, 升高, 出现",
+            "n. 机会, 意外, 可能性"
+        ]
+    },
+    {
+        "word": "our",
+        "translation": "pron. 我们的",
+        "collins": 5,
+        "frequency": 79,
+        "options": [
+            "pron. 我们的",
+            "prep. 越过, 穿过, 与...相交叉, 在...的对面",
+            "n. 上升, 增加, 上涨, 高地, 升高, 出现",
+            "a. 坏的"
+        ]
+    },
+    {
+        "word": "out",
+        "translation": "a. 外面的, 熄灭的, 结束的",
+        "collins": 5,
+        "frequency": 64,
+        "options": [
+            "a. 外面的, 熄灭的, 结束的",
+            "n. 百万, 无数",
+            "n. 呼叫, 访问, 打电话, 号召, 召集, 要求",
+            "adv. 在后地"
+        ]
+    },
+    {
+        "word": "outside",
+        "translation": "n. 外面, 外表, 外界",
+        "collins": 5,
+        "frequency": 809,
+        "options": [
+            "n. 外面, 外表, 外界",
+            "a. 任何的",
+            "vt. 放, 摆, 安置, 移动, 发射, 投掷, 写上, 表达, 使从事, 使受到, 驱使, 赋予",
+            "n. 位置, 地位, 身分, 形势, 姿势, 立场, 职位, 状态, 阵地"
+        ]
+    },
+    {
+        "word": "over",
+        "translation": "adv. 结束, 越过, 从头到尾",
+        "collins": 5,
+        "frequency": 124,
+        "options": [
+            "adv. 结束, 越过, 从头到尾",
+            "vt. 发送, 使进入, 寄, 派遣, 发射, 使陷于",
+            "adv. 一起, 共同, 彼此",
+            "vi. 不能"
+        ]
+    },
+    {
+        "word": "own",
+        "translation": "n. 自己的",
+        "collins": 5,
+        "frequency": 148,
+        "options": [
+            "n. 自己的",
+            "v. 相信",
+            "n. 时间, 时侯, 时机, 时期, 期限, 次数, 节拍, 暂停, 规定时间",
+            "n. 盖子, 封面, 藉口"
+        ]
+    },
+    {
+        "word": "page",
+        "translation": "n. 页, 记录, 事件, 专栏, 男侍",
+        "collins": 5,
+        "frequency": 708,
+        "options": [
+            "n. 页, 记录, 事件, 专栏, 男侍",
+            "vt. 发送, 使进入, 寄, 派遣, 发射, 使陷于",
+            "n. 救球",
+            "conj. 是否, 不论"
+        ]
+    },
+    {
+        "word": "paper",
+        "translation": "n. 纸, 文件, 文章, 报纸, 证券, 证件",
+        "collins": 5,
+        "frequency": 519,
+        "options": [
+            "n. 纸, 文件, 文章, 报纸, 证券, 证件",
+            "n. 药, 麻药, 麻醉药",
+            "n. 想法, 思想, 思维, 关心, 挂念",
+            "vi. 发生, 发生, 恰巧"
+        ]
+    },
+    {
+        "word": "parent",
+        "translation": "n. 父母, 父母亲, 根源",
+        "collins": 5,
+        "frequency": 327,
+        "options": [
+            "n. 父母, 父母亲, 根源",
+            "n. 城镇, 市, 镇",
+            "prep. 在...的时候",
+            "it is的缩写, it has的缩写"
+        ]
+    },
+    {
+        "word": "party",
+        "translation": "n. 宴会, 党, 政党, 团体, 当事人, 聚会",
+        "collins": 5,
+        "frequency": 351,
+        "options": [
+            "n. 宴会, 党, 政党, 团体, 当事人, 聚会",
+            "n. 安全, 安全性, 防护物, 保安, 可靠性, 担保人, 抵押品, 保证金",
+            "vt. 寻求, 寻找, 探索, 追求, 搜索, 请求",
+            "aux. 应该, 将要"
+        ]
+    },
+    {
+        "word": "pass",
+        "translation": "n. 经过, 要隘, 途径, 通行, 护照, 及格",
+        "collins": 5,
+        "frequency": 441,
+        "options": [
+            "n. 经过, 要隘, 途径, 通行, 护照, 及格",
+            "conj. 虽然, 尽管",
+            "n. 世界, 地球, 宇宙, 万物, 世人, 人间, 领域, 世事, 世故, 社会生活, 大量",
+            "a. 相似的, 同样的"
+        ]
+    },
+    {
+        "word": "past",
+        "translation": "n. 过去, 昔时, 往事, 早年经历, 过去时",
+        "collins": 5,
+        "frequency": 680,
+        "options": [
+            "n. 过去, 昔时, 往事, 早年经历, 过去时",
+            "n. 社区, 公众, 共有, 共同体",
+            "aux. 可以, 能",
+            "v. 开始"
+        ]
+    },
+    {
+        "word": "pay",
+        "translation": "n. 薪资, 付款, 补偿",
+        "collins": 5,
+        "frequency": 286,
+        "options": [
+            "n. 薪资, 付款, 补偿",
+            "n. 报告, 报道, 传说, 案情报告, 爆炸声, 成绩单",
+            "n. 测试, 试验, 化验, 检验, 考验, 甲壳",
+            "num. 八十, 八十个"
+        ]
+    },
+    {
+        "word": "peace",
+        "translation": "n. 和平, 和约, 治安, 和睦, 安宁, 静寂",
+        "collins": 5,
+        "frequency": 933,
+        "options": [
+            "n. 和平, 和约, 治安, 和睦, 安宁, 静寂",
+            "n. 阶段, 舞台, 场所, 戏剧, 站, 驿站, 级, 层, 脚手架",
+            "a. 社会的, 群居的, 社交的",
+            "a. 唯一的, 仅有的, 最佳的"
+        ]
+    },
+    {
+        "word": "people",
+        "translation": "n. 人, 人民, 民族, 平民",
+        "collins": 5,
+        "frequency": 62,
+        "options": [
+            "n. 人, 人民, 民族, 平民",
+            "n. 书, 书籍, 帐簿, 名册, 工作簿",
+            "n. 视野, 风景, 见解, 视力, 观看, 视图, 指望, 意图, 印象",
+            "n. 小心, 照料, 忧虑"
+        ]
+    },
+    {
+        "word": "percent",
+        "translation": "n. 百分比, 百分数, 部分",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "n. 百分比, 百分数, 部分",
+            "n. 以前, 往昔",
+            "n. 教育, 训练, 教育学",
+            "num. 六十, 六十个"
+        ]
+    },
+    {
+        "word": "perhaps",
+        "translation": "adv. 也许, 大概",
+        "collins": 5,
+        "frequency": 435,
+        "options": [
+            "adv. 也许, 大概",
+            "n. 发行, 问题, 后果, 流出, 出口, 争端",
+            "adv. 在哪里",
+            "pron. 你, 你们"
+        ]
+    },
+    {
+        "word": "person",
+        "translation": "n. 人, 人身, 人称",
+        "collins": 5,
+        "frequency": 345,
+        "options": [
+            "n. 人, 人身, 人称",
+            "a. 其他的, 另外的, 从前的",
+            "n. 目录, 名单, 明细表, 布条, 条纹, 列表, 序列, 数据清单",
+            "aux. 应该, 将要"
+        ]
+    },
+    {
+        "word": "photo",
+        "translation": "n. 相片, 照片, 逼真的描绘",
+        "collins": 5,
+        "frequency": 1328,
+        "options": [
+            "n. 相片, 照片, 逼真的描绘",
+            "a. 早的, 早熟的",
+            "n. 植物, 作物, 工厂, 树枝, 生长, 设施, 成套设备",
+            "n. 救球"
+        ]
+    },
+    {
+        "word": "plan",
+        "translation": "n. 计划, 方案, 策略, 方法, 进度表, 程序表, 平面图, 设计图, 轮廓, 示意图",
+        "collins": 5,
+        "frequency": 413,
+        "options": [
+            "n. 计划, 方案, 策略, 方法, 进度表, 程序表, 平面图, 设计图, 轮廓, 示意图",
+            "n. 答案, 回答, 回报, 答辩",
+            "n. 今天, 当今, 现在",
+            "n. 必须, 未发酵葡萄汁, 绝对必要的事物"
+        ]
+    },
+    {
+        "word": "plant",
+        "translation": "n. 植物, 作物, 工厂, 树枝, 生长, 设施, 成套设备",
+        "collins": 5,
+        "frequency": 623,
+        "options": [
+            "n. 植物, 作物, 工厂, 树枝, 生长, 设施, 成套设备",
+            "art. 那",
+            "n. 女人, 妇女, 女仆",
+            "prep. 包含, 包括"
+        ]
+    },
+    {
+        "word": "play",
+        "translation": "n. 游戏, 游玩, 玩笑, 运动, 比赛, 赌博, 跳动, 表演, 剧本",
+        "collins": 5,
+        "frequency": 200,
+        "options": [
+            "n. 游戏, 游玩, 玩笑, 运动, 比赛, 赌博, 跳动, 表演, 剧本",
+            "pron. 你的, 你们的",
+            "vi. 过来, 来, 到达, 出现, 开始",
+            "a. 红的, 红色的, 红肿的, 流血的"
+        ]
+    },
+    {
+        "word": "player",
+        "translation": "n. 竞赛者, 上场队员, 游戏者, 演员",
+        "collins": 5,
+        "frequency": 513,
+        "options": [
+            "n. 竞赛者, 上场队员, 游戏者, 演员",
+            "n. 姐妹, 姐, 妹, 护士, 修女",
+            "v. 是, 表示, 在",
+            "prep. 在...之中"
+        ]
+    },
+    {
+        "word": "point",
+        "translation": "n. 点, 小数点, 标点, 地点, 要点, 特点, 尖端, 分数, 得分, 穴位",
+        "collins": 5,
+        "frequency": 211,
+        "options": [
+            "n. 点, 小数点, 标点, 地点, 要点, 特点, 尖端, 分数, 得分, 穴位",
+            "n. 世纪, 百年",
+            "prep. 除了",
+            "n. 军队, 陆军"
+        ]
+    },
+    {
+        "word": "police",
+        "translation": "n. 警察, 警察当局, 治安",
+        "collins": 5,
+        "frequency": 468,
+        "options": [
+            "n. 警察, 警察当局, 治安",
+            "pron. 哪一个, 那一个",
+            "n. 机会, 意外, 可能性",
+            "n. 发行, 问题, 后果, 流出, 出口, 争端"
+        ]
+    },
+    {
+        "word": "policy",
+        "translation": "n. 政策, 方针, 策略, 保险单",
+        "collins": 5,
+        "frequency": 388,
+        "options": [
+            "n. 政策, 方针, 策略, 保险单",
+            "n. 话, 消息, 词, 诺言, 命令",
+            "n. 打击, 打, 冲撞, 讽刺",
+            "n. 术语, 专有名词, 期限, 学期, 任期, 条件, 价钱, 关系, 地位, 项, 界石"
+        ]
+    },
+    {
+        "word": "political",
+        "translation": "a. 政治的, 政治上的, 政党的, 从事政治的",
+        "collins": 5,
+        "frequency": 277,
+        "options": [
+            "a. 政治的, 政治上的, 政党的, 从事政治的",
+            "adv. 同样地, 例如",
+            "vi. 死亡, 消逝, 平息, 熄灭, 漠然, 渴望",
+            "n. 经历, 经验, 体验"
+        ]
+    },
+    {
+        "word": "position",
+        "translation": "n. 位置, 地位, 身分, 形势, 姿势, 立场, 职位, 状态, 阵地",
+        "collins": 5,
+        "frequency": 512,
+        "options": [
+            "n. 位置, 地位, 身分, 形势, 姿势, 立场, 职位, 状态, 阵地",
+            "n. 爱, 恋爱, 爱情, 爱好, 性爱",
+            "a. 另外的, 再一的, 不同的",
+            "n. 社区, 公众, 共有, 共同体"
+        ]
+    },
+    {
+        "word": "possible",
+        "translation": "a. 可能的, 潜在的, 合适的",
+        "collins": 5,
+        "frequency": 459,
+        "options": [
+            "a. 可能的, 潜在的, 合适的",
+            "a. 直接的, 坦白的",
+            "n. 生计, 维持, 保持",
+            "n. 人, 人身, 人称"
+        ]
+    },
+    {
+        "word": "pound",
+        "translation": "n. 磅, 英镑, 重击, 鱼塘, 拘留所, 兽栏",
+        "collins": 5,
+        "frequency": 1306,
+        "options": [
+            "n. 磅, 英镑, 重击, 鱼塘, 拘留所, 兽栏",
+            "n. 俱乐部, 木棍, 球棒",
+            "n. 门",
+            "n. 力量, 武力, 势力, 影响力, 军队, 力, 效力"
+        ]
+    },
+    {
+        "word": "power",
+        "translation": "n. 力, 体力, 力量, 势力, 动力, 权力, 强国, 乘方, 强度, 幂, 功率",
+        "collins": 5,
+        "frequency": 271,
+        "options": [
+            "n. 力, 体力, 力量, 势力, 动力, 权力, 强国, 乘方, 强度, 幂, 功率",
+            "n. 善行, 好处, 利益",
+            "n. 转弯, 转动, 旋转, 翻转, 一圈, 顺次, 改动, 变化, 性格, 特色, 形状, 转折",
+            "a. 后面的"
+        ]
+    },
+    {
+        "word": "president",
+        "translation": "n. 总统, 总裁, 董事长, (学院)院长, (大学)校长, 主管人, 主持人",
+        "collins": 5,
+        "frequency": 303,
+        "options": [
+            "n. 总统, 总裁, 董事长, (学院)院长, (大学)校长, 主管人, 主持人",
+            "num. 十亿, 十亿个",
+            "abbr. you are 你（你们）是",
+            "n. 蓝色"
+        ]
+    },
+    {
+        "word": "press",
+        "translation": "n. 压, 揿, 按, 人群, 印刷机, 压力, 出版社, 记者, 报刊, 新闻舆论, 紧迫",
+        "collins": 5,
+        "frequency": 1178,
+        "options": [
+            "n. 压, 揿, 按, 人群, 印刷机, 压力, 出版社, 记者, 报刊, 新闻舆论, 紧迫",
+            "n. 课程, 路线, 过程, 一道菜, 道路",
+            "adv. 在哪里",
+            "pron. 我的"
+        ]
+    },
+    {
+        "word": "pressure",
+        "translation": "n. 压, 榨, 按, 强制, 压力, 压迫, 压强",
+        "collins": 5,
+        "frequency": 765,
+        "options": [
+            "n. 压, 榨, 按, 强制, 压力, 压迫, 压强",
+            "adv. 在哪里",
+            "n. 转弯, 转动, 旋转, 翻转, 一圈, 顺次, 改动, 变化, 性格, 特色, 形状, 转折",
+            "n. 工人, 劳动者"
+        ]
+    },
+    {
+        "word": "price",
+        "translation": "n. 价格, 代价, 价值",
+        "collins": 5,
+        "frequency": 475,
+        "options": [
+            "n. 价格, 代价, 价值",
+            "num. 十五, 十五个",
+            "vt. 感觉, 觉得, 触摸, 以为",
+            "n. 独立自主者, 无党派者"
+        ]
+    },
+    {
+        "word": "probably",
+        "translation": "adv. 大概, 或许",
+        "collins": 5,
+        "frequency": 398,
+        "options": [
+            "adv. 大概, 或许",
+            "n. 价值, 价格, 购买力, 评价, 估价, 计算结果",
+            "n. 以前, 往昔",
+            "n. 回来, 返回, 来回票, 归还, 报答, 利润率, 报告书"
+        ]
+    },
+    {
+        "word": "problem",
+        "translation": "n. 问题, 难题",
+        "collins": 5,
+        "frequency": 171,
+        "options": [
+            "n. 问题, 难题",
+            "n. 贸易, 商业, 交易, 生意, 职业, 顾客, 信风",
+            "prep. 在...之后, 由于",
+            "vt. 赢得, 打胜, 成功"
+        ]
+    },
+    {
+        "word": "process",
+        "translation": "n. 程序, 进行, 过程",
+        "collins": 5,
+        "frequency": 391,
+        "options": [
+            "n. 程序, 进行, 过程",
+            "n. 经过, 要隘, 途径, 通行, 护照, 及格",
+            "n. 一致, 调和, 协定",
+            "num. 八, 八个"
+        ]
+    },
+    {
+        "word": "produce",
+        "translation": "n. 生产品, 物产, 后代",
+        "collins": 5,
+        "frequency": 542,
+        "options": [
+            "n. 生产品, 物产, 后代",
+            "n. 休息, 中断, 破裂处, 绝交, 破晓, 突变",
+            "num. 十六, 十六个",
+            "prep. 直到, 在...以前"
+        ]
+    },
+    {
+        "word": "product",
+        "translation": "n. 产品, 结果, 乘积",
+        "collins": 5,
+        "frequency": 569,
+        "options": [
+            "n. 产品, 结果, 乘积",
+            "n. 会, 集会",
+            "n. 眼睛, 视力, 看",
+            "a. 每一, 所有的"
+        ]
+    },
+    {
+        "word": "programme",
+        "translation": "n. 节目, 节目单, 程序, 纲要, 大纲, 计划",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "n. 节目, 节目单, 程序, 纲要, 大纲, 计划",
+            "vi. 变成, 变得",
+            "a. 宽的, 广阔的, 普遍的, 宽阔的, 广泛的, 一般的",
+            "num. 八, 八个"
+        ]
+    },
+    {
+        "word": "provide",
+        "translation": "vt. 提供, 供应, 规定, 预备",
+        "collins": 5,
+        "frequency": 262,
+        "options": [
+            "vt. 提供, 供应, 规定, 预备",
+            "a. 全体的, 总的, 全然的",
+            "a. 相同的, 同样的",
+            "vt. 带来, 产生, 促使, 提出"
+        ]
+    },
+    {
+        "word": "public",
+        "translation": "n. 公众, 民众",
+        "collins": 5,
+        "frequency": 333,
+        "options": [
+            "n. 公众, 民众",
+            "prep. 为, 因为, 至于",
+            "n. 恐怖, 害怕, 担心",
+            "n. 秒, 瞬间, 第二名, 支持者, 助手"
+        ]
+    },
+    {
+        "word": "put",
+        "translation": "vt. 放, 摆, 安置, 移动, 发射, 投掷, 写上, 表达, 使从事, 使受到, 驱使, 赋予",
+        "collins": 5,
+        "frequency": 151,
+        "options": [
+            "vt. 放, 摆, 安置, 移动, 发射, 投掷, 写上, 表达, 使从事, 使受到, 驱使, 赋予",
+            "abbr. 我愿意（等于I would）",
+            "n. 无线电, 收音机, 无线电报, 无线电广播, 无线电台",
+            "a. 全体的, 总的, 全然的"
+        ]
+    },
+    {
+        "word": "question",
+        "translation": "n. 问题, 询问",
+        "collins": 5,
+        "frequency": 197,
+        "options": [
+            "n. 问题, 询问",
+            "vt. 描述, 描绘, 画",
+            "(=is not)不是",
+            "a. 完全的, 十足的, 完成的"
+        ]
+    },
+    {
+        "word": "quick",
+        "translation": "a. 快的, 迅速的, 敏捷的, 灵敏的, 急速的",
+        "collins": 5,
+        "frequency": 1303,
+        "options": [
+            "a. 快的, 迅速的, 敏捷的, 灵敏的, 急速的",
+            "num. 二, 二个",
+            "n. 努力, 成就",
+            "n. 勤劳, 工业, 企业, 产业, 有组织的劳动"
+        ]
+    },
+    {
+        "word": "quite",
+        "translation": "adv. 相当, 完全, 十分",
+        "collins": 5,
+        "frequency": 561,
+        "options": [
+            "adv. 相当, 完全, 十分",
+            "n. 驾车, 快车道, 推进力, 驱动, 动力, 击球, 驱动器",
+            "n. 墙, 墙壁, 垣, 内壁, 分界物, 屏障",
+            "a. 很少的, 不多的, 少数的"
+        ]
+    },
+    {
+        "word": "race",
+        "translation": "n. 种族, 人种, 赛跑, 比赛, 急流, 人类, 同道, 姜根",
+        "collins": 5,
+        "frequency": 716,
+        "options": [
+            "n. 种族, 人种, 赛跑, 比赛, 急流, 人类, 同道, 姜根",
+            "a. 社会的, 群居的, 社交的",
+            "n. 自己的",
+            "n. 税, 税款, 重负, 会费"
+        ]
+    },
+    {
+        "word": "radio",
+        "translation": "n. 无线电, 收音机, 无线电报, 无线电广播, 无线电台",
+        "collins": 5,
+        "frequency": 904,
+        "options": [
+            "n. 无线电, 收音机, 无线电报, 无线电广播, 无线电台",
+            "n. 设计, 图样, 方案, 企图",
+            "n. 种类, 方式, 品质, 态度, 举止",
+            "n. 出售, 卖, 拍卖, 销售额, 廉价出售"
+        ]
+    },
+    {
+        "word": "raise",
+        "translation": "n. 上升, 高地, 增高",
+        "collins": 5,
+        "frequency": 433,
+        "options": [
+            "n. 上升, 高地, 增高",
+            "num. 七, 七个",
+            "a. 关着的, 不再生效的, 处于...境况的, 休假的, 空闲的",
+            "num. 六十, 六十个"
+        ]
+    },
+    {
+        "word": "rate",
+        "translation": "n. 比率, 率, 速度, 价格, 费用, 等级",
+        "collins": 5,
+        "frequency": 457,
+        "options": [
+            "n. 比率, 率, 速度, 价格, 费用, 等级",
+            "conj. 比, 除...外",
+            "n. 男人, 人类, 人",
+            "vi. 保持, 逗留, 剩余"
+        ]
+    },
+    {
+        "word": "rather",
+        "translation": "adv. 宁可, 稍微, 相当",
+        "collins": 5,
+        "frequency": 860,
+        "options": [
+            "adv. 宁可, 稍微, 相当",
+            "n. 公开, 户外, 空旷",
+            "n. 生产品, 物产, 后代",
+            "n. 磅, 英镑, 重击, 鱼塘, 拘留所, 兽栏"
+        ]
+    },
+    {
+        "word": "reach",
+        "translation": "n. 伸出, 延伸, 区域, 范围, 流域, 岬",
+        "collins": 5,
+        "frequency": 422,
+        "options": [
+            "n. 伸出, 延伸, 区域, 范围, 流域, 岬",
+            "n. 需要, 必须, 缺乏",
+            "n. 上升, 增加, 上涨, 高地, 升高, 出现",
+            "n. 男人, 人类, 人"
+        ]
+    },
+    {
+        "word": "read",
+        "translation": "v. 读, 阅读, 理解",
+        "collins": 5,
+        "frequency": 337,
+        "options": [
+            "v. 读, 阅读, 理解",
+            "n. 代价, 价值, 费用",
+            "n. 水平, 水准, 平地",
+            "a. 近的, 近亲的, 近似的"
+        ]
+    },
+    {
+        "word": "real",
+        "translation": "a. 真的, 真实的, 实际的, 实在的, 不动(产)的, 实数的",
+        "collins": 5,
+        "frequency": 305,
+        "options": [
+            "a. 真的, 真实的, 实际的, 实在的, 不动(产)的, 实数的",
+            "n. 孩子, 产物, 追随者",
+            "n. 药, 麻药, 麻醉药",
+            "n. 一般, 将军, 大体"
+        ]
+    },
+    {
+        "word": "really",
+        "translation": "adv. 实际上, 真实地, 实在",
+        "collins": 5,
+        "frequency": 143,
+        "options": [
+            "adv. 实际上, 真实地, 实在",
+            "n. 苍蝇, 两翼昆虫, 飞行",
+            "adv. 穿越, 从头至尾, 到底, 因为",
+            "a. 经济上的, 实用的, 节省的"
+        ]
+    },
+    {
+        "word": "reason",
+        "translation": "n. 理由, 原因, 理智, 道理, 前提, 理性",
+        "collins": 5,
+        "frequency": 359,
+        "options": [
+            "n. 理由, 原因, 理智, 道理, 前提, 理性",
+            "n. 产品, 结果, 乘积",
+            "vi. 继续, 延续, 延长",
+            "n. 会议"
+        ]
+    },
+    {
+        "word": "receive",
+        "translation": "vt. 收到, 接到, 得到, 接待, 迎接, 承受",
+        "collins": 5,
+        "frequency": 497,
+        "options": [
+            "vt. 收到, 接到, 得到, 接待, 迎接, 承受",
+            "adv. 然后, 当时",
+            "n. 脸, 面容, 正面, 外观",
+            "n. 女人, 妇女, 女仆"
+        ]
+    },
+    {
+        "word": "recent",
+        "translation": "a. 最近的, 近代的, 最新的",
+        "collins": 5,
+        "frequency": 567,
+        "options": [
+            "a. 最近的, 近代的, 最新的",
+            "adv. 两次, 两倍",
+            "n. 纸, 文件, 文章, 报纸, 证券, 证件",
+            "n. 步骤, 步, 步幅, 脚步声, 踏级, 步伐, 短距离, 步态, 手段, 等级"
+        ]
+    },
+    {
+        "word": "record",
+        "translation": "n. 记录, 履历, 档案, 审判记录, 最高纪录, 唱片",
+        "collins": 5,
+        "frequency": 516,
+        "options": [
+            "n. 记录, 履历, 档案, 审判记录, 最高纪录, 唱片",
+            "a. 其他的, 另外的, 从前的",
+            "num. 四十, 四十个",
+            "adv. 已经, 早已"
+        ]
+    },
+    {
+        "word": "red",
+        "translation": "a. 红的, 红色的, 红肿的, 流血的",
+        "collins": 5,
+        "frequency": 598,
+        "options": [
+            "a. 红的, 红色的, 红肿的, 流血的",
+            "aux. 表示否定",
+            "num. 十二, 十二个",
+            "n. 家庭, 家人, 族"
+        ]
+    },
+    {
+        "word": "release",
+        "translation": "n. 释放, 发泄, 豁免, 发行, 释放证书",
+        "collins": 5,
+        "frequency": 1120,
+        "options": [
+            "n. 释放, 发泄, 豁免, 发行, 释放证书",
+            "prep. 在...的时候",
+            "n. 月",
+            "n. 朋友, 支持者, 赞助者"
+        ]
+    },
+    {
+        "word": "remain",
+        "translation": "vi. 保持, 逗留, 剩余",
+        "collins": 5,
+        "frequency": 426,
+        "options": [
+            "vi. 保持, 逗留, 剩余",
+            "a. 任何的",
+            "n. 许可, 告别, 请假, 休假",
+            "a. 有可能的, 合适的, 前途有望的"
+        ]
+    },
+    {
+        "word": "remember",
+        "translation": "vt. 记得, 回忆起, 记住, 铭记, 纪念",
+        "collins": 5,
+        "frequency": 379,
+        "options": [
+            "vt. 记得, 回忆起, 记住, 铭记, 纪念",
+            "prep. 反对, 对着, 倚靠",
+            "n. 笑, 笑声",
+            " (we are 的常用口语形式)"
+        ]
+    },
+    {
+        "word": "report",
+        "translation": "n. 报告, 报道, 传说, 案情报告, 爆炸声, 成绩单",
+        "collins": 5,
+        "frequency": 450,
+        "options": [
+            "n. 报告, 报道, 传说, 案情报告, 爆炸声, 成绩单",
+            "n. 身体, 人, 尸体, 主要部分, 团体",
+            "n. 国家, 民族",
+            "他是, 他有"
+        ]
+    },
+    {
+        "word": "research",
+        "translation": "n. 研究, 调查, 考察",
+        "collins": 5,
+        "frequency": 362,
+        "options": [
+            "n. 研究, 调查, 考察",
+            "adv. 也, 并且, 同样地",
+            "n. 树干, 祖先, 血统, 原料, 备料, 库存, 牲畜, 股票, 股份, 保留剧目",
+            "n. 价格, 代价, 价值"
+        ]
+    },
+    {
+        "word": "result",
+        "translation": "n. 结果, 成绩, 答案",
+        "collins": 5,
+        "frequency": 354,
+        "options": [
+            "n. 结果, 成绩, 答案",
+            "n. 目录, 名单, 明细表, 布条, 条纹, 列表, 序列, 数据清单",
+            "num. 千",
+            "n. 会, 集会"
+        ]
+    },
+    {
+        "word": "return",
+        "translation": "n. 回来, 返回, 来回票, 归还, 报答, 利润率, 报告书",
+        "collins": 5,
+        "frequency": 472,
+        "options": [
+            "n. 回来, 返回, 来回票, 归还, 报答, 利润率, 报告书",
+            "n. 百分比, 百分数, 部分",
+            "a. 坚硬的, 硬的, 难的, 艰苦的, 困难的, 坚固的, 猛烈的, 艰难的, 结实的, 确实的",
+            "prep. 从, 来自, 根据"
+        ]
+    },
+    {
+        "word": "rise",
+        "translation": "n. 上升, 增加, 上涨, 高地, 升高, 出现",
+        "collins": 5,
+        "frequency": 727,
+        "options": [
+            "n. 上升, 增加, 上涨, 高地, 升高, 出现",
+            "n. 水, 雨水, 海水, 水位, 水面, 流水",
+            "vt. 花费, 浪费, 度过, 消耗, 消磨",
+            "(=could not)不能"
+        ]
+    },
+    {
+        "word": "road",
+        "translation": "n. 路, 道路, 公路, 途径, 方法",
+        "collins": 5,
+        "frequency": 489,
+        "options": [
+            "n. 路, 道路, 公路, 途径, 方法",
+            "v. 考虑, 思考, 认为",
+            "n. 理由, 原因, 理智, 道理, 前提, 理性",
+            "a. 外面的, 熄灭的, 结束的"
+        ]
+    },
+    {
+        "word": "role",
+        "translation": "n. 角色, 职责, 任务",
+        "collins": 5,
+        "frequency": 451,
+        "options": [
+            "n. 角色, 职责, 任务",
+            "prep. 到, 向, 趋于",
+            "n. 力, 体力, 力量, 势力, 动力, 权力, 强国, 乘方, 强度, 幂, 功率",
+            "n. 学习, 研究, 学科, 论文, 求学, 书房, 试作"
+        ]
+    },
+    {
+        "word": "room",
+        "translation": "n. 房间, 空位, 场所",
+        "collins": 5,
+        "frequency": 227,
+        "options": [
+            "n. 房间, 空位, 场所",
+            "n. 公开, 户外, 空旷",
+            "n. 孩子, 产物, 追随者",
+            "n. 上升, 增加, 上涨, 高地, 升高, 出现"
+        ]
+    },
+    {
+        "word": "rule",
+        "translation": "n. 规则, 统治, 控制, 支配, 规律, 标准, 章程, 破折号, 铅线",
+        "collins": 5,
+        "frequency": 633,
+        "options": [
+            "n. 规则, 统治, 控制, 支配, 规律, 标准, 章程, 破折号, 铅线",
+            "n. 最少, 最小, 最小限度",
+            "n. 男人, 人类, 人",
+            "prep. 和...在一起, 以, 由于"
+        ]
+    },
+    {
+        "word": "run",
+        "translation": "n. 跑, 赛跑, 奔跑, 奔跑的路程, 趋向, 流出, 运转时间, 连续",
+        "collins": 5,
+        "frequency": 202,
+        "options": [
+            "n. 跑, 赛跑, 奔跑, 奔跑的路程, 趋向, 流出, 运转时间, 连续",
+            "vi. 参加, 结合, 加入",
+            "n. 站立, 站住, 停顿, 讲台, 看台, 立场, 法院证人席",
+            "n. 努力, 成就"
+        ]
+    },
+    {
+        "word": "sale",
+        "translation": "n. 出售, 卖, 拍卖, 销售额, 廉价出售",
+        "collins": 5,
+        "frequency": 2234,
+        "options": [
+            "n. 出售, 卖, 拍卖, 销售额, 廉价出售",
+            "prep. 向, 对于, 为了",
+            "n. 报告, 报道, 传说, 案情报告, 爆炸声, 成绩单",
+            "abbr. you have 你（们）已经"
+        ]
+    },
+    {
+        "word": "same",
+        "translation": "a. 相同的, 同样的",
+        "collins": 5,
+        "frequency": 161,
+        "options": [
+            "a. 相同的, 同样的",
+            "n. 学校, 鱼群, 门派, 学派",
+            "n. 头, 头脑, 领袖, 脑袋, 最前的部分",
+            "n. 计划, 方案, 策略, 方法, 进度表, 程序表, 平面图, 设计图, 轮廓, 示意图"
+        ]
+    },
+    {
+        "word": "save",
+        "translation": "n. 救球",
+        "collins": 5,
+        "frequency": 735,
+        "options": [
+            "n. 救球",
+            "prep. 在...的时候",
+            "n. 白色, 洁白, 眼白, 白种人, 蛋白",
+            "a. 社会的, 群居的, 社交的"
+        ]
+    },
+    {
+        "word": "say",
+        "translation": "vt. 说, 讲, 念, 说明, 指明",
+        "collins": 5,
+        "frequency": 19,
+        "options": [
+            "vt. 说, 讲, 念, 说明, 指明",
+            "pron. 她",
+            "n. 弹性, 适应性",
+            "n. 救球"
+        ]
+    },
+    {
+        "word": "school",
+        "translation": "n. 学校, 鱼群, 门派, 学派",
+        "collins": 5,
+        "frequency": 125,
+        "options": [
+            "n. 学校, 鱼群, 门派, 学派",
+            "n. 州, 状态, 情形, 国家, 政府, 领土, 国务, 社会地位",
+            "num. 十, 十个",
+            "a. 强壮的, 坚固的, 坚强的, 强烈的, 有力的, 优良的"
+        ]
+    },
+    {
+        "word": "season",
+        "translation": "n. 季节, 时节, 当令期, 时期",
+        "collins": 5,
+        "frequency": 506,
+        "options": [
+            "n. 季节, 时节, 当令期, 时期",
+            "n. 姐妹, 姐, 妹, 护士, 修女",
+            "n. 班级, 阶级, 种类, 课",
+            "vt. 理解, 了解, 领会, 听说, 懂"
+        ]
+    },
+    {
+        "word": "second",
+        "translation": "n. 秒, 瞬间, 第二名, 支持者, 助手",
+        "collins": 5,
+        "frequency": 381,
+        "options": [
+            "n. 秒, 瞬间, 第二名, 支持者, 助手",
+            "n. 支持, 支撑, 援助, 供养, 支撑物",
+            "v. 考虑, 思考, 认为",
+            "adv. 一起, 共同, 彼此"
+        ]
+    },
+    {
+        "word": "security",
+        "translation": "n. 安全, 安全性, 防护物, 保安, 可靠性, 担保人, 抵押品, 保证金",
+        "collins": 5,
+        "frequency": 661,
+        "options": [
+            "n. 安全, 安全性, 防护物, 保安, 可靠性, 担保人, 抵押品, 保证金",
+            "prep. 包围, 在...周围, 四处",
+            "n. 少量, 马嚼子, 辅币",
+            " (we are 的常用口语形式)"
+        ]
+    },
+    {
+        "word": "see",
+        "translation": "vt. 看见, 查看, 参观, 游览, 理解, 知道, 同意",
+        "collins": 5,
+        "frequency": 67,
+        "options": [
+            "vt. 看见, 查看, 参观, 游览, 理解, 知道, 同意",
+            "n. 书, 书籍, 帐簿, 名册, 工作簿",
+            "n. 出售, 卖, 拍卖, 销售额, 廉价出售",
+            "pron. 我"
+        ]
+    },
+    {
+        "word": "seek",
+        "translation": "vt. 寻求, 寻找, 探索, 追求, 搜索, 请求",
+        "collins": 5,
+        "frequency": 668,
+        "options": [
+            "vt. 寻求, 寻找, 探索, 追求, 搜索, 请求",
+            "n. 一看, 神色, 样子, 面容",
+            "n. 公开, 户外, 空旷",
+            "n. 公司, 友伴, 交往, 连队, 朋友, 一群"
+        ]
+    },
+    {
+        "word": "seem",
+        "translation": "vi. 象是, 似乎",
+        "collins": 5,
+        "frequency": 165,
+        "options": [
+            "vi. 象是, 似乎",
+            "n. 星, 恒星, 星形物, 运气, 明星",
+            "v. 操作, 运转, 动手术, 活动",
+            "n. 比率, 率, 速度, 价格, 费用, 等级"
+        ]
+    },
+    {
+        "word": "sell",
+        "translation": "vt. 卖, 背叛, 销售, 出卖",
+        "collins": 5,
+        "frequency": 443,
+        "options": [
+            "vt. 卖, 背叛, 销售, 出卖",
+            "vt. 发送, 使进入, 寄, 派遣, 发射, 使陷于",
+            "n. 生产品, 物产, 后代",
+            "a. 相似的, 同样的"
+        ]
+    },
+    {
+        "word": "send",
+        "translation": "vt. 发送, 使进入, 寄, 派遣, 发射, 使陷于",
+        "collins": 5,
+        "frequency": 404,
+        "options": [
+            "vt. 发送, 使进入, 寄, 派遣, 发射, 使陷于",
+            "pron. 它的",
+            "prep. 自...以后, 自...以来",
+            "a. 宽的, 广阔的, 普遍的, 宽阔的, 广泛的, 一般的"
+        ]
+    },
+    {
+        "word": "sense",
+        "translation": "n. 感应, 感觉, 感官, 意识, 观念, 情理, 知觉, 理智",
+        "collins": 5,
+        "frequency": 407,
+        "options": [
+            "n. 感应, 感觉, 感官, 意识, 观念, 情理, 知觉, 理智",
+            "adv. 再一次, 又, 到原处",
+            "n. 课程, 路线, 过程, 一道菜, 道路",
+            "vt. 发现, 感到, 找到, 认为, 得到"
+        ]
+    },
+    {
+        "word": "serious",
+        "translation": "a. 严肃的, 认真的, 重要的, 严重的",
+        "collins": 5,
+        "frequency": 755,
+        "options": [
+            "a. 严肃的, 认真的, 重要的, 严重的",
+            "n. 颜色, 面色, 颜料, 外貌",
+            "num. 十五, 十五个",
+            "conj. 或, 或者"
+        ]
+    },
+    {
+        "word": "service",
+        "translation": "n. 服务, 贡献, 雇佣, 公职, 服役, 功劳, 仪式, 送达, 行政部门",
+        "collins": 5,
+        "frequency": 263,
+        "options": [
+            "n. 服务, 贡献, 雇佣, 公职, 服役, 功劳, 仪式, 送达, 行政部门",
+            "num. 五十, 五十个",
+            "n. 小心, 照料, 忧虑",
+            "a. 别的, 其他的"
+        ]
+    },
+    {
+        "word": "seven",
+        "translation": "num. 七, 七个",
+        "collins": 5,
+        "frequency": 734,
+        "options": [
+            "num. 七, 七个",
+            "n. 会, 集会",
+            "num. 十一, 十一个",
+            "a. (两者之中)任一的, (两者之中)各一的"
+        ]
+    },
+    {
+        "word": "seventeen",
+        "translation": "num. 十七, 十七个",
+        "collins": 5,
+        "frequency": 6318,
+        "options": [
+            "num. 十七, 十七个",
+            "n. 先生, 阁下",
+            "n. 父亲, 祖先, 长辈, 神父, 创始者",
+            "n. 税, 税款, 重负, 会费"
+        ]
+    },
+    {
+        "word": "seventy",
+        "translation": "num. 七十, 七十个",
+        "collins": 5,
+        "frequency": 7889,
+        "options": [
+            "num. 七十, 七十个",
+            "n. 陆地, 地面, 地界, 地产, 国土, 土地",
+            "n. 代价, 价值, 费用",
+            "n. 过去, 昔时, 往事, 早年经历, 过去时"
+        ]
+    },
+    {
+        "word": "several",
+        "translation": "a. 几个的, 一些的, 各自的",
+        "collins": 5,
+        "frequency": 310,
+        "options": [
+            "a. 几个的, 一些的, 各自的",
+            "n. 术语, 专有名词, 期限, 学期, 任期, 条件, 价钱, 关系, 地位, 项, 界石",
+            "adv. 以后, 随后",
+            "prep. 在...之下, 低于"
+        ]
+    },
+    {
+        "word": "share",
+        "translation": "n. 部分, 参与, 一份, 参股, 份额",
+        "collins": 5,
+        "frequency": 711,
+        "options": [
+            "n. 部分, 参与, 一份, 参股, 份额",
+            "adv. 相当, 完全, 十分",
+            "n. 联盟, 联合, 结合, 工会",
+            "n. 期末考试, 结局, 决赛"
+        ]
+    },
+    {
+        "word": "she",
+        "translation": "pron. 她",
+        "collins": 5,
+        "frequency": 31,
+        "options": [
+            "pron. 她",
+            "prep. 在...的时候",
+            "vt. 宣布, 声称, 显示, 预告",
+            "n. 贸易, 商业, 交易, 生意, 职业, 顾客, 信风"
+        ]
+    },
+    {
+        "word": "should",
+        "translation": "aux. 应该, 将要",
+        "collins": 5,
+        "frequency": 121,
+        "options": [
+            "aux. 应该, 将要",
+            "n. 墙, 墙壁, 垣, 内壁, 分界物, 屏障",
+            "n. 服务, 贡献, 雇佣, 公职, 服役, 功劳, 仪式, 送达, 行政部门",
+            "num. 九十, 九十个"
+        ]
+    },
+    {
+        "word": "show",
+        "translation": "n. 显示, 表现, 展览, 卖弄, 炫耀, 外观, 演出, 洋相",
+        "collins": 5,
+        "frequency": 177,
+        "options": [
+            "n. 显示, 表现, 展览, 卖弄, 炫耀, 外观, 演出, 洋相",
+            "adv. 结束, 越过, 从头到尾",
+            "adv. 在那里",
+            "vi. 发生, 发生, 恰巧"
+        ]
+    },
+    {
+        "word": "side",
+        "translation": "n. 旁边, 侧, 方面, 胁, 侧边, 血统",
+        "collins": 5,
+        "frequency": 249,
+        "options": [
+            "n. 旁边, 侧, 方面, 胁, 侧边, 血统",
+            "n. 世界, 地球, 宇宙, 万物, 世人, 人间, 领域, 世事, 世故, 社会生活, 大量",
+            "n. 救球",
+            "n. 树干, 祖先, 血统, 原料, 备料, 库存, 牲畜, 股票, 股份, 保留剧目"
+        ]
+    },
+    {
+        "word": "sign",
+        "translation": "n. 符号, 招牌, 征兆, 正负号, 手势",
+        "collins": 5,
+        "frequency": 759,
+        "options": [
+            "n. 符号, 招牌, 征兆, 正负号, 手势",
+            "n. 更多",
+            "n. 父亲, 祖先, 长辈, 神父, 创始者",
+            "v. 考虑, 思考, 认为"
+        ]
+    },
+    {
+        "word": "since",
+        "translation": "prep. 自...以后, 自...以来",
+        "collins": 5,
+        "frequency": 260,
+        "options": [
+            "prep. 自...以后, 自...以来",
+            "n. 程序, 进行, 过程",
+            "a. 快的, 迅速的, 敏捷的, 灵敏的, 急速的",
+            "n. 褐色"
+        ]
+    },
+    {
+        "word": "single",
+        "translation": "a. 单身的, 单程的, 单一的, 个别的, 孤独的, 专一的",
+        "collins": 5,
+        "frequency": 632,
+        "options": [
+            "a. 单身的, 单程的, 单一的, 个别的, 孤独的, 专一的",
+            "vt. 有, 怀有, 拿, 进行",
+            "n. 经济, 理财, 节约",
+            "n. 压, 榨, 按, 强制, 压力, 压迫, 压强"
+        ]
+    },
+    {
+        "word": "sir",
+        "translation": "n. 先生, 阁下",
+        "collins": 5,
+        "frequency": 2108,
+        "options": [
+            "n. 先生, 阁下",
+            "a. 重要的, 有地位的, 大量的, 显要的, 自负的",
+            "n. 前面, 开头, 前线, 阵线, 态度",
+            "n. 出售, 卖, 拍卖, 销售额, 廉价出售"
+        ]
+    },
+    {
+        "word": "sister",
+        "translation": "n. 姐妹, 姐, 妹, 护士, 修女",
+        "collins": 5,
+        "frequency": 823,
+        "options": [
+            "n. 姐妹, 姐, 妹, 护士, 修女",
+            "n. 高度, 高处",
+            "pron. 我",
+            "n. 决定, 决心, 决断"
+        ]
+    },
+    {
+        "word": "sit",
+        "translation": "vi. 坐, 就座, 坐落",
+        "collins": 5,
+        "frequency": 268,
+        "options": [
+            "vi. 坐, 就座, 坐落",
+            "a. 后面的",
+            "n. 杯子, 茶杯, 优胜杯",
+            "aux. 将, 愿意"
+        ]
+    },
+    {
+        "word": "situation",
+        "translation": "n. 情形, 境遇, 位置",
+        "collins": 5,
+        "frequency": 548,
+        "options": [
+            "n. 情形, 境遇, 位置",
+            "n. 自己的",
+            "prep. 在...之间",
+            "n. 旁边, 侧, 方面, 胁, 侧边, 血统"
+        ]
+    },
+    {
+        "word": "six",
+        "translation": "num. 六, 六个",
+        "collins": 5,
+        "frequency": 424,
+        "options": [
+            "num. 六, 六个",
+            "n. 谢意, 感谢",
+            "vt. 预期, 盼望, 期待",
+            "pron. 她"
+        ]
+    },
+    {
+        "word": "sixteen",
+        "translation": "num. 十六, 十六个",
+        "collins": 5,
+        "frequency": 5324,
+        "options": [
+            "num. 十六, 十六个",
+            "a. 清楚的, 明确的, 澄清的",
+            "n. 建筑物, 建筑",
+            "n. 谢意, 感谢"
+        ]
+    },
+    {
+        "word": "sixty",
+        "translation": "num. 六十, 六十个",
+        "collins": 5,
+        "frequency": 5642,
+        "options": [
+            "num. 六十, 六十个",
+            "n. 空气, 旋律, 态度",
+            "adv. 然后, 当时",
+            "vi. 去, 走, 达到, 运转, 查阅, 消失, 结束, 放弃, 花费, 流传, 趋于, 打算, 剩下"
+        ]
+    },
+    {
+        "word": "small",
+        "translation": "a. 小的, 少的, 小型的, 低微的, 小气的, 细微的",
+        "collins": 5,
+        "frequency": 203,
+        "options": [
+            "a. 小的, 少的, 小型的, 低微的, 小气的, 细微的",
+            "vt. 宣布, 声称, 显示, 预告",
+            "n. 公司, 商号",
+            "n. 问题, 难题"
+        ]
+    },
+    {
+        "word": "social",
+        "translation": "a. 社会的, 群居的, 社交的",
+        "collins": 5,
+        "frequency": 319,
+        "options": [
+            "a. 社会的, 群居的, 社交的",
+            "n. 爱, 恋爱, 爱情, 爱好, 性爱",
+            "adv. 在后地",
+            "n. 早晨, 早上, 初期"
+        ]
+    },
+    {
+        "word": "society",
+        "translation": "n. 社会；社交界；交往；社团",
+        "collins": 5,
+        "frequency": 507,
+        "options": [
+            "n. 社会；社交界；交往；社团",
+            "n. 操作, 动作, 手术, 运算, 作用, 业务",
+            "n. 书, 书籍, 帐簿, 名册, 工作簿",
+            "n. 医院"
+        ]
+    },
+    {
+        "word": "some",
+        "translation": "pron. 一些, 一部分, 若干",
+        "collins": 5,
+        "frequency": 60,
+        "options": [
+            "pron. 一些, 一部分, 若干",
+            "n. 服务, 贡献, 雇佣, 公职, 服役, 功劳, 仪式, 送达, 行政部门",
+            "vt. 得到, 获得, 变成, 使得, 收获, 接通, 抓住, 染上",
+            "n. 兴趣, 嗜好, 利息, 利益, 爱好, 趣味, 势力"
+        ]
+    },
+    {
+        "word": "something",
+        "translation": "pron. 某事, 某物",
+        "collins": 5,
+        "frequency": 142,
+        "options": [
+            "pron. 某事, 某物",
+            "adv. 从不, 决不, 不曾",
+            "conj. 比, 除...外",
+            "n. 走, 散步, 步行, 行走的路程, 竞走, 散步场所"
+        ]
+    },
+    {
+        "word": "son",
+        "translation": "n. 儿子, 女婿, 子孙",
+        "collins": 5,
+        "frequency": 481,
+        "options": [
+            "n. 儿子, 女婿, 子孙",
+            "n. 名字, 名称, 姓名, 名义, 名誉, 文件名",
+            "n. 班级, 阶级, 种类, 课",
+            "n. 世界, 地球, 宇宙, 万物, 世人, 人间, 领域, 世事, 世故, 社会生活, 大量"
+        ]
+    },
+    {
+        "word": "soon",
+        "translation": "adv. 不久, 早, 快, 宁可",
+        "collins": 5,
+        "frequency": 610,
+        "options": [
+            "adv. 不久, 早, 快, 宁可",
+            "vt. 发送, 使进入, 寄, 派遣, 发射, 使陷于",
+            "pron. 他们, 它们",
+            "n. 军队, 陆军"
+        ]
+    },
+    {
+        "word": "sort",
+        "translation": "n. 种类, 方式, 品质, 态度, 举止",
+        "collins": 5,
+        "frequency": 835,
+        "options": [
+            "n. 种类, 方式, 品质, 态度, 举止",
+            "n. 全部, 全体, 整体, 完全之体系",
+            "a. 单身的, 单程的, 单一的, 个别的, 孤独的, 专一的",
+            "n. 安全, 安全性, 防护物, 保安, 可靠性, 担保人, 抵押品, 保证金"
+        ]
+    },
+    {
+        "word": "speak",
+        "translation": "vi. 说, 说话, 演说, 发言",
+        "collins": 5,
+        "frequency": 335,
+        "options": [
+            "vi. 说, 说话, 演说, 发言",
+            "n. 以前, 往昔",
+            "adv. 然后, 当时",
+            "adv. 然而, 可是"
+        ]
+    },
+    {
+        "word": "special",
+        "translation": "n. 专辑, 专车, 号外, 特别的东西, 负有特别任务的人员",
+        "collins": 5,
+        "frequency": 520,
+        "options": [
+            "n. 专辑, 专车, 号外, 特别的东西, 负有特别任务的人员",
+            "n. 人, 人民, 民族, 平民",
+            "n. 宴会, 党, 政党, 团体, 当事人, 聚会",
+            "n. 期末考试, 结局, 决赛"
+        ]
+    },
+    {
+        "word": "spend",
+        "translation": "vt. 花费, 浪费, 度过, 消耗, 消磨",
+        "collins": 5,
+        "frequency": 342,
+        "options": [
+            "vt. 花费, 浪费, 度过, 消耗, 消磨",
+            "v. 开始",
+            "n. 贸易, 商业, 交易, 生意, 职业, 顾客, 信风",
+            "vt. 带来, 产生, 促使, 提出"
+        ]
+    },
+    {
+        "word": "staff",
+        "translation": "n. 全体人员, 工作班子, 棍棒, 杆, 拐杖, 支柱, 权杖",
+        "collins": 5,
+        "frequency": 784,
+        "options": [
+            "n. 全体人员, 工作班子, 棍棒, 杆, 拐杖, 支柱, 权杖",
+            "n. 早晨, 早上, 初期",
+            "n. 数字, 价格, 图形, 形状",
+            "vi. 过来, 来, 到达, 出现, 开始"
+        ]
+    },
+    {
+        "word": "stage",
+        "translation": "n. 阶段, 舞台, 场所, 戏剧, 站, 驿站, 级, 层, 脚手架",
+        "collins": 5,
+        "frequency": 829,
+        "options": [
+            "n. 阶段, 舞台, 场所, 戏剧, 站, 驿站, 级, 层, 脚手架",
+            "adv. 然而, 无论如何, 究竟怎样",
+            "n. 世界, 地球, 宇宙, 万物, 世人, 人间, 领域, 世事, 世故, 社会生活, 大量",
+            "n. 官员, 公务员, 职员"
+        ]
+    },
+    {
+        "word": "stand",
+        "translation": "n. 站立, 站住, 停顿, 讲台, 看台, 立场, 法院证人席",
+        "collins": 5,
+        "frequency": 281,
+        "options": [
+            "n. 站立, 站住, 停顿, 讲台, 看台, 立场, 法院证人席",
+            "n. 国家, 乡村, 地区, 故乡",
+            "n. 生计, 维持, 保持",
+            "adv. 还, 尚, 仍然, 已经, 然而"
+        ]
+    },
+    {
+        "word": "star",
+        "translation": "n. 星, 恒星, 星形物, 运气, 明星",
+        "collins": 5,
+        "frequency": 538,
+        "options": [
+            "n. 星, 恒星, 星形物, 运气, 明星",
+            "n. 健康, 卫生, 蓬勃, 健康状态",
+            "n. 心跳(声), 打, 敲打声, 拍子",
+            "vt. 创造, 建造, 引起, 任命"
+        ]
+    },
+    {
+        "word": "start",
+        "translation": "n. 惊起, 出发, 开端, 起点, 吃惊, 有利条件",
+        "collins": 5,
+        "frequency": 173,
+        "options": [
+            "n. 惊起, 出发, 开端, 起点, 吃惊, 有利条件",
+            "n. 比率, 率, 速度, 价格, 费用, 等级",
+            "n. 上升, 增加, 上涨, 高地, 升高, 出现",
+            "n. 头, 头脑, 领袖, 脑袋, 最前的部分"
+        ]
+    },
+    {
+        "word": "state",
+        "translation": "n. 州, 状态, 情形, 国家, 政府, 领土, 国务, 社会地位",
+        "collins": 5,
+        "frequency": 137,
+        "options": [
+            "n. 州, 状态, 情形, 国家, 政府, 领土, 国务, 社会地位",
+            "prep. 到, 向, 趋于",
+            "a. 能干的, 能够的",
+            "n. 发展"
+        ]
+    },
+    {
+        "word": "stay",
+        "translation": "n. 停留, 逗留, 制止, 延缓, 停止, 支柱, 支撑物, 支索",
+        "collins": 5,
+        "frequency": 409,
+        "options": [
+            "n. 停留, 逗留, 制止, 延缓, 停止, 支柱, 支撑物, 支索",
+            "a. 坏的",
+            "num. 九, 九个",
+            "n. 发行, 问题, 后果, 流出, 出口, 争端"
+        ]
+    },
+    {
+        "word": "step",
+        "translation": "n. 步骤, 步, 步幅, 脚步声, 踏级, 步伐, 短距离, 步态, 手段, 等级",
+        "collins": 5,
+        "frequency": 587,
+        "options": [
+            "n. 步骤, 步, 步幅, 脚步声, 踏级, 步伐, 短距离, 步态, 手段, 等级",
+            "num. 九十, 九十个",
+            "n. 压, 揿, 按, 人群, 印刷机, 压力, 出版社, 记者, 报刊, 新闻舆论, 紧迫",
+            "vt. 想, 考虑, 想起, 想像, 打算, 认为"
+        ]
+    },
+    {
+        "word": "still",
+        "translation": "n. 蒸馏室, 寂静, 剧照",
+        "collins": 5,
+        "frequency": 126,
+        "options": [
+            "n. 蒸馏室, 寂静, 剧照",
+            "a. 真正的, 恰好的, 十足的, 特有的",
+            "a. 地方性的, 当地的, 局部的, 乡土的, 本地的",
+            "n. 相片, 照片, 逼真的描绘"
+        ]
+    },
+    {
+        "word": "stock",
+        "translation": "n. 树干, 祖先, 血统, 原料, 备料, 库存, 牲畜, 股票, 股份, 保留剧目",
+        "collins": 5,
+        "frequency": 740,
+        "options": [
+            "n. 树干, 祖先, 血统, 原料, 备料, 库存, 牲畜, 股票, 股份, 保留剧目",
+            "n. 要求, 要求权, 断言, 权利",
+            "n. 无线电, 收音机, 无线电报, 无线电广播, 无线电台",
+            "n. 一半, 半场, 不完全"
+        ]
+    },
+    {
+        "word": "stop",
+        "translation": "n. 停止, 车站, 逗留, 填塞, 障碍, (风琴的)音栓",
+        "collins": 5,
+        "frequency": 329,
+        "options": [
+            "n. 停止, 车站, 逗留, 填塞, 障碍, (风琴的)音栓",
+            "num. 五, 五个",
+            "a. 真正的, 恰好的, 十足的, 特有的",
+            "abbr. did not 没有"
+        ]
+    },
+    {
+        "word": "story",
+        "translation": "n. 故事, 小说, 传奇, 描述, 阅历, 经历, 层",
+        "collins": 5,
+        "frequency": 233,
+        "options": [
+            "n. 故事, 小说, 传奇, 描述, 阅历, 经历, 层",
+            "a. 快的, 迅速的, 敏捷的, 灵敏的, 急速的",
+            "n. 国家, 乡村, 地区, 故乡",
+            "n. 贸易, 商业, 交易, 生意, 职业, 顾客, 信风"
+        ]
+    },
+    {
+        "word": "street",
+        "translation": "n. 街道, 马路, 街区",
+        "collins": 5,
+        "frequency": 554,
+        "options": [
+            "n. 街道, 马路, 街区",
+            "num. 十二, 十二个",
+            "adv. 也, 并且, 同样地",
+            "n. 身体, 人, 尸体, 主要部分, 团体"
+        ]
+    },
+    {
+        "word": "strong",
+        "translation": "a. 强壮的, 坚固的, 坚强的, 强烈的, 有力的, 优良的",
+        "collins": 5,
+        "frequency": 458,
+        "options": [
+            "a. 强壮的, 坚固的, 坚强的, 强烈的, 有力的, 优良的",
+            "num. 十三, 十三个",
+            "n. 情况, 条件",
+            "n. 情形, 境遇, 位置"
+        ]
+    },
+    {
+        "word": "student",
+        "translation": "n. 学生, 研究者, 学者",
+        "collins": 5,
+        "frequency": 157,
+        "options": [
+            "n. 学生, 研究者, 学者",
+            "pron. 他们自己, 她们自己, 它们自己",
+            "n. 权力, 当权者, 当局, 权威, 专家",
+            "n. 等待, 等候"
+        ]
+    },
+    {
+        "word": "study",
+        "translation": "n. 学习, 研究, 学科, 论文, 求学, 书房, 试作",
+        "collins": 5,
+        "frequency": 240,
+        "options": [
+            "n. 学习, 研究, 学科, 论文, 求学, 书房, 试作",
+            "pron. 我",
+            "n. 谈话, 交谈, 会谈, 讲话, 演讲, 空谈, 谣言, 方言, 语言",
+            "pron. 这, 本"
+        ]
+    },
+    {
+        "word": "such",
+        "translation": "a. 如此的, 这样的",
+        "collins": 5,
+        "frequency": 183,
+        "options": [
+            "a. 如此的, 这样的",
+            "conj. 如果, 是否, 无论何时, 假设, 即使",
+            "n. 社会；社交界；交往；社团",
+            "n. 男孩"
+        ]
+    },
+    {
+        "word": "suggest",
+        "translation": "vt. 提议, 建议, 促成, 暗示, 启发, 使人想起",
+        "collins": 5,
+        "frequency": 430,
+        "options": [
+            "vt. 提议, 建议, 促成, 暗示, 启发, 使人想起",
+            "n. 高度, 高处",
+            "a. 相似的, 同样的",
+            "n. 计划, 方案, 策略, 方法, 进度表, 程序表, 平面图, 设计图, 轮廓, 示意图"
+        ]
+    },
+    {
+        "word": "support",
+        "translation": "n. 支持, 支撑, 援助, 供养, 支撑物",
+        "collins": 5,
+        "frequency": 524,
+        "options": [
+            "n. 支持, 支撑, 援助, 供养, 支撑物",
+            "n. 房子, 住宅, 机构, 议院, 家族, 家庭",
+            "vt. 描述, 描绘, 画",
+            "a. 可利用的, 可获得的, 有效的"
+        ]
+    },
+    {
+        "word": "sure",
+        "translation": "a. 确信, 必然的, 必定的",
+        "collins": 5,
+        "frequency": 347,
+        "options": [
+            "a. 确信, 必然的, 必定的",
+            "a. 真正的, 恰好的, 十足的, 特有的",
+            "n. 家庭, 家人, 族",
+            "pron. 他们的"
+        ]
+    },
+    {
+        "word": "surprise",
+        "translation": "n. 惊奇, 奇袭, 诧异",
+        "collins": 5,
+        "frequency": 1624,
+        "options": [
+            "n. 惊奇, 奇袭, 诧异",
+            "n. 军官, 主管, 官员, 公务员",
+            "n. 早晨, 早上, 初期",
+            "prep. 在, 向, 对"
+        ]
+    },
+    {
+        "word": "system",
+        "translation": "n. 系统, 体系, 制度, 方式, 秩序, 分类原则",
+        "collins": 5,
+        "frequency": 191,
+        "options": [
+            "n. 系统, 体系, 制度, 方式, 秩序, 分类原则",
+            "n. 路, 路线, 路途, 方法, 道路, 情形, 规模, 习惯, 行业, 方面",
+            " （尤当 have 为助动词时, we have 的常用口语形式）",
+            "vt. 允许, 同意给予, 承认"
+        ]
+    },
+    {
+        "word": "talk",
+        "translation": "n. 谈话, 交谈, 会谈, 讲话, 演讲, 空谈, 谣言, 方言, 语言",
+        "collins": 5,
+        "frequency": 168,
+        "options": [
+            "n. 谈话, 交谈, 会谈, 讲话, 演讲, 空谈, 谣言, 方言, 语言",
+            "pron. 一些, 一部分, 若干",
+            "n. 理由, 原因, 理智, 道理, 前提, 理性",
+            "n. 力量, 武力, 势力, 影响力, 军队, 力, 效力"
+        ]
+    },
+    {
+        "word": "tax",
+        "translation": "n. 税, 税款, 重负, 会费",
+        "collins": 5,
+        "frequency": 509,
+        "options": [
+            "n. 税, 税款, 重负, 会费",
+            "n. 年龄, 老年, 成年, 寿命, 时代, 时期",
+            "vt. 允许, 同意给予, 承认",
+            "n. 站立, 站住, 停顿, 讲台, 看台, 立场, 法院证人席"
+        ]
+    },
+    {
+        "word": "team",
+        "translation": "n. 队, 组",
+        "collins": 5,
+        "frequency": 307,
+        "options": [
+            "n. 队, 组",
+            "n. 停留, 逗留, 制止, 延缓, 停止, 支柱, 支撑物, 支索",
+            "n. 不, 拒绝, 否决票",
+            "a. 全体的, 总的, 全然的"
+        ]
+    },
+    {
+        "word": "tell",
+        "translation": "vt. 告诉, 说, 吩咐, 断定, 知道",
+        "collins": 5,
+        "frequency": 103,
+        "options": [
+            "vt. 告诉, 说, 吩咐, 断定, 知道",
+            "n. 基金, 资金, 存款, 财源, 贮藏",
+            "interj. (表示惊讶、恐怖、赞叹)哦",
+            "n. 女孩, 少女, 女佣"
+        ]
+    },
+    {
+        "word": "ten",
+        "translation": "num. 十, 十个",
+        "collins": 5,
+        "frequency": 838,
+        "options": [
+            "num. 十, 十个",
+            "n. 部长, 牧师, 公使",
+            "adv. 曾经, 究竟, 永远",
+            "n. 高度, 高处"
+        ]
+    },
+    {
+        "word": "term",
+        "translation": "n. 术语, 专有名词, 期限, 学期, 任期, 条件, 价钱, 关系, 地位, 项, 界石",
+        "collins": 5,
+        "frequency": 626,
+        "options": [
+            "n. 术语, 专有名词, 期限, 学期, 任期, 条件, 价钱, 关系, 地位, 项, 界石",
+            "prep. 在...之中",
+            "pron. 我们的",
+            "vt. 听到, 倾听, 听说, 审理"
+        ]
+    },
+    {
+        "word": "test",
+        "translation": "n. 测试, 试验, 化验, 检验, 考验, 甲壳",
+        "collins": 5,
+        "frequency": 575,
+        "options": [
+            "n. 测试, 试验, 化验, 检验, 考验, 甲壳",
+            "n. 土地, 战场, 场地, 地面, 范围",
+            "n. 消息, 知识, 通知, 情报, 信息, 问讯处, 起诉",
+            "n. 磅, 英镑, 重击, 鱼塘, 拘留所, 兽栏"
+        ]
+    },
+    {
+        "word": "than",
+        "translation": "conj. 比, 除...外",
+        "collins": 5,
+        "frequency": 73,
+        "options": [
+            "conj. 比, 除...外",
+            "n. 系统, 体系, 制度, 方式, 秩序, 分类原则",
+            "a. 每个, 每一",
+            "n. 拜访, 访问, 游览, 视察"
+        ]
+    },
+    {
+        "word": "thank",
+        "translation": "n. 谢意, 感谢",
+        "collins": 5,
+        "frequency": 498,
+        "options": [
+            "n. 谢意, 感谢",
+            "conj. 是否, 不论",
+            "n. 黑色, 黑颜料",
+            "n. 较少, 较小"
+        ]
+    },
+    {
+        "word": "that",
+        "translation": "a. 那, 那个",
+        "collins": 5,
+        "frequency": 12,
+        "options": [
+            "a. 那, 那个",
+            "a. 每一, 所有的",
+            "n. 行动, 行为, 幕, 法案",
+            "n. 点, 小数点, 标点, 地点, 要点, 特点, 尖端, 分数, 得分, 穴位"
+        ]
+    },
+    {
+        "word": "that's",
+        "translation": "(=that is)说得更精确些, 简而言之",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "(=that is)说得更精确些, 简而言之",
+            "n. 尝试, 企图",
+            "n. 努力, 成就",
+            "n. 显示, 表现, 展览, 卖弄, 炫耀, 外观, 演出, 洋相"
+        ]
+    },
+    {
+        "word": "the",
+        "translation": "art. 那",
+        "collins": 5,
+        "frequency": 1,
+        "options": [
+            "art. 那",
+            "n. 去, 离去, 工作情况, 地面状况, 行为",
+            "n. 比率, 率, 速度, 价格, 费用, 等级",
+            "vt. 发现, 感到, 找到, 认为, 得到"
+        ]
+    },
+    {
+        "word": "their",
+        "translation": "pron. 他们的",
+        "collins": 5,
+        "frequency": 36,
+        "options": [
+            "pron. 他们的",
+            "n. 蒸馏室, 寂静, 剧照",
+            "abbr. they are 他们是",
+            "n. 无线电, 收音机, 无线电报, 无线电广播, 无线电台"
+        ]
+    },
+    {
+        "word": "them",
+        "translation": "pron. 他们, 她们, 它们",
+        "collins": 5,
+        "frequency": 59,
+        "options": [
+            "pron. 他们, 她们, 它们",
+            "n. 感应, 感觉, 感官, 意识, 观念, 情理, 知觉, 理智",
+            "n. 符号, 招牌, 征兆, 正负号, 手势",
+            "n. 停止, 车站, 逗留, 填塞, 障碍, (风琴的)音栓"
+        ]
+    },
+    {
+        "word": "themselves",
+        "translation": "pron. 他们自己, 她们自己, 它们自己",
+        "collins": 5,
+        "frequency": 449,
+        "options": [
+            "pron. 他们自己, 她们自己, 它们自己",
+            "n. 墙, 墙壁, 垣, 内壁, 分界物, 屏障",
+            "aux. 表示否定",
+            "n. 生意, 事情, 业务, 商业, 商行, 职责"
+        ]
+    },
+    {
+        "word": "then",
+        "translation": "adv. 然后, 当时",
+        "collins": 5,
+        "frequency": 77,
+        "options": [
+            "adv. 然后, 当时",
+            "n. 东方, 东",
+            "n. 部分, 参与, 一份, 参股, 份额",
+            "prep. 和...在一起, 以, 由于"
+        ]
+    },
+    {
+        "word": "there",
+        "translation": "adv. 在那里",
+        "collins": 5,
+        "frequency": 53,
+        "options": [
+            "adv. 在那里",
+            "n. 税, 税款, 重负, 会费",
+            "n. 汽车, 客车",
+            "n. 期末考试, 结局, 决赛"
+        ]
+    },
+    {
+        "word": "these",
+        "translation": "pron. 这些",
+        "collins": 5,
+        "frequency": 82,
+        "options": [
+            "pron. 这些",
+            "n. 一(个)",
+            "pron. 这, 本",
+            "prep. 在...之间"
+        ]
+    },
+    {
+        "word": "they",
+        "translation": "pron. 他们, 它们",
+        "collins": 5,
+        "frequency": 21,
+        "options": [
+            "pron. 他们, 它们",
+            "n. 许可, 告别, 请假, 休假",
+            "n. 女人, 妇女, 女仆",
+            "pron. 哪一个, 那一个"
+        ]
+    },
+    {
+        "word": "they're",
+        "translation": "abbr. they are 他们是",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "abbr. they are 他们是",
+            "num. 千",
+            "n. 一般, 将军, 大体",
+            "n. 内部, 里头"
+        ]
+    },
+    {
+        "word": "thing",
+        "translation": "n. 事物, 东西, 物, 用品, 事, 事件, 情况, 行为, 特征",
+        "collins": 5,
+        "frequency": 97,
+        "options": [
+            "n. 事物, 东西, 物, 用品, 事, 事件, 情况, 行为, 特征",
+            "adv. 首先, 第一, 优先",
+            "n. 空气, 旋律, 态度",
+            "n. 未来, 将来"
+        ]
+    },
+    {
+        "word": "think",
+        "translation": "vt. 想, 考虑, 想起, 想像, 打算, 认为",
+        "collins": 5,
+        "frequency": 56,
+        "options": [
+            "vt. 想, 考虑, 想起, 想像, 打算, 认为",
+            "a. 两者的",
+            "n. 音乐, 乐曲",
+            "n. 低点, 低价, 低, 牛叫声"
+        ]
+    },
+    {
+        "word": "thirteen",
+        "translation": "num. 十三, 十三个",
+        "collins": 5,
+        "frequency": 5649,
+        "options": [
+            "num. 十三, 十三个",
+            "n. 世界, 地球, 宇宙, 万物, 世人, 人间, 领域, 世事, 世故, 社会生活, 大量",
+            "v. 读, 阅读, 理解",
+            "adv. 事实上, 竟然, 如今, 现在"
+        ]
+    },
+    {
+        "word": "thirty",
+        "translation": "num. 三十, 三十个",
+        "collins": 5,
+        "frequency": 2833,
+        "options": [
+            "num. 三十, 三十个",
+            "n. 进位, 射程, 运载",
+            "adv. 在那里",
+            "n. 领袖, 酋长, 长官, 主要部分"
+        ]
+    },
+    {
+        "word": "this",
+        "translation": "pron. 这, 本",
+        "collins": 5,
+        "frequency": 20,
+        "options": [
+            "pron. 这, 本",
+            "num. 七, 七个",
+            "n. 记录, 履历, 档案, 审判记录, 最高纪录, 唱片",
+            "vt. 想, 考虑, 想起, 想像, 打算, 认为"
+        ]
+    },
+    {
+        "word": "those",
+        "translation": "pron. 那些",
+        "collins": 5,
+        "frequency": 102,
+        "options": [
+            "pron. 那些",
+            "n. 软片, 薄膜, 胶卷, 电影",
+            "n. 教育, 训练, 教育学",
+            "pron. 我们的"
+        ]
+    },
+    {
+        "word": "though",
+        "translation": "adv. 然而, 可是",
+        "collins": 5,
+        "frequency": 245,
+        "options": [
+            "adv. 然而, 可是",
+            "n. 杯子, 茶杯, 优胜杯",
+            "n. 切口, 割伤, 降低, 切, 割, 砍, 削, 伤口, 削减, 缩短, 删节, 通路",
+            "pron. 每件事物, 所有事物"
+        ]
+    },
+    {
+        "word": "thought",
+        "translation": "n. 想法, 思想, 思维, 关心, 挂念",
+        "collins": 5,
+        "frequency": 760,
+        "options": [
+            "n. 想法, 思想, 思维, 关心, 挂念",
+            "a. 几个的, 一些的, 各自的",
+            "n. 独立自主者, 无党派者",
+            "pron. 我们"
+        ]
+    },
+    {
+        "word": "thousand",
+        "translation": "num. 千",
+        "collins": 5,
+        "frequency": 651,
+        "options": [
+            "num. 千",
+            "adv. 再一次, 又, 到原处",
+            "pron. 他们自己, 她们自己, 它们自己",
+            "n. 支持, 支撑, 援助, 供养, 支撑物"
+        ]
+    },
+    {
+        "word": "three",
+        "translation": "num. 三, 三个",
+        "collins": 5,
+        "frequency": 135,
+        "options": [
+            "num. 三, 三个",
+            "n. 褐色",
+            "vt. 卖, 背叛, 销售, 出卖",
+            "num. 四十, 四十个"
+        ]
+    },
+    {
+        "word": "through",
+        "translation": "adv. 穿越, 从头至尾, 到底, 因为",
+        "collins": 5,
+        "frequency": 112,
+        "options": [
+            "adv. 穿越, 从头至尾, 到底, 因为",
+            "vi. 说, 说话, 演说, 发言",
+            "a. 别的, 其他的",
+            "pron. 我们的"
+        ]
+    },
+    {
+        "word": "time",
+        "translation": "n. 时间, 时侯, 时机, 时期, 期限, 次数, 节拍, 暂停, 规定时间",
+        "collins": 5,
+        "frequency": 52,
+        "options": [
+            "n. 时间, 时侯, 时机, 时期, 期限, 次数, 节拍, 暂停, 规定时间",
+            "n. 首都, 大写字母, 资本",
+            "n. 州, 状态, 情形, 国家, 政府, 领土, 国务, 社会地位",
+            "prep. 在...之上"
+        ]
+    },
+    {
+        "word": "to",
+        "translation": "prep. 到, 向, 趋于",
+        "collins": 5,
+        "frequency": 7,
+        "options": [
+            "prep. 到, 向, 趋于",
+            "n. 拜访, 访问, 游览, 视察",
+            "prep. 在...之中",
+            "n. 黑色, 黑颜料"
+        ]
+    },
+    {
+        "word": "today",
+        "translation": "n. 今天, 当今, 现在",
+        "collins": 5,
+        "frequency": 214,
+        "options": [
+            "n. 今天, 当今, 现在",
+            "n. 学生, 研究者, 学者",
+            "n. 勤劳, 工业, 企业, 产业, 有组织的劳动",
+            "n. 季节, 时节, 当令期, 时期"
+        ]
+    },
+    {
+        "word": "together",
+        "translation": "adv. 一起, 共同, 彼此",
+        "collins": 5,
+        "frequency": 324,
+        "options": [
+            "adv. 一起, 共同, 彼此",
+            "aux. 应该, 将要",
+            "pron. 他的",
+            "vt. 发送, 使进入, 寄, 派遣, 发射, 使陷于"
+        ]
+    },
+    {
+        "word": "too",
+        "translation": "adv. 也, 非常, 太",
+        "collins": 5,
+        "frequency": 133,
+        "options": [
+            "adv. 也, 非常, 太",
+            "n. 报告, 报道, 传说, 案情报告, 爆炸声, 成绩单",
+            "v. 操作, 运转, 动手术, 活动",
+            "vi. 同意, 赞成, 应允, 适合"
+        ]
+    },
+    {
+        "word": "top",
+        "translation": "n. 顶部, 顶端, 极点, 上面, 上部, 顶篷, 最高地位, 首位, 陀螺",
+        "collins": 5,
+        "frequency": 678,
+        "options": [
+            "n. 顶部, 顶端, 极点, 上面, 上部, 顶篷, 最高地位, 首位, 陀螺",
+            "n. 内部, 里头",
+            "n. 打击, 打, 冲撞, 讽刺",
+            "n. 西方, 西部"
+        ]
+    },
+    {
+        "word": "total",
+        "translation": "a. 全体的, 总的, 全然的",
+        "collins": 5,
+        "frequency": 1038,
+        "options": [
+            "a. 全体的, 总的, 全然的",
+            "n. 报告, 解释, 估价, 理由, 利润, 算账, 帐目",
+            "n. 磅, 英镑, 重击, 鱼塘, 拘留所, 兽栏",
+            "adv. 如何, 怎样, 多少, 多么"
+        ]
+    },
+    {
+        "word": "towards",
+        "translation": "prep. 向, 对于, 为了",
+        "collins": 5,
+        "frequency": 2004,
+        "options": [
+            "prep. 向, 对于, 为了",
+            "a. 经济上的, 实用的, 节省的",
+            "n. 队, 组",
+            "n. 年, 年度, 年龄"
+        ]
+    },
+    {
+        "word": "town",
+        "translation": "n. 城镇, 市, 镇",
+        "collins": 5,
+        "frequency": 488,
+        "options": [
+            "n. 城镇, 市, 镇",
+            "a. 所有的, 全部的, 一切的",
+            "n. 休息, 中断, 破裂处, 绝交, 破晓, 突变",
+            "n. 中心, 中心点, 中锋"
+        ]
+    },
+    {
+        "word": "trade",
+        "translation": "n. 贸易, 商业, 交易, 生意, 职业, 顾客, 信风",
+        "collins": 5,
+        "frequency": 800,
+        "options": [
+            "n. 贸易, 商业, 交易, 生意, 职业, 顾客, 信风",
+            "n. 要求, 要求权, 断言, 权利",
+            "a. 坏的",
+            "n. 星期, 周"
+        ]
+    },
+    {
+        "word": "try",
+        "translation": "n. 尝试, 试验, 审理, 审判",
+        "collins": 5,
+        "frequency": 127,
+        "options": [
+            "n. 尝试, 试验, 审理, 审判",
+            "n. 百, 百个东西",
+            "n. 金钱, 一笔款, 财富, 货币, 金额",
+            "n. 小时, 钟头, 时间, ...点钟, 课时"
+        ]
+    },
+    {
+        "word": "turn",
+        "translation": "n. 转弯, 转动, 旋转, 翻转, 一圈, 顺次, 改动, 变化, 性格, 特色, 形状, 转折",
+        "collins": 5,
+        "frequency": 170,
+        "options": [
+            "n. 转弯, 转动, 旋转, 翻转, 一圈, 顺次, 改动, 变化, 性格, 特色, 形状, 转折",
+            "num. 十五, 十五个",
+            "num. 八, 八个",
+            "n. 弹性, 适应性"
+        ]
+    },
+    {
+        "word": "twelve",
+        "translation": "num. 十二, 十二个",
+        "collins": 5,
+        "frequency": 3218,
+        "options": [
+            "num. 十二, 十二个",
+            "n. 苍蝇, 两翼昆虫, 飞行",
+            "n. 上升, 增加, 上涨, 高地, 升高, 出现",
+            "n. 书, 书籍, 帐簿, 名册, 工作簿"
+        ]
+    },
+    {
+        "word": "twenty",
+        "translation": "num. 二十, 二十个",
+        "collins": 5,
+        "frequency": 2086,
+        "options": [
+            "num. 二十, 二十个",
+            "n. 比赛, 火柴, 对手",
+            "n. 绿色, 绿色颜料",
+            "n. 生意, 事情, 业务, 商业, 商行, 职责"
+        ]
+    },
+    {
+        "word": "twice",
+        "translation": "adv. 两次, 两倍",
+        "collins": 5,
+        "frequency": 1410,
+        "options": [
+            "adv. 两次, 两倍",
+            "n. 路, 道路, 公路, 途径, 方法",
+            "n. 努力, 成就",
+            "adv. 现在, 刚才, 目前"
+        ]
+    },
+    {
+        "word": "two",
+        "translation": "num. 二, 二个",
+        "collins": 5,
+        "frequency": 80,
+        "options": [
+            "num. 二, 二个",
+            "vt. 理解, 了解, 领会, 听说, 懂",
+            "n. 秒, 瞬间, 第二名, 支持者, 助手",
+            "n. 切口, 割伤, 降低, 切, 割, 砍, 削, 伤口, 削减, 缩短, 删节, 通路"
+        ]
+    },
+    {
+        "word": "under",
+        "translation": "prep. 在...之下, 低于",
+        "collins": 5,
+        "frequency": 225,
+        "options": [
+            "prep. 在...之下, 低于",
+            "num. 五十, 五十个",
+            "n. 蒸馏室, 寂静, 剧照",
+            "a. 自由的, 享受政治权力的, 允许的, 免费的, 丰富的"
+        ]
+    },
+    {
+        "word": "understand",
+        "translation": "vt. 理解, 了解, 领会, 听说, 懂",
+        "collins": 5,
+        "frequency": 320,
+        "options": [
+            "vt. 理解, 了解, 领会, 听说, 懂",
+            "vt. 发送, 使进入, 寄, 派遣, 发射, 使陷于",
+            "a. 很少的, 不多的, 少数的",
+            "num. 十一, 十一个"
+        ]
+    },
+    {
+        "word": "union",
+        "translation": "n. 联盟, 联合, 结合, 工会",
+        "collins": 5,
+        "frequency": 1658,
+        "options": [
+            "n. 联盟, 联合, 结合, 工会",
+            "a. 全体的, 总的, 全然的",
+            "adv. 相当, 完全, 十分",
+            "prep. 自...以后, 自...以来"
+        ]
+    },
+    {
+        "word": "university",
+        "translation": "n. 大学",
+        "collins": 5,
+        "frequency": 1106,
+        "options": [
+            "n. 大学",
+            "n. 植物, 作物, 工厂, 树枝, 生长, 设施, 成套设备",
+            "n. 经过, 要隘, 途径, 通行, 护照, 及格",
+            "interj. (表示惊讶、恐怖、赞叹)哦"
+        ]
+    },
+    {
+        "word": "until",
+        "translation": "prep. 直到, 在...以前",
+        "collins": 5,
+        "frequency": 270,
+        "options": [
+            "prep. 直到, 在...以前",
+            "n. 压, 榨, 按, 强制, 压力, 压迫, 压强",
+            "n. 领导者, 社论, 指挥, 领袖, 领唱者, 前导字符",
+            "v. 考虑, 思考, 认为"
+        ]
+    },
+    {
+        "word": "us",
+        "translation": "pron. 我们",
+        "collins": 5,
+        "frequency": 113,
+        "options": [
+            "pron. 我们",
+            "v. 开始",
+            "prep. 在...的时候",
+            "n. 领袖, 酋长, 长官, 主要部分"
+        ]
+    },
+    {
+        "word": "value",
+        "translation": "n. 价值, 价格, 购买力, 评价, 估价, 计算结果",
+        "collins": 5,
+        "frequency": 499,
+        "options": [
+            "n. 价值, 价格, 购买力, 评价, 估价, 计算结果",
+            "n. 食物, 养料",
+            "n. 情况, 条件",
+            "adv. 现在, 刚才, 目前"
+        ]
+    },
+    {
+        "word": "very",
+        "translation": "a. 真正的, 恰好的, 十足的, 特有的",
+        "collins": 5,
+        "frequency": 105,
+        "options": [
+            "a. 真正的, 恰好的, 十足的, 特有的",
+            "n. 新闻, 消息, 报导",
+            "prep. 到, 向, 趋于",
+            "n. 苍蝇, 两翼昆虫, 飞行"
+        ]
+    },
+    {
+        "word": "view",
+        "translation": "n. 视野, 风景, 见解, 视力, 观看, 视图, 指望, 意图, 印象",
+        "collins": 5,
+        "frequency": 485,
+        "options": [
+            "n. 视野, 风景, 见解, 视力, 观看, 视图, 指望, 意图, 印象",
+            "n. 百, 百个东西",
+            "n. 绿色, 绿色颜料",
+            "pron. 你的, 你们的"
+        ]
+    },
+    {
+        "word": "visit",
+        "translation": "n. 拜访, 访问, 游览, 视察",
+        "collins": 5,
+        "frequency": 905,
+        "options": [
+            "n. 拜访, 访问, 游览, 视察",
+            "a. 坏的",
+            "n. 和平, 和约, 治安, 和睦, 安宁, 静寂",
+            "a. 地方性的, 当地的, 局部的, 乡土的, 本地的"
+        ]
+    },
+    {
+        "word": "vote",
+        "translation": "n. 投票, 选举, 选票, 表决, 选举权, 得票数",
+        "collins": 5,
+        "frequency": 1078,
+        "options": [
+            "n. 投票, 选举, 选票, 表决, 选举权, 得票数",
+            "adv. 时常, 常常",
+            "vt. 增加, 添加, 附带说明, 计算...总和",
+            "get的过去式和过去分词"
+        ]
+    },
+    {
+        "word": "wait",
+        "translation": "n. 等待, 等候",
+        "collins": 5,
+        "frequency": 400,
+        "options": [
+            "n. 等待, 等候",
+            "n. 种族, 人种, 赛跑, 比赛, 急流, 人类, 同道, 姜根",
+            "n. 无线电, 收音机, 无线电报, 无线电广播, 无线电台",
+            "a. 每个, 每一"
+        ]
+    },
+    {
+        "word": "walk",
+        "translation": "n. 走, 散步, 步行, 行走的路程, 竞走, 散步场所",
+        "collins": 5,
+        "frequency": 358,
+        "options": [
+            "n. 走, 散步, 步行, 行走的路程, 竞走, 散步场所",
+            "a. 迟的, 晚的, 已故的",
+            "n. 市场, 交易, 集市, 推销地区, 行情, 市面, 销路",
+            "n. 学习, 研究, 学科, 论文, 求学, 书房, 试作"
+        ]
+    },
+    {
+        "word": "wall",
+        "translation": "n. 墙, 墙壁, 垣, 内壁, 分界物, 屏障",
+        "collins": 5,
+        "frequency": 571,
+        "options": [
+            "n. 墙, 墙壁, 垣, 内壁, 分界物, 屏障",
+            "n. 课程, 路线, 过程, 一道菜, 道路",
+            "pron. 任何事",
+            "a. 从前的, 前者的"
+        ]
+    },
+    {
+        "word": "want",
+        "translation": "n. 需要的东西, 缺乏, 贫困, 需要",
+        "collins": 5,
+        "frequency": 83,
+        "options": [
+            "n. 需要的东西, 缺乏, 贫困, 需要",
+            "n. 警察, 警察当局, 治安",
+            "n. 涌流, 趋势, 流",
+            "n. 许可, 告别, 请假, 休假"
+        ]
+    },
+    {
+        "word": "war",
+        "translation": "n. 战争, 战争状态, 战术, 军事, 冲突, 斗争, 竞争",
+        "collins": 5,
+        "frequency": 349,
+        "options": [
+            "n. 战争, 战争状态, 战术, 军事, 冲突, 斗争, 竞争",
+            "n. 磅, 英镑, 重击, 鱼塘, 拘留所, 兽栏",
+            "n. 战役, 运动, 竞选运动",
+            "num. 二, 二个"
+        ]
+    },
+    {
+        "word": "wasn't",
+        "translation": "prep. 不是",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "prep. 不是",
+            "vt. 得到, 获得, 变成, 使得, 收获, 接通, 抓住, 染上",
+            "n. 路, 道路, 公路, 途径, 方法",
+            "adv. 是"
+        ]
+    },
+    {
+        "word": "water",
+        "translation": "n. 水, 雨水, 海水, 水位, 水面, 流水",
+        "collins": 5,
+        "frequency": 226,
+        "options": [
+            "n. 水, 雨水, 海水, 水位, 水面, 流水",
+            "n. 走, 散步, 步行, 行走的路程, 竞走, 散步场所",
+            "n. 关心, 忧虑",
+            "n. 蓝色"
+        ]
+    },
+    {
+        "word": "way",
+        "translation": "n. 路, 路线, 路途, 方法, 道路, 情形, 规模, 习惯, 行业, 方面",
+        "collins": 5,
+        "frequency": 84,
+        "options": [
+            "n. 路, 路线, 路途, 方法, 道路, 情形, 规模, 习惯, 行业, 方面",
+            "a. 快的, 迅速的, 敏捷的, 灵敏的, 急速的",
+            "art. 那",
+            "n. 低点, 低价, 低, 牛叫声"
+        ]
+    },
+    {
+        "word": "we",
+        "translation": "pron. 我们",
+        "collins": 5,
+        "frequency": 24,
+        "options": [
+            "pron. 我们",
+            "n. 系统, 体系, 制度, 方式, 秩序, 分类原则",
+            "n. 选举, 当选, 选择权",
+            "n. 符号, 招牌, 征兆, 正负号, 手势"
+        ]
+    },
+    {
+        "word": "we're",
+        "translation": " (we are 的常用口语形式)",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            " (we are 的常用口语形式)",
+            "n. 部长, 牧师, 公使",
+            "adv. 一次, 曾经, 一旦",
+            "vt. 花费, 浪费, 度过, 消耗, 消磨"
+        ]
+    },
+    {
+        "word": "we've",
+        "translation": " （尤当 have 为助动词时, we have 的常用口语形式）",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            " （尤当 have 为助动词时, we have 的常用口语形式）",
+            "pron. 这, 本",
+            "n. 问题, 难题",
+            "n. 想法, 思想, 思维, 关心, 挂念"
+        ]
+    },
+    {
+        "word": "week",
+        "translation": "n. 星期, 周",
+        "collins": 5,
+        "frequency": 188,
+        "options": [
+            "n. 星期, 周",
+            "prep. 在, 向, 对",
+            "n. 专辑, 专车, 号外, 特别的东西, 负有特别任务的人员",
+            "num. 十亿, 十亿个"
+        ]
+    },
+    {
+        "word": "west",
+        "translation": "n. 西方, 西部",
+        "collins": 5,
+        "frequency": 665,
+        "options": [
+            "n. 西方, 西部",
+            "n. 汽车, 客车",
+            "n. 信, 字母, 证书, 字面意义, 铅字, 学问, 出租人",
+            "n. 数, 数字, 数目, 号码"
+        ]
+    },
+    {
+        "word": "what",
+        "translation": "pron. 什么",
+        "collins": 5,
+        "frequency": 34,
+        "options": [
+            "pron. 什么",
+            "pron. 这些",
+            "get的过去式和过去分词",
+            "prep. 在...之下, 低于"
+        ]
+    },
+    {
+        "word": "when",
+        "translation": "conj. 当...的时候",
+        "collins": 5,
+        "frequency": 57,
+        "options": [
+            "conj. 当...的时候",
+            "num. 九, 九个",
+            "n. 人, 人身, 人称",
+            "n. 停留, 逗留, 制止, 延缓, 停止, 支柱, 支撑物, 支索"
+        ]
+    },
+    {
+        "word": "where",
+        "translation": "adv. 在哪里",
+        "collins": 5,
+        "frequency": 169,
+        "options": [
+            "adv. 在哪里",
+            "a. 经济上的, 实用的, 节省的",
+            "n. 独立自主者, 无党派者",
+            "n. 土地, 战场, 场地, 地面, 范围"
+        ]
+    },
+    {
+        "word": "whether",
+        "translation": "conj. 是否, 不论",
+        "collins": 5,
+        "frequency": 321,
+        "options": [
+            "conj. 是否, 不论",
+            "n. 内部, 里头",
+            "prep. 自...以后, 自...以来",
+            "n. 部分, 参与, 一份, 参股, 份额"
+        ]
+    },
+    {
+        "word": "which",
+        "translation": "pron. 哪一个, 那一个",
+        "collins": 5,
+        "frequency": 58,
+        "options": [
+            "pron. 哪一个, 那一个",
+            "prep. 没有, 不, 在...之外",
+            "n. 公司, 友伴, 交往, 连队, 朋友, 一群",
+            "a. 更远的, 此外的, 更多的"
+        ]
+    },
+    {
+        "word": "white",
+        "translation": "n. 白色, 洁白, 眼白, 白种人, 蛋白",
+        "collins": 5,
+        "frequency": 301,
+        "options": [
+            "n. 白色, 洁白, 眼白, 白种人, 蛋白",
+            "n. 多数, 多数人",
+            "vt. 发展, 使发达, 进步, 洗印, 显影",
+            "n. 贸易, 商业, 交易, 生意, 职业, 顾客, 信风"
+        ]
+    },
+    {
+        "word": "who",
+        "translation": "pron. 谁",
+        "collins": 5,
+        "frequency": 38,
+        "options": [
+            "pron. 谁",
+            "n. 星, 恒星, 星形物, 运气, 明星",
+            "adv. 也许, 大概",
+            "a. 经济上的, 实用的, 节省的"
+        ]
+    },
+    {
+        "word": "whole",
+        "translation": "n. 全部, 全体, 整体, 完全之体系",
+        "collins": 5,
+        "frequency": 467,
+        "options": [
+            "n. 全部, 全体, 整体, 完全之体系",
+            "n. 主管, 导演, 董事",
+            "v. 操作, 运转, 动手术, 活动",
+            "n. 颜色, 面色, 颜料, 外貌"
+        ]
+    },
+    {
+        "word": "whose",
+        "translation": "pron. 谁的",
+        "collins": 5,
+        "frequency": 527,
+        "options": [
+            "pron. 谁的",
+            "n. 国家, 乡村, 地区, 故乡",
+            "n. 打击, 打, 冲撞, 讽刺",
+            "vt. 遗失, 损失, 丢失, 使失去, 错过, 浪费, 迷失, 使迷路, 输去, 使沉溺于"
+        ]
+    },
+    {
+        "word": "why",
+        "translation": "adv. 为什么",
+        "collins": 5,
+        "frequency": 158,
+        "options": [
+            "adv. 为什么",
+            "a. 能干的, 能够的",
+            "(=that is)说得更精确些, 简而言之",
+            "adv. 首先, 第一, 优先"
+        ]
+    },
+    {
+        "word": "wide",
+        "translation": "a. 宽的, 广阔的, 普遍的, 宽阔的, 广泛的, 一般的",
+        "collins": 5,
+        "frequency": 940,
+        "options": [
+            "a. 宽的, 广阔的, 普遍的, 宽阔的, 广泛的, 一般的",
+            "v. 读, 阅读, 理解",
+            "vt. 赢得, 打胜, 成功",
+            "n. 男人, 人类, 人"
+        ]
+    },
+    {
+        "word": "wife",
+        "translation": "n. 妻子, 太太, 夫人",
+        "collins": 5,
+        "frequency": 466,
+        "options": [
+            "n. 妻子, 太太, 夫人",
+            "n. 阶段, 舞台, 场所, 戏剧, 站, 驿站, 级, 层, 脚手架",
+            "(= do not)不要",
+            "n. 官员, 公务员, 职员"
+        ]
+    },
+    {
+        "word": "win",
+        "translation": "vt. 赢得, 打胜, 成功",
+        "collins": 5,
+        "frequency": 361,
+        "options": [
+            "vt. 赢得, 打胜, 成功",
+            "adv. 然而, 无论如何, 究竟怎样",
+            "n. 爱, 恋爱, 爱情, 爱好, 性爱",
+            "num. 十九, 十九个"
+        ]
+    },
+    {
+        "word": "with",
+        "translation": "prep. 和...在一起, 以, 由于",
+        "collins": 5,
+        "frequency": 16,
+        "options": [
+            "prep. 和...在一起, 以, 由于",
+            "pron. 它",
+            "vt. 想, 考虑, 想起, 想像, 打算, 认为",
+            " =would not"
+        ]
+    },
+    {
+        "word": "within",
+        "translation": "n. 内部, 里头",
+        "collins": 5,
+        "frequency": 352,
+        "options": [
+            "n. 内部, 里头",
+            "n. 计划, 方案, 策略, 方法, 进度表, 程序表, 平面图, 设计图, 轮廓, 示意图",
+            "n. 安全, 安全性, 防护物, 保安, 可靠性, 担保人, 抵押品, 保证金",
+            "n. 百分比, 百分数, 部分"
+        ]
+    },
+    {
+        "word": "without",
+        "translation": "prep. 没有, 不, 在...之外",
+        "collins": 5,
+        "frequency": 218,
+        "options": [
+            "prep. 没有, 不, 在...之外",
+            "conj. 如果, 是否, 无论何时, 假设, 即使",
+            "n. 拜访, 访问, 游览, 视察",
+            "n. 行动, 行为, 幕, 法案"
+        ]
+    },
+    {
+        "word": "woman",
+        "translation": "n. 女人, 妇女, 女仆",
+        "collins": 5,
+        "frequency": 111,
+        "options": [
+            "n. 女人, 妇女, 女仆",
+            "n. 办公室, 部, 公职, 职责",
+            "a. 其他的, 另外的, 从前的",
+            "vt. 学习；认识到；得知"
+        ]
+    },
+    {
+        "word": "won't",
+        "translation": " 将不, 不会（=will not）",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            " 将不, 不会（=will not）",
+            "n. 高度, 高处",
+            "a. 中央的, 重要的",
+            "pron. 这, 本"
+        ]
+    },
+    {
+        "word": "word",
+        "translation": "n. 话, 消息, 词, 诺言, 命令",
+        "collins": 5,
+        "frequency": 244,
+        "options": [
+            "n. 话, 消息, 词, 诺言, 命令",
+            "n. 回来, 返回, 来回票, 归还, 报答, 利润率, 报告书",
+            "n. 善行, 好处, 利益",
+            "a. 坏的"
+        ]
+    },
+    {
+        "word": "work",
+        "translation": "n. 工作, 劳动, 职业, 行为, 功, 作品, 成果, 产品, 工程",
+        "collins": 5,
+        "frequency": 117,
+        "options": [
+            "n. 工作, 劳动, 职业, 行为, 功, 作品, 成果, 产品, 工程",
+            " =would not",
+            "adv. 已经, 早已",
+            "n. 灰色"
+        ]
+    },
+    {
+        "word": "worker",
+        "translation": "n. 工人, 劳动者",
+        "collins": 5,
+        "frequency": 573,
+        "options": [
+            "n. 工人, 劳动者",
+            "pron. 任何事",
+            "interj. (表示惊讶、恐怖、赞叹)哦",
+            "n. 父母, 父母亲, 根源"
+        ]
+    },
+    {
+        "word": "working",
+        "translation": "n. 工作, 运转, 劳动",
+        "collins": 5,
+        "frequency": 2819,
+        "options": [
+            "n. 工作, 运转, 劳动",
+            "n. 政府, 内阁",
+            "prep. 的, 属于",
+            "n. 信, 字母, 证书, 字面意义, 铅字, 学问, 出租人"
+        ]
+    },
+    {
+        "word": "world",
+        "translation": "n. 世界, 地球, 宇宙, 万物, 世人, 人间, 领域, 世事, 世故, 社会生活, 大量",
+        "collins": 5,
+        "frequency": 123,
+        "options": [
+            "n. 世界, 地球, 宇宙, 万物, 世人, 人间, 领域, 世事, 世故, 社会生活, 大量",
+            "conj. 因为",
+            "n. 事件, 结果, 事情的进程, 竞赛项目",
+            "n. 一半, 半场, 不完全"
+        ]
+    },
+    {
+        "word": "would",
+        "translation": "aux. 将, 愿意",
+        "collins": 5,
+        "frequency": 41,
+        "options": [
+            "aux. 将, 愿意",
+            "n. 苍蝇, 两翼昆虫, 飞行",
+            "n. 男人, 人类, 人",
+            "prep. 进入...之内, 朝..., 深入...之中, 成为...状况"
+        ]
+    },
+    {
+        "word": "wouldn't",
+        "translation": " =would not",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            " =would not",
+            "n. 外面, 外表, 外界",
+            "n. 主意, 办法, 理想, 思想, 概念, 意见",
+            "n. 谈话, 交谈, 会谈, 讲话, 演讲, 空谈, 谣言, 方言, 语言"
+        ]
+    },
+    {
+        "word": "write",
+        "translation": "vt. 书写, 著述, 写, 写满, 写信给",
+        "collins": 5,
+        "frequency": 228,
+        "options": [
+            "vt. 书写, 著述, 写, 写满, 写信给",
+            "a. 地方性的, 当地的, 局部的, 乡土的, 本地的",
+            "n. 游戏, 游玩, 玩笑, 运动, 比赛, 赌博, 跳动, 表演, 剧本",
+            "vi. 不能"
+        ]
+    },
+    {
+        "word": "year",
+        "translation": "n. 年, 年度, 年龄",
+        "collins": 5,
+        "frequency": 54,
+        "options": [
+            "n. 年, 年度, 年龄",
+            "n. 褐色",
+            "n. 历史, 过去, 经历, 发展过程, 历史学, 过去的事, 历史记录",
+            "vt. 卖, 背叛, 销售, 出卖"
+        ]
+    },
+    {
+        "word": "yes",
+        "translation": "adv. 是",
+        "collins": 5,
+        "frequency": 258,
+        "options": [
+            "adv. 是",
+            "n. 眼睛, 视力, 看",
+            "n. 谢意, 感谢",
+            "n. 旁边, 侧, 方面, 胁, 侧边, 血统"
+        ]
+    },
+    {
+        "word": "yesterday",
+        "translation": "n. 昨天",
+        "collins": 5,
+        "frequency": 1505,
+        "options": [
+            "n. 昨天",
+            "vt. 理解, 了解, 领会, 听说, 懂",
+            "n. 中央, 中间, 腰部",
+            "pron. 我"
+        ]
+    },
+    {
+        "word": "yet",
+        "translation": "adv. 还, 尚, 仍然, 已经, 然而",
+        "collins": 5,
+        "frequency": 275,
+        "options": [
+            "adv. 还, 尚, 仍然, 已经, 然而",
+            "n. 小时, 钟头, 时间, ...点钟, 课时",
+            " 将不, 不会（=will not）",
+            "pron. 它"
+        ]
+    },
+    {
+        "word": "you",
+        "translation": "pron. 你, 你们",
+        "collins": 5,
+        "frequency": 14,
+        "options": [
+            "pron. 你, 你们",
+            "n. 薪资, 付款, 补偿",
+            "prep. 包含, 包括",
+            "n. 东方, 东"
+        ]
+    },
+    {
+        "word": "you're",
+        "translation": "abbr. you are 你（你们）是",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "abbr. you are 你（你们）是",
+            "num. 三, 三个",
+            "vi. 坐, 就座, 坐落",
+            "a. 其他的, 另外的, 从前的"
+        ]
+    },
+    {
+        "word": "you've",
+        "translation": "abbr. you have 你（们）已经",
+        "collins": 5,
+        "frequency": 0,
+        "options": [
+            "abbr. you have 你（们）已经",
+            "conj. 虽然, 尽管",
+            "n. 树干, 祖先, 血统, 原料, 备料, 库存, 牲畜, 股票, 股份, 保留剧目",
+            "aux. 表示否定"
+        ]
+    },
+    {
+        "word": "young",
+        "translation": "a. 年轻的, 无经验的, 朝气蓬勃的",
+        "collins": 5,
+        "frequency": 234,
+        "options": [
+            "a. 年轻的, 无经验的, 朝气蓬勃的",
+            "pron. 他",
+            "num. 二, 二个",
+            "n. 规则, 统治, 控制, 支配, 规律, 标准, 章程, 破折号, 铅线"
+        ]
+    },
+    {
+        "word": "your",
+        "translation": "pron. 你的, 你们的",
+        "collins": 5,
+        "frequency": 69,
+        "options": [
+            "pron. 你的, 你们的",
+            "prep. 为, 因为, 至于",
+            "a. 直接的, 坦白的",
+            "n. 小时, 钟头, 时间, ...点钟, 课时"
+        ]
+    }
+]

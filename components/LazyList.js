@@ -11,7 +11,7 @@ export default function LazyList({ data, renderRow }) {
   };
 
   return (
-    <Stack spacing={2}>
+    <Stack spacing={1} pt={2}>
       <Pagination
         count={Math.ceil(data.length / numItemsPerPage)}
         page={page}

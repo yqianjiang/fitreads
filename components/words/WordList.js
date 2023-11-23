@@ -144,7 +144,7 @@ export default function WordList({ wordsDict, actions }) {
   }, []);
 
   return (
-    <>
+    <Box m={1}>
       <Stack direction="row" spacing={2} alignItems="center" flexWrap={"wrap"}>
         <SortSelection
           {...{
@@ -205,6 +205,6 @@ export default function WordList({ wordsDict, actions }) {
           }
         ></LazyList>
       </Box>
-    </>
+    </Box>
   );
 }

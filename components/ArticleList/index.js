@@ -42,9 +42,10 @@ function renderRow({
     category,
     wordsUnique,
     totalWords,
+    // content,
     ...rest
   } = item;
-  console.log(rest);
+  // console.log(rest);
   const labelId = `${id}`;
 
   return (

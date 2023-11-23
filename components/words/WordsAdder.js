@@ -179,77 +179,79 @@ export default function WordsAdder({}) {
         添加单词
       </Button>
       <Dialog disableEscapeKeyDown open={open} onClose={handleClose}>
-        <DialogTitle>
-          添加单词
-          <IconButton
-            aria-label="close"
-            onClick={handleClose}
-            sx={{
-              position: "absolute",
-              right: 8,
-              top: 8,
-            }}
-          >
-            <CloseIcon />
-          </IconButton>
-        </DialogTitle>
-        <DialogContent>
-          <Stack sx={{ mb: 2 }} direction="row" spacing={1}>
-            <span
-              onClick={() => {
-                setError(false);
-                setInputType("json");
-                setHelperText(
-                  '格式示例：{"newWord":["apple", "the"], "familiarWord": ["big", "a"], "targetWord": ["apple", "big"]'
-                );
+        <Box p={1}>
+          <DialogTitle>
+            添加单词
+            <IconButton
+              aria-label="close"
+              onClick={handleClose}
+              sx={{
+                position: "absolute",
+                right: 8,
+                top: 8,
               }}
             >
-              <Uploader onUpload={onUpload}>从json导入</Uploader>
-            </span>
-            <Uploader
-              onClick={() => {
-                setInputType("txt");
-                setHelperText("每行一个单词，请勿输入任何其他符号");
-              }}
-              onUpload={onUpload}
-            >
-              从txt导入
-            </Uploader>
-          </Stack>
-          <Box>
-            <div>
-              <TextField
-                id="outlined-basic"
-                label="新单词"
-                variant="outlined"
-                placeholder="请输入要添加的单词"
-                helperText={helperText}
-                multiline
-                error={error}
-                value={inputValue}
-                onChange={handleChange}
-                rows={5}
-                sx={{ mr: 1, maxWidth: 266 }}
-              />
-              <Button onClick={() => setInputValue("")}>清空</Button>
-            </div>
-          </Box>
-          <Alert message={message} />
-        </DialogContent>
-        <DialogActions sx={{flexWrap: 'wrap'}}>
-          {inputType === "txt" && (
-            <>
-              <Button onClick={handleAddToNew}>添加到生词</Button>
-              <Button onClick={handleAddToFamiliar}>添加到熟词</Button>
-              <Button onClick={handleAddToTarget}>添加到目标词</Button>
-            </>
-          )}
-          {inputType === "json" && (
-            <Button onClick={() => addWordsFromJson(inputValue)}>
-              导入词库数据
-            </Button>
-          )}
-        </DialogActions>
+              <CloseIcon />
+            </IconButton>
+          </DialogTitle>
+          <DialogContent>
+            <Stack sx={{ mb: 2 }} direction="row" spacing={1}>
+              <span
+                onClick={() => {
+                  setError(false);
+                  setInputType("json");
+                  setHelperText(
+                    '格式示例：{"newWord":["apple", "the"], "familiarWord": ["big", "a"], "targetWord": ["apple", "big"]'
+                  );
+                }}
+              >
+                <Uploader onUpload={onUpload}>从json导入</Uploader>
+              </span>
+              <Uploader
+                onClick={() => {
+                  setInputType("txt");
+                  setHelperText("每行一个单词，请勿输入任何其他符号");
+                }}
+                onUpload={onUpload}
+              >
+                从txt导入
+              </Uploader>
+            </Stack>
+            <Box>
+              <div>
+                <TextField
+                  id="outlined-basic"
+                  label="新单词"
+                  variant="outlined"
+                  placeholder="请输入要添加的单词"
+                  helperText={helperText}
+                  multiline
+                  error={error}
+                  value={inputValue}
+                  onChange={handleChange}
+                  rows={5}
+                  sx={{ mr: 1, maxWidth: 266 }}
+                />
+                <Button onClick={() => setInputValue("")}>清空</Button>
+              </div>
+            </Box>
+            <Alert message={message} />
+          </DialogContent>
+          <DialogActions sx={{flexWrap: 'wrap'}}>
+            {inputType === "txt" && (
+              <>
+                <Button onClick={handleAddToNew}>添加到生词</Button>
+                <Button onClick={handleAddToFamiliar}>添加到熟词</Button>
+                <Button onClick={handleAddToTarget}>添加到目标词</Button>
+              </>
+            )}
+            {inputType === "json" && (
+              <Button onClick={() => addWordsFromJson(inputValue)}>
+                导入词库数据
+              </Button>
+            )}
+          </DialogActions>
+        </Box>
       </Dialog>
     </>
   );

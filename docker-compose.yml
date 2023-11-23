@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  fitreads-frontend:
+    build: .
+    image: fitreads-frontend
+    container_name: fitreads-frontend
+    restart: always
+    ports:
+      - "3000:3000"
+    networks:
+      - game-backend
+
+networks:
+  game-backend:
+    external: true
