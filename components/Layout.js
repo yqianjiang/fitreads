@@ -33,6 +33,7 @@ const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })(
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
+    marginTop: 1,
     marginLeft: 0,
     ...(open && {
       transition: theme.transitions.create(["margin", "width"], {
